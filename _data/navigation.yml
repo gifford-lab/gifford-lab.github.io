@@ -1,0 +1,53 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: "Research"
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Highlight1"
+    url: "/design/PIQ/"
+  - title: "Highlight2"
+    url: "/design/PIQ/"
+  - title: "Highlight3"
+    url: "/design/PIQ/"
+
+- title: "Team"
+  url: "/team/"
+  side: left
+  dropdown:
+  - title: "Current Member"
+    url: "/team/"
+  - title: "Alumni"
+    url: "/design/header-image-pattern/"
+
+- title: Publications
+  url: "/publications/"
+  side: left
+  dropdown:
+  - title: "Complete"
+    url: "/publications/"
+  - title: "Gallery"
+    url: "/roadmap/"
+  - title: "PubMed"
+    url: "/roadmap/"
+
+- title: Resources
+  url: "/resource/"
+  side: left
+  dropdown:
+  - title: "Software"
+    url: "/resource/"
+  - title: "Github"
+    url: "/blog/archive/" 
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
+  
+- title: "Lab Wiki"
+  url: "/search/"
+  side: right
+
+
