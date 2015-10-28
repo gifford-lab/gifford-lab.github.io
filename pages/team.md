@@ -124,7 +124,7 @@ permalink: "/team/"
 
 
 
-<h3>Undergraduate Students</h3>
+<h3>Lab Staff</h3>
 <div class="row">
 <br>
   <div class="large-6 columns">
@@ -142,7 +142,7 @@ permalink: "/team/"
       <b><font size="2">Administrative Assistant<font></b>
       <br><font size="2">macaluso@mit.edu</font>
       </p>
-  </di>v
+  </div>
  <div class="large-6 columns">
       <img src="{{ site.url }}/images/photo.jpg">
       <p>
