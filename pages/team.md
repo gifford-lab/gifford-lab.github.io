@@ -94,7 +94,7 @@ permalink: "/team/"
   <div class="large-6 columns">
       <img src="{{ site.url }}/images/haoyang.jpg">
       <p>
-      <b><font size="2"><a/ href="http://www.mit.edu/~haoyangz">Haoyang Zeng</a></font></b>
+      <b><font size="2"><a href="http://www.mit.edu/~haoyangz">Haoyang Zeng</a></font></b>
       <br><font size="2">mattted@mit.edu</font>
       </p>
   </div>
