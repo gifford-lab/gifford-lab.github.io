@@ -77,7 +77,7 @@ permalink: "/team/"
   <div class="large-6 columns">
       <img src="{{ site.url }}/images/tahin.jpg">
       <p>
-      <b><font size="2">Tahin Syed/font></b>
+      <b><font size="2">Tahin Syed</font></b>
       <br><font size="2">syedt@mit.edu</font>
       </p>
   </div>
