@@ -34,9 +34,12 @@ permalink: "/team/"
       </p>
   </div>
 </div>
+
+
 <h3>Graduate Students</h3>
 <div class="row">
 <br>
+
   <div class="large-6 columns">
       <img src="{{ site.url }}/images/rujian.jpg">
       <p>
@@ -44,43 +47,51 @@ permalink: "/team/"
       <br><font size="2">rjchen@mit.edu</font>
       </p>
   </div>
-  <div class="large-6 columns">
+
+<div class="large-6 columns">
       <img src="{{ site.url }}/images/matt.jpg">
       <p>
-      <b><font size="2"><a/ href="http://medwards.org">Matt Edwards</font></a></b>
+      <b><font size="2"><a href="http://medwards.org">Matt Edwards</a></font></b>
       <br><font size="2">mattted@mit.edu</font>
       </p>
   </div>
-<div class="large-6 columns">
+
+  <div class="large-6 columns">
       <img src="{{ site.url }}/images/tatsu.jpg">
       <p>
       <b><font size="2">Tatsu Hashimoto</font></b>
       <br><font size="2">tatsu23456@gmail.com</font>
       </p>
   </div>
-    <div class="large-6 columns">
+
+
+  <div class="large-6 columns">
       <img src="{{ site.url }}/images/jonas.jpg">
       <p>
       <b><font size="2">Jonas Mueller</font></b>
       <br><font size="2">mattted@mit.edu</font>
       </p>
   </div>
-    <div class="large-6 columns">
+
+
+  <div class="large-6 columns">
       <img src="{{ site.url }}/images/tahin.jpg">
       <p>
       <b><font size="2">Tahin Syed/font></b>
       <br><font size="2">syedt@mit.edu</font>
       </p>
   </div>
-    <div class="large-6 columns">
-      <img src="{{ site.url }}/images/[photo.jpg">
+
+
+  <div class="large-6 columns">
+      <img src="{{ site.url }}/images/photo.jpg">
       <p>
       <b><font size="2">Grace Yeo</font></b>
       <br><font size="2">yhtgrace@mit.edu</font>
       </p>
   </div>
 
-<div class="large-6 columns">
+  <div class="large-6 columns">
       <img src="{{ site.url }}/images/haoyang.jpg">
       <p>
       <b><font size="2"><a/ href="http://www.mit.edu/~haoyangz">Haoyang Zeng</a></font></b>
@@ -95,14 +106,15 @@ permalink: "/team/"
       <br><font size="2">yhtgrace@mit.edu</font>
       </p>
   </div>
-    <div class="large-6 columns">
+
+  <div class="large-6 columns">
       <img src="{{ site.url }}/images/photo.jpg">
       <p>
       <b><font size="2">Grace Yeo</font></b>
       <br><font size="2">yhtgrace@mit.edu</font>
       </p>
   </div>
-   </div>
+ </div>
 
 <h3>Undergraduate Students</h3>
 <div class="row">
