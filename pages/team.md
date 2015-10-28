@@ -99,21 +99,7 @@ permalink: "/team/"
       </p>
   </div>
 
-    <div class="large-6 columns">
-      <img src="{{ site.url }}/images/photo.jpg">
-      <p>
-      <b><font size="2">Grace Yeo</font></b>
-      <br><font size="2">yhtgrace@mit.edu</font>
-      </p>
-  </div>
-
-  <div class="large-6 columns">
-      <img src="{{ site.url }}/images/photo.jpg">
-      <p>
-      <b><font size="2">Grace Yeo</font></b>
-      <br><font size="2">yhtgrace@mit.edu</font>
-      </p>
-  </div>
+   
  </div>
 
 <h3>Undergraduate Students</h3>
