@@ -7,6 +7,7 @@ permalink: "/team/"
 ---
 <h3>Principle Investigator</h3>
 <div class="row">
+<br>
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/gifford.jpg">
       <p>
@@ -38,8 +39,8 @@ permalink: "/team/"
 
 
 <h3>Graduate Students</h3>
-<br>
 <div class="row">
+<br>
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/rujian.jpg">
       <p>
@@ -105,8 +106,9 @@ permalink: "/team/"
 </div>
 
 <h3>Undergraduate Students</h3>
-<br>
+
 <div class="row">
+<br>
     <div class="large-4 columns">
       <img src="{{ site.url }}/images/logan.jpg">
       <p>
@@ -128,8 +130,9 @@ permalink: "/team/"
 
 
 <h3>Lab Staff</h3>
-<br>
+
 <div class="row">
+<br>
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/darling.jpg">
       <p>
