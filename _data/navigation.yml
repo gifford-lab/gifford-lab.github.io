@@ -25,13 +25,13 @@
 - title: Publications
   url: "/publications/"
   side: left
-  dropdown:
-  - title: "Complete"
-    url: "/publications/"
-  - title: "Gallery"
-    url: "/roadmap/"
-  - title: "PubMed"
-    url: "/roadmap/"
+  #dropdown:
+  #- title: "Complete"
+  #  url: "/publications/"
+  #- title: "Gallery"
+  #  url: "/roadmap/"
+  #- title: "PubMed"
+  #  url: "/roadmap/"
 
 - title: Resources
   url: "/resource/"
