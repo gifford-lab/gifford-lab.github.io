@@ -8,7 +8,7 @@ permalink: "/software/"
 More softwares can be found in our [GitHub](https://github.com/gifford-lab/) Repository.
 
 
-   * [GEM](http://cgs.csail.mit.edu/g) - Integrative Genome wide Event finding and Motif discovery for ChIP-Seq and ChIP-exo data.  
+   * [GEM](http://cgs.csail.mit.edu/gem/) - Integrative Genome wide Event finding and Motif discovery for ChIP-Seq and ChIP-exo data.  
    
    * [GPS](http://cgs.csail.mit.edu/onePageGPS/) - The Genome Positioning System for discovering binding events in ChIP-seq data.
    
