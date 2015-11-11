@@ -3,7 +3,7 @@
   side: left
 
 - title: "Research"
-  url: "/blog/"
+  url: "/research/"
   side: left
   dropdown:
   - title: "Highlight1"
