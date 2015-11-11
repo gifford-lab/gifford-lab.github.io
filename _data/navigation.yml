@@ -5,22 +5,14 @@
 - title: "Research"
   url: "/research/"
   side: left
-  dropdown:
-  - title: "Highlight1"
-    url: "/design/PIQ/"
-  - title: "Highlight2"
-    url: "/design/PIQ/"
-  - title: "Highlight3"
-    url: "/design/PIQ/"
+
+- title: "News"
+  url: "/blog/"
+  side: left
 
 - title: "Team"
   url: "/team/"
   side: left
-  dropdown:
-  - title: "Current Member"
-    url: "/team/"
-  - title: "Alumni"
-    url: "/design/header-image-pattern/"
 
 - title: Publications
   url: "/publications/"

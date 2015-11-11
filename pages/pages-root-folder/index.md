@@ -8,36 +8,23 @@ layout: frontpage
 header:
   image_fullwidth: chromosomes.jpg
 widget1:
-  title: "Highlight1"
-  url: '{{ site.url }}/design/PIQ'
-  image: piq.png
+  title: "From DNase-seq to TF binding"
+  url: '/research/PIQ'
+  image: nbt-2.png
   text: 'We describe protein interaction quantitation (PIQ), 
 a computational method for modeling the magnitude and 
 shape of genome-wide DNase I hypersensitivity profiles to 
 identify transcription factor (TF) binding sites.'
 widget2:
-  title: "Highlight2"
-  url: '{{ site.url }}/design/PIQ'
-  image: piq.png
-  text: 'We describe protein interaction quantitation (PIQ), 
-a computational method for modeling the magnitude and 
-shape of genome-wide DNase I hypersensitivity profiles to 
-identify transcription factor (TF) binding sites.'
+  title: "Nonchromosomal effects on heritability"
+  url: '/research/Matt'
+  image: PNAS-2014-Edwards.png
+  text: 'We have designed a unique system in yeast where we can control both sources of information so that the phenotype of a single chromosomal polymorphism can be measured in the presence of different cytoplasmic elements. With this system, we have shown that both the source of the mitochondrial genome and the presence or absence of a dsRNA virus influence the phenotype of chromosomal variants that affect the growth of yeast.'
 widget3:
-  title: "Highlight3"
-  url: '{{ site.url }}/design/PIQ'
-  image: piq.png
-  text: 'We describe protein interaction quantitation (PIQ), 
-a computational method for modeling the magnitude and 
-shape of genome-wide DNase I hypersensitivity profiles to 
-identify transcription factor (TF) binding sites.'
+  title: "Enhancer-Promoter Mapping"
+  url: '/research/Chris'
+  image: germ-germ.png
+  text: 'We introduce Germ , a computational method that estimates the likeli- hood that any two narrowly defined genomic locations are jointly occupied by RNA Polymer- ase II.'
 
 permalink: /index.html
 ---
-
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
