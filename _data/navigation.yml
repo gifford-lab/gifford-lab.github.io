@@ -33,14 +33,10 @@
   #- title: "PubMed"
   #  url: "/roadmap/"
 
-- title: Resources
-  url: "/resource/"
+- title: Software
+  url: "/software/"
   side: left
-  dropdown:
-  - title: "Software"
-    url: "/resource/"
-  - title: "Github"
-    url: "/blog/archive/" 
+  
 
 - title: "Contact"
   url: "/contact/"
