@@ -42,10 +42,10 @@ dent regulatory interactions are utilized by cells to regulate gene expression.<
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/germ-germ.png" alt="">
         <p> <font size="2">Christopher Reeder.
 Michael Closser, Huay Mei Poh, Kuljeet Sandhu,
-Hynek Wichterle, David Gifford Nat Biotechnol. 2014 Feb;32(2):171-8. doi: 10.1038/nbt.2798. Epub 2014 Jan 19 </font></p>
+Hynek Wichterle, David Gifford. PLOS ONE | DOI:10.1371/journal.pone.0122420 May 13, 2015</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
@@ -70,7 +70,7 @@ persist for >1 year and undergo epigenetic, transcriptional, anatomical and func
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/nbt.png" alt="">
         <p> <font size="2">Weida Li, Claudia Cavelti-Weder, Yinying Zhang, Kendell Clement, Scott Donovan, Gabriel Gonzalez, Jiang Zhu, Marianne Stemann, Ke Xu, Tatsu Hashimoto, Takatsugu Yamada, Mio Nakanishi, Yuemei Zhang, Samuel Zeng, David Gifford, Alexander Meissner, Gordon Weir, and Qiao Zhou Nat Biotechnol. 2014 Dec;32(12):1223-30. doi: 10.1038/nbt.3082. Epub 2014 Nov 17</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -91,7 +91,7 @@ regulate the expression of gene sets that collectively define mouse corticospina
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/gene-co2.png" alt="">
         <p> <font size="2">S. Lodato, B.J. Molyneaux, E. Zuccaro, L.A. Goff, H.H. Chen, W. Yuan, A. Meleski, E. Takahashi, S. Mahony, J.L. Rinn, D.K., P. Arlotta.Nat Neurosci. 2014 Aug;17(8):1046-54. doi: 10.1038/nn.3757. Epub 2014 Jul 6 </font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -121,7 +121,7 @@ additional missing heritability.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/PNAS-2014-Edwards.png" alt="">
         <p> <font size="2">Matthew D. Edwards, Anna Symbor-Nagrabska, Lindsey Dollard, David K. Gifford, Gerald R. Fink. Proc. Natl. Acad. Sci U.S.A., 2014, May 13. pii: 201407126</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -137,7 +137,7 @@ existing genomic context, suggesting that such sites are pre-determined by cell-
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/journal.pcbi.png" alt="">
         <p> <font size="2">S. Mahony, M. D. Edwards, E. O. Mazzoni, R. I. Sherwood, A. Kakumanu, C. A. Morrison, H. Wichterle, D. K. Gifford . PLoS Comput Biol. 2014 Mar 27;10(3):e1003501. doi: 10.1371/journal.pcbi.1003501. eCollection 2014 Mar</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -159,7 +159,7 @@ compared with existing alternatives.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/journal.pcbi.1003494.png" alt="">
         <p> <font size="2">T.B. Hashimoto, M. D. Edwards, D. K. Gifford PLoS Comput Biol. 2014 Mar 6;10(3):e1003494. doi: 10.1371/journal.pcbi.1003494. eCollection 2014</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -181,7 +181,7 @@ cells. MARIS is a basic molecular biology technique that could be used across se
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/maris.png" alt="">
         <p> <font size="2">S. Hrvatin, F. Deng, C. W. O'Donnell, D. K. Gifford, D. A. Melton. PLoS One. 2014 Mar 3;9(3):e89459. doi: 10.1371/journal.pone.0089459. eCollection 2014</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -225,7 +225,7 @@ cells.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/PNAS-2014-Hrvatin.png" alt="">
         <p> <font size="2">S. Hrvatin, C. W. O'Donnell, F. Deng, J. R. Millman, F. W. Pagliuca, P. DiIorio, A. Rezania, D. K. Gifford, D. A. Melton. Proc Natl Acad Sci U S A. 2014 Feb 25;111(8):3038-43. doi: 10.1073/pnas.1400709111. Epub 2014 Feb 10</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -257,7 +257,7 @@ chromatin landscape for population by settler TFs.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/nbt-2.png" alt="">
         <p> <font size="2">R. I. Sherwood, T. Hashimoto, C. W. O'Donnell, D. Lewis, A. A. Barkal, J. P. van Hoff, V. Karun, T. Jaakkola, D. K. Gifford. Nat Biotechnol. 2014 Feb;32(2):171-8. doi: 10.1038/nbt.2798. Epub 2014 Jan 19</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -303,7 +303,7 @@ that facilitates the activation of the blood-specific program as development pro
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/piq.png" alt="">
+        <img src="{{ site.url }}/images/mahony-stem-cell-reports-3.png" alt="">
         <p> <font size="2">E.J. Paik, S. Mahony, R. M. White, E.N. Price, A. Dibiase, B. Dorjsuren, C. Mosimann, A. J. Davidson, D. Gifford, L. I. Zon. Stem Cell Reports. 2013 Nov 7;1(5):425-436</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
