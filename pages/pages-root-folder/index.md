@@ -7,6 +7,8 @@
 layout: frontpage
 header:
   image_fullwidth: boston_skyline1.jpg
+  caption: (image credit)
+  caption_url: https://www.flickr.com/photos/13382424@N00/5230714594/
 widget1:
   title: "From DNase-seq to TF binding"
   url: '/research/PIQ'
