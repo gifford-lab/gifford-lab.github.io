@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Team"
 header:
-     image_fullwidth: "PsychiatricGenomics-3col.jpg"
+     image_fullwidth: "stata1.jpg"
 permalink: "/team/"
 ---
 <h3>Principle Investigator</h3>

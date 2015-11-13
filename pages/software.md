@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Software"
 header:
-     image_fullwidth: "PsychiatricGenomics-3col.jpg"
+     image_fullwidth: "stata0.jpg"
 permalink: "/software/"
 ---
 More softwares can be found in our [GitHub](https://github.com/gifford-lab/) Repository.

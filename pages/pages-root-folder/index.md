@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: chromosomes.jpg
+  image_fullwidth: boston_skyline1.jpg
 widget1:
   title: "From DNase-seq to TF binding"
   url: '/research/PIQ'
