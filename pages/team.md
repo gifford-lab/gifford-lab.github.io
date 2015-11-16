@@ -2,7 +2,9 @@
 layout: page-fullwidth
 title: "Team"
 header:
-     image_fullwidth: "PsychiatricGenomics-3col.jpg"
+     image_fullwidth: "stata1.jpg"
+     caption: (image credit)
+     caption_url: https://www.flickr.com/photos/seeminglee/3791607622/
 permalink: "/team/"
 ---
 <h3>Principle Investigator</h3>
