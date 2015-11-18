@@ -11,6 +11,25 @@ permalink: "/publications/"
 
 
     <div class="medium-8 columns b30">
+        <p><b><a href="http://cgs.csail.mit.edu/pubs/Bioinformatics-2015-Zeng-bioinformatics_btv565.pdf">GERV: a statistical method for generative evaluation of regulatory variants for transcription factor binding</a></b></p>
+        <p><font size="1">The majority of disease-associated variants identified in genome-wide association studies reside in noncoding regions of the genome with regulatory roles. Thus being able to interpret the functional consequence of a variant is essential for identifying causal variants in the analysis of genome-wide association studies.
+RESULTS:
+
+We present GERV (generative evaluation of regulatory variants), a novel computational method for predicting regulatory variants that affect transcription factor binding. GERV learns a k-mer-based generative model of transcription factor binding from ChIP-seq and DNase-seq data, and scores variants by computing the change of predicted ChIP-seq reads between the reference and alternate allele. The k-mers learned by GERV capture more sequence determinants of transcription factor binding than a motif-based approach alone, including both a transcription factor's canonical motif and associated co-factor motifs. We show that GERV outperforms existing methods in predicting single-nucleotide polymorphisms associated with allele-specific binding. GERV correctly predicts a validated causal variant among linked single-nucleotide polymorphisms and prioritizes the variants previously reported to modulate the binding of FOXA1 in breast cancer cell lines. Thus, GERV provides a powerful approach for functionally annotating and prioritizing causal variants for experimental follow-up analysis.</font></p>
+    </div><!-- /.medium-6.columns -->
+    
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/gerv-img.png" alt="">
+        <p> <font size="2">H. Zeng, T. Hashimoto, D.D. Kang, D.K. GIfford.
+	Bioinformatics. 2015 Oct 17. pii: btv565</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+<div class="row t60">
+
+
+    <div class="medium-8 columns b30">
         <p><b><a href="http://cgs.csail.mit.edu/pubs/pone.0122420.pdf">High resolution mapping of enhancer-promoter interactions</a></b></p>
         <p><font size="1">RNA Polymerase II ChIA-PET data has revealed enhancers that are active in a profiled cell
 type and the genes that the enhancers regulate through chromatin interactions. The most
