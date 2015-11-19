@@ -20,7 +20,7 @@ We present GERV (generative evaluation of regulatory variants), a novel computat
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/gerv-img.png" alt="">
-        <p> <font size="2">H. Zeng, T. Hashimoto, D.D. Kang, D.K. GIfford.
+        <p> <font size="2">H. Zeng, T. Hashimoto, D.D. Kang, D.K. Gifford.<br>
 	Bioinformatics. 2015 Oct 17. pii: btv565</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
