@@ -8,322 +8,175 @@ permalink: "/publications/"
 <!--more-->
 
 <div class="row t60">
-
-
+    
     <div class="medium-8 columns b30">
         <p><b><a href="http://cgs.csail.mit.edu/pubs/Bioinformatics-2015-Zeng-bioinformatics_btv565.pdf">GERV: a statistical method for generative evaluation of regulatory variants for transcription factor binding</a></b></p>
-        <p><font size="1">The majority of disease-associated variants identified in genome-wide association studies reside in noncoding regions of the genome with regulatory roles. Thus being able to interpret the functional consequence of a variant is essential for identifying causal variants in the analysis of genome-wide association studies.
-RESULTS:
-
-We present GERV (generative evaluation of regulatory variants), a novel computational method for predicting regulatory variants that affect transcription factor binding. GERV learns a k-mer-based generative model of transcription factor binding from ChIP-seq and DNase-seq data, and scores variants by computing the change of predicted ChIP-seq reads between the reference and alternate allele. The k-mers learned by GERV capture more sequence determinants of transcription factor binding than a motif-based approach alone, including both a transcription factor's canonical motif and associated co-factor motifs. We show that GERV outperforms existing methods in predicting single-nucleotide polymorphisms associated with allele-specific binding. GERV correctly predicts a validated causal variant among linked single-nucleotide polymorphisms and prioritizes the variants previously reported to modulate the binding of FOXA1 in breast cancer cell lines. Thus, GERV provides a powerful approach for functionally annotating and prioritizing causal variants for experimental follow-up analysis.</font></p>
+        <p><font size="2">The majority of disease-associated variants identified in genome-wide association studies reside in noncoding regions of the genome with regulatory roles. Thus being able to interpret the functional consequence of a variant is essential for identifying causal variants in the analysis of genome-wide association studies. We present GERV (generative evaluation of regulatory variants), a novel computational method for predicting regulatory variants that affect transcription factor binding. GERV learns a k-mer-based generative model of transcription factor binding from ChIP-seq and DNase-seq data, and scores variants by computing the change of predicted ChIP-seq reads between the reference and alternate allele. The k-mers learned by GERV capture more sequence determinants of transcription factor binding than a motif-based approach alone, including both a transcription factor's canonical motif and associated co-factor motifs. We show that GERV outperforms existing methods in predicting single-nucleotide polymorphisms associated with allele-specific binding. GERV correctly predicts a validated causal variant among linked single-nucleotide polymorphisms and prioritizes the variants previously reported to modulate the binding of FOXA1 in breast cancer cell lines. Thus, GERV provides a powerful approach for functionally annotating and prioritizing causal variants for experimental follow-up analysis.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/gerv-img.png" alt="">
-        <p> <font size="2">H. Zeng, T. Hashimoto, D.D. Kang, D.K. Gifford.<br>
-	Bioinformatics. 2015 Oct 17. pii: btv565</font></p>
+        <img src="{{ site.url }}/images/gerv-img.jpg" alt="">
+        <p> <font size="2">H. Zeng, T. Hashimoto, D.D. Kang, D.K. Gifford.
+        <br> <i>Bioinformatics</i>. 2015 Oct 17. doi: 10.1093/bioinformatics/btv565</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
 <div class="row t60">
 
-
     <div class="medium-8 columns b30">
         <p><b><a href="http://cgs.csail.mit.edu/pubs/pone.0122420.pdf">High resolution mapping of enhancer-promoter interactions</a></b></p>
-        <p><font size="1">RNA Polymerase II ChIA-PET data has revealed enhancers that are active in a profiled cell
-type and the genes that the enhancers regulate through chromatin interactions. The most
-commonly used computational method for analyzing ChIA-PET data, the ChIA-PET Tool,
-discovers interaction anchors at a spatial resolution that is insufficient to accurately identify
-individual enhancers. We introduce
-Germ
-, a computational method that estimates the likeli-
-hood that any two narrowly defined genomic locations are jointly occupied by RNA Polymer-
-ase II.
-Germ
-takes a blind deconvolution approach to simultaneously estimate the likelihood
-of RNA Polymerase II occupation as well as a model of the arrangement of read alignments
-relative to locations occupied by RNA Polymerase II. Both types of information are utilized
-to estimate the likelihood that RNA Polymerase II jointly occupies any two genomic loca-
-tions. We apply
-Germ
-to RNA Polymerase II ChIA-PET data from embryonic stem cells to
-identify the genomic locations that are jointly occupied along with transcription start sites.
-We show that these genomic locations align more closely with features of active enhancers
-measured by ChIP-Seq than the locations identified using the ChIA-PET Tool. We also
-apply
-Germ
-to RNA Polymerase II ChIA-PET data from motor neuron progenitors. Based on
-the
-Germ
-results, we observe that a combination of cell type specific and cell type indepen-
-dent regulatory interactions are utilized by cells to regulate gene expression.</font></p>
+        <p><font size="2">RNA Polymerase II ChIA-PET data has revealed enhancers that are active in a profiled cell type and the genes that the enhancers regulate through chromatin interactions. The most commonly used computational method for analyzing ChIA-PET data, the ChIA-PET Tool,discovers interaction anchors at a spatial resolution that is insufficient to accurately identify individual enhancers. We introduce Germ, a computational method that estimates the likelihood that any two narrowly defined genomic locations are jointly occupied by RNA Polymerase II. Germ takes a blind deconvolution approach to simultaneously estimate the likelihood of RNA Polymerase II occupation as well as a model of the arrangement of read alignments relative to locations occupied by RNA Polymerase II. Both types of information are utilized to estimate the likelihood that RNA Polymerase II jointly occupies any two genomic locations. We apply Germ to RNA Polymerase II ChIA-PET data from embryonic stem cells to identify the genomic locations that are jointly occupied along with transcription start sites. We show that these genomic locations align more closely with features of active enhancers measured by ChIP-Seq than the locations identified using the ChIA-PET Tool. We also apply Germ to RNA Polymerase II ChIA-PET data from motor neuron progenitors. Based on the Germ results, we observe that a combination of cell type specific and cell type independent regulatory interactions are utilized by cells to regulate gene expression.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/germ-germ.png" alt="">
-        <p> <font size="2">Christopher Reeder.
-Michael Closser, Huay Mei Poh, Kuljeet Sandhu,
-Hynek Wichterle, David Gifford. PLOS ONE | DOI:10.1371/journal.pone.0122420 May 13, 2015</font></p>
+        <p> <font size="2">Christopher Reeder, Michael Closser, Huay Mei Poh, Kuljeet Sandhu,Hynek Wichterle, David Gifford. 
+        <br><i>PLOS ONE</i>. doi:10.1371/journal.pone.0122420 May 13, 2015</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
-<div class="row t60">
 
+
+<div class="row t60">
 
     <div class="medium-8 columns b30">
         <p><b><a href="http://cgs.csail.mit.edu/pubs/nbt.3082.pdf">Long-term persistence and development of induced pancreatic beta cells generated by lineage conversion of acinar cells</a></b></p>
-        <p><font size="1">Direct lineage conversion is a promising approach to generate therapeutically important cell types for disease modeling and 
-tissue repair. However, the survival and function of lineage-reprogrammed cells 
-in vivo
- over the long term has not been examined. 
-Here, using an improved method for 
-in vivo
- conversion of adult mouse pancreatic acinar cells toward beta cells, we show 
-that induced beta cells persist for up to 13 months (the length of the experiment), form pancreatic isletlike structures and 
-support normoglycemia in diabetic mice. Detailed molecular analyses of induced beta cells over 7 months reveal that global 
-DNA methylation changes occur within 10 d, whereas the transcriptional network evolves over 2 months to resemble that of 
-endogenous beta cells and remains stable thereafter. Progressive gain of beta-cell function occurs over 7 months, as measured by 
-glucose-regulated insulin release and suppression of hyperglycemia. These studies demonstrate that lineage-reprogrammed cells 
-persist for >1 year and undergo epigenetic, transcriptional, anatomical and functional development toward a beta-cell phenotype.</font></p>
+        <p><font size="2">Direct lineage conversion is a promising approach to generate therapeutically important cell types for disease modeling and tissue repair. However, the survival and function of lineage-reprogrammed cells in vivo over the long term has not been examined. Here, using an improved method for in vivo conversion of adult mouse pancreatic acinar cells toward beta cells, we show that induced beta cells persist for up to 13 months (the length of the experiment), form pancreatic isletlike structures and support normoglycemia in diabetic mice. Detailed molecular analyses of induced beta cells over 7 months reveal that global DNA methylation changes occur within 10 d, whereas the transcriptional network evolves over 2 months to resemble that of endogenous beta cells and remains stable thereafter. Progressive gain of beta-cell function occurs over 7 months, as measured by glucose-regulated insulin release and suppression of hyperglycemia. These studies demonstrate that lineage-reprogrammed cells persist for >1 year and undergo epigenetic, transcriptional, anatomical and functional development toward a beta-cell phenotype.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/nbt.png" alt="">
-        <p> <font size="2">Weida Li, Claudia Cavelti-Weder, Yinying Zhang, Kendell Clement, Scott Donovan, Gabriel Gonzalez, Jiang Zhu, Marianne Stemann, Ke Xu, Tatsu Hashimoto, Takatsugu Yamada, Mio Nakanishi, Yuemei Zhang, Samuel Zeng, David Gifford, Alexander Meissner, Gordon Weir, and Qiao Zhou Nat Biotechnol. 2014 Dec;32(12):1223-30. doi: 10.1038/nbt.3082. Epub 2014 Nov 17</font></p>
+        <p> <font size="2">Weida Li, Claudia Cavelti-Weder, Yinying Zhang, Kendell Clement, Scott Donovan, Gabriel Gonzalez, Jiang Zhu, Marianne Stemann, Ke Xu, Tatsu Hashimoto, Takatsugu Yamada, Mio Nakanishi, Yuemei Zhang, Samuel Zeng, David Gifford, Alexander Meissner, Gordon Weir, and Qiao Zhou.
+        <br> <i> Nat Biotechnol </i>. 2014 Dec;32(12):1223-30. doi: 10.1038/nbt.3082. Epub 2014 Nov 17</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
-<div class="row t60">
 
+<div class="row t60">
 
     <div class="medium-8 columns b30">
         <p><b><a href="http://cgs.csail.mit.edu/pubs/nihms618131.pdf">Gene co-regulation by Fezf2 selects neurotransmitter identity and connectivity of corticospinal neurons</a></b></p>
-        <p><font size="1">The neocortex contains an unparalleled diversity of neuronal subtypes, each defined by distinct
-traits that are developmentally acquired under the control of subtype-specific and pan-neuronal
-genes. The regulatory logic that orchestrates the expression of these unique combinations of genes
-is unknown for any class of cortical neuron. Here, we report that 
-Fezf2
- is a selector gene able to
-regulate the expression of gene sets that collectively define mouse corticospinal motor neurons.</font></p>
+        <p><font size="2">The neocortex contains an unparalleled diversity of neuronal subtypes, each defined by distinct traits that are developmentally acquired under the control of subtype-specific and pan-neuronal genes. The regulatory logic that orchestrates the expression of these unique combinations of genes is unknown for any class of cortical neuron. Here, we report that Fezf2 is a selector gene able to regulate the expression of gene sets that collectively define mouse corticospinal motor neurons.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/gene-co2.png" alt="">
-        <p> <font size="2">S. Lodato, B.J. Molyneaux, E. Zuccaro, L.A. Goff, H.H. Chen, W. Yuan, A. Meleski, E. Takahashi, S. Mahony, J.L. Rinn, D.K., P. Arlotta.Nat Neurosci. 2014 Aug;17(8):1046-54. doi: 10.1038/nn.3757. Epub 2014 Jul 6 </font></p>
+        <p> <font size="2">S. Lodato, B.J. Molyneaux, E. Zuccaro, L.A. Goff, H.H. Chen, W. Yuan, A. Meleski, E. Takahashi, S. Mahony, J.L. Rinn, D.K., P. Arlotta.
+        <br> <i> Nat Neurosci </i>. 2014 Aug;17(8):1046-54. doi: 10.1038/nn.3757. Epub 2014 Jul 6 </font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
+
 <div class="row t60">
+
     <div class="medium-8 columns b30">
         <p><b><a href="http://cgs.csail.mit.edu/pubs/PNAS-2014-Edwards-1407126111.pdf">Interactions between chromosomal and nonchromosomal elements reveal missing heritability</a></b></p>
-        <p><font size="1">The measurement of any nonchromosomal genetic contribution to
-the heritability of a trait is often confounded by the inability to
-control both the chromosomal and nonchromosomal information
-in a population. We have designed a unique system in yeast where
-we can control both sources of information so that the phenotype
-of a single chromosomal polymorphism can be measured in the
-presence of different cytoplasmic elements. With this system, we
-have shown that both the source of the mitochondrial genome
-and the presence or absence of a dsRNA virus influence the
-phenotype of chromosomal variants that affect the growth of
-yeast. Moreover, by considering this nonchromosomal informa-
-tion that is passed from parent to offspring and by allowing
-chromosomal and nonchromosomal information to exhibit non-
-additive interactions, we are able to account for much of the
-heritability of growth traits. Taken together, our results highlight
-the importance of including all sources of heritable information in
-genetic studies and suggest a possible avenue of attack for finding
-additional missing heritability.</font></p>
+        <p><font size="2">The measurement of any nonchromosomal genetic contribution to the heritability of a trait is often confounded by the inability to control both the chromosomal and nonchromosomal information in a population. We have designed a unique system in yeast where we can control both sources of information so that the phenotype of a single chromosomal polymorphism can be measured in the presence of different cytoplasmic elements. With this system, we have shown that both the source of the mitochondrial genome and the presence or absence of a dsRNA virus influence the phenotype of chromosomal variants that affect the growth of yeast. Moreover, by considering this nonchromosomal information that is passed from parent to offspring and by allowing chromosomal and nonchromosomal information to exhibit non-additive interactions, we are able to account for much of the heritability of growth traits. Taken together, our results highlight the importance of including all sources of heritable information in genetic studies and suggest a possible avenue of attack for finding additional missing heritability.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/PNAS-2014-Edwards.png" alt="">
-        <p> <font size="2">Matthew D. Edwards, Anna Symbor-Nagrabska, Lindsey Dollard, David K. Gifford, Gerald R. Fink. Proc. Natl. Acad. Sci U.S.A., 2014, May 13. pii: 201407126</font></p>
+        <p> <font size="2">Matthew D. Edwards, Anna Symbor-Nagrabska, Lindsey Dollard, David K. Gifford, Gerald R. Fink. 
+        <br> <i>Proc. Natl. Acad. Sci U.S.A.</i>, 2014, May 13. pii: 201407126</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
+
 <div class="row t60">
+
     <div class="medium-8 columns b30">
         <p><b><a href="http://cgs.csail.mit.edu/pubs/journal.pcbi.1003501.pdf">An integrated model of multiple-condition ChIP-Seq data reveals predeterminants of Cdx2 binding</a></b></p>
-        <p><font size="1">Regulatory proteins can bind to different sets of genomic targets in various cell types or conditions. To reliably characterize such condition-specific regulatory binding we introduce MultiGPS, an integrated machine learning approach for the analysis
-of multiple related ChIP-seq experiments. MultiGPS is based on a generalized Expectation Maximization framework that shares information across multiple experiments for binding event discovery. We demonstrate that our framework enables the simultaneous modeling of sparse condition-specific binding changes, sequence dependence, and replicate-specific noise sources. MultiGPS encourages consistency in reported binding event locations across multiple-condition ChIP-seq datasets and provides accurate estimation of ChIP enrichment levels at each event. MultiGPS’s multi-experiment modeling approach thus provides a reliable platform for detecting differential binding enrichment across experimental conditions. We
-demonstrate the advantages of MultiGPS with an analysis of Cdx2 binding in three distinct developmental contexts. By accurately characterizing condition-specific Cdx2 binding, MultiGPS enables novel insight into the mechanistic basis of Cdx2 site selectivity. Specifically, the condition-specific Cdx2 sites characterized by MultiGPS are highly associated with pre-
-existing genomic context, suggesting that such sites are pre-determined by cell-specific regulatory architecture. However, MultiGPS-defined condition-independent sites are not predicted by pre-existing regulator  signals, suggesting that Cdx2 can bind to a subset of locations regardless of genomic environment.  A summary of this paper appears in the proceedings of the RECOMB 2014 conference, April 2.</font></p>
+        <p><font size="2">Regulatory proteins can bind to different sets of genomic targets in various cell types or conditions. To reliably characterize such condition-specific regulatory binding we introduce MultiGPS, an integrated machine learning approach for the analysis of multiple related ChIP-seq experiments. MultiGPS is based on a generalized Expectation Maximization framework that shares information across multiple experiments for binding event discovery. We demonstrate that our framework enables the simultaneous modeling of sparse condition-specific binding changes, sequence dependence, and replicate-specific noise sources. MultiGPS encourages consistency in reported binding event locations across multiple-condition ChIP-seq datasets and provides accurate estimation of ChIP enrichment levels at each event. MultiGPS’s multi-experiment modeling approach thus provides a reliable platform for detecting differential binding enrichment across experimental conditions. We demonstrate the advantages of MultiGPS with an analysis of Cdx2 binding in three distinct developmental contexts. By accurately characterizing condition-specific Cdx2 binding, MultiGPS enables novel insight into the mechanistic basis of Cdx2 site selectivity. Specifically, the condition-specific Cdx2 sites characterized by MultiGPS are highly associated with pre-existing genomic context, suggesting that such sites are pre-determined by cell-specific regulatory architecture. However, MultiGPS-defined condition-independent sites are not predicted by pre-existing regulator  signals, suggesting that Cdx2 can bind to a subset of locations regardless of genomic environment.  A summary of this paper appears in the proceedings of the RECOMB 2014 conference, April 2.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/journal.pcbi.png" alt="">
-        <p> <font size="2">S. Mahony, M. D. Edwards, E. O. Mazzoni, R. I. Sherwood, A. Kakumanu, C. A. Morrison, H. Wichterle, D. K. Gifford . PLoS Comput Biol. 2014 Mar 27;10(3):e1003501. doi: 10.1371/journal.pcbi.1003501. eCollection 2014 Mar</font></p>
+        <p> <font size="2">S. Mahony, M. D. Edwards, E. O. Mazzoni, R. I. Sherwood, A. Kakumanu, C. A. Morrison, H. Wichterle, D. K. Gifford . 
+        <br><i> PLoS Comput Biol</i>. 2014 Mar 27;10(3):e1003501. doi: 10.1371/journal.pcbi.1003501. eCollection 2014 Mar</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
+
 <div class="row t60">
+
     <div class="medium-8 columns b30">
-        <p><b><a href="http://cgs.csail.mit.edu/pubs/journal.pcbi.1003494.pdf">Universal count correction for high-throughput sequencing
- </a></b></p>
-        <p><font size="1">We show that existing RNA-seq, DNase-seq, and ChIP-seq data exhibit overdispersed per-base read count distributions that
-are not matched to existing computational method assumptions. To compensate for this overdispersion we introduce a
-nonparametric and universal method for processing per-base sequencing read count data called F
-IXSEQ
-. We demonstrate
-that F
-IXSEQ
-substantially improves the performance of existing RNA-seq, DNase-seq, and ChIP-seq analysis tools when
-compared with existing alternatives.</font></p>
+        <p><b><a href="http://cgs.csail.mit.edu/pubs/journal.pcbi.1003494.pdf">Universal count correction for high-throughput sequencing </a></b></p>
+        <p><font size="2">We show that existing RNA-seq, DNase-seq, and ChIP-seq data exhibit overdispersed per-base read count distributions that are not matched to existing computational method assumptions. To compensate for this overdispersion we introduce a nonparametric and universal method for processing per-base sequencing read count data called FIXSEQ. We demonstrate that FIXSEQ substantially improves the performance of existing RNA-seq, DNase-seq, and ChIP-seq analysis tools when compared with existing alternatives.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/journal.pcbi.1003494.png" alt="">
-        <p> <font size="2">T.B. Hashimoto, M. D. Edwards, D. K. Gifford PLoS Comput Biol. 2014 Mar 6;10(3):e1003494. doi: 10.1371/journal.pcbi.1003494. eCollection 2014</font></p>
+        <p> <font size="2">T.B. Hashimoto, M. D. Edwards, D. K. Gifford
+        <br> <i>PLoS Comput Biol</i>. 2014 Mar 6;10(3):e1003494. doi: 10.1371/journal.pcbi.1003494. eCollection 2014</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
 
 <div class="row t60">
+
     <div class="medium-8 columns b30">
-        <p><b><a href="http://cgs.csail.mit.edu/pubs/pone.0089459.pdf">MARIS: method for analyzing RNA following intracellular sorting
-</a></b></p>
-        <p><font size="1">Transcriptional profiling is a key technique in the study of cell biology that is limited by the availability of reagents to
-uniquely identify specific cell types and isolate high quality RNA from them. We report a Method for Analyzing RNA
-following Intracellular Sorting (MARIS) that generates high quality RNA for transcriptome profiling following cellular fixation,
-intracellular immunofluorescent staining and FACS. MARIS can therefore be used to isolate high quality RNA from many
-otherwise inaccessible cell types simply based on immunofluorescent tagging of unique intracellular proteins. As proof of
-principle, we isolate RNA from sorted human embryonic stem cell-derived insulin-expressing cells as well as adult human
-b
-cells. MARIS is a basic molecular biology technique that could be used across several biological disciplines.</font></p>
+        <p><b><a href="http://cgs.csail.mit.edu/pubs/pone.0089459.pdf">MARIS: method for analyzing RNA following intracellular sorting </a></b></p>
+        <p><font size="2">Transcriptional profiling is a key technique in the study of cell biology that is limited by the availability of reagents to uniquely identify specific cell types and isolate high quality RNA from them. We report a Method for Analyzing RNA following Intracellular Sorting (MARIS) that generates high quality RNA for transcriptome profiling following cellular fixation,intracellular immunofluorescent staining and FACS. MARIS can therefore be used to isolate high quality RNA from many otherwise inaccessible cell types simply based on immunofluorescent tagging of unique intracellular proteins. As proof of principle, we isolate RNA from sorted human embryonic stem cell-derived insulin-expressing cells as well as adult human b cells. MARIS is a basic molecular biology technique that could be used across several biological disciplines.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/maris.png" alt="">
-        <p> <font size="2">S. Hrvatin, F. Deng, C. W. O'Donnell, D. K. Gifford, D. A. Melton. PLoS One. 2014 Mar 3;9(3):e89459. doi: 10.1371/journal.pone.0089459. eCollection 2014</font></p>
+        <p> <font size="2">S. Hrvatin, F. Deng, C. W. O'Donnell, D. K. Gifford, D. A. Melton. 
+        <br><i>PLoS One</i>. 2014 Mar 3;9(3):e89459. doi: 10.1371/journal.pone.0089459. eCollection 2014</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
+
 <div class="row t60">
+
     <div class="medium-8 columns b30">
-        <p><b><a href="http://cgs.csail.mit.edu/pubs/PNAS-2014-Hrvatin-3038-43.pdf">Differentiated human stem cells resemble fetal, not adult, ß cells
-.</a></b></p>
-        <p><font size="1">Human pluripotent stem cells (hPSCs) have the potential to
-generate any human cell type, and one widely recognized goal is
-to make pancreatic
-β
-cells. To this end, comparisons between dif-
-ferentiated cell types produced in vitro and their in vivo counter-
-parts are essential to validate hPSC-derived cells. Genome-wide
-transcriptional analysis of sorted insulin-expressing (INS
-+
-) cells de-
-rived from three independent hPSC lines, human fetal pancreata,
-and adult human islets points to two major conclusions: (
-i
-) Differ-
-ent hPSC lines produce highly similar INS
-+
-cells and (
-ii
-) hPSC-
-derived INS
-+
-(hPSC-INS
-+
-) cells more closely resemble human fetal
-β
-cells than adult
-β cells. This study provides a direct comparison
-of transcriptional programs between pure hPSC-INS+ cells and true
-β cells and provides a catalog of genes whose manipulation may
-convert hPSC-INS+ cells into functional β
-cells.</font></p>
+        <p><b><a href="http://cgs.csail.mit.edu/pubs/PNAS-2014-Hrvatin-3038-43.pdf">Differentiated human stem cells resemble fetal, not adult, ß cells.</a></b></p>
+        <p><font size="2">Human pluripotent stem cells (hPSCs) have the potential to generate any human cell type, and one widely recognized goal is to make pancreatic β cells. To this end, comparisons between differentiated cell types produced in vitro and their in vivo counter-parts are essential to validate hPSC-derived cells. Genome-wide transcriptional analysis of sorted insulin-expressing (INS+) cells derived from three independent hPSC lines, human fetal pancreata, and adult human islets points to two major conclusions: (i) Different hPSC lines produce highly similar INS+cells and (ii) hPSC-derived INS+(hPSC-INS+) cells more closely resemble human fetal β cells than adult β cells. This study provides a direct comparison of transcriptional programs between pure hPSC-INS+ cells and true β cells and provides a catalog of genes whose manipulation may convert hPSC-INS+ cells into functional β cells.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/PNAS-2014-Hrvatin.png" alt="">
-        <p> <font size="2">S. Hrvatin, C. W. O'Donnell, F. Deng, J. R. Millman, F. W. Pagliuca, P. DiIorio, A. Rezania, D. K. Gifford, D. A. Melton. Proc Natl Acad Sci U S A. 2014 Feb 25;111(8):3038-43. doi: 10.1073/pnas.1400709111. Epub 2014 Feb 10</font></p>
+        <p> <font size="2">S. Hrvatin, C. W. O'Donnell, F. Deng, J. R. Millman, F. W. Pagliuca, P. DiIorio, A. Rezania, D. K. Gifford, D. A. Melton. 
+        <br> <i>Proc Natl Acad Sci U.S.A. </i>, 2014 Feb 25;111(8):3038-43. doi: 10.1073/pnas.1400709111. Epub 2014 Feb 10</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
+
 <div class="row t60">
+
     <div class="medium-8 columns b30">
-        <p><b><a href="http://cgs.csail.mit.edu/pubs/nbt.2798.pdf">Discovery of directional and nondirectional pioneer transcription factors by modeling DNase profile magnitude and shape
- </a></b></p>
-        <p><font size="1">We describe protein interaction quantitation (PIQ), 
-a computational method for modeling the magnitude and 
-shape of genome-wide DNase I hypersensitivity profiles to 
-identify transcription factor (TF) binding sites. Through the 
-use of machine-learning techniques, PIQ identified binding 
-sites for >700 TFs from one DNase I hypersensitivity analysis 
-followed by sequencing (DNase-seq) experiment with accuracy 
-comparable to that of chromatin immunoprecipitation followed 
-by sequencing (ChIP-seq). We applied PIQ to analyze 
-DNase-seq data from mouse embryonic stem cells 
-differentiating into prepancreatic and intestinal endoderm. 
-We identified 120 and experimentally validated eight ‘pioneer’ 
-TF families that dynamically open chromatin. Four pioneer 
-TF families only opened chromatin in one direction from their 
-motifs. Furthermore, we identified ‘settler’ TFs whose genomic 
-binding is principally governed by proximity to open chromatin. 
-Our results support a model of hierarchical TF binding in which 
-directional and nondirectional pioneer activity shapes the 
-chromatin landscape for population by settler TFs.</font></p>
+        <p><b><a href="http://cgs.csail.mit.edu/pubs/nbt.2798.pdf">Discovery of directional and nondirectional pioneer transcription factors by modeling DNase profile magnitude and shape </a></b></p>
+        <p><font size="2">We describe protein interaction quantitation (PIQ), a computational method for modeling the magnitude and shape of genome-wide DNase I hypersensitivity profiles to identify transcription factor (TF) binding sites. Through the use of machine-learning techniques, PIQ identified binding sites for >700 TFs from one DNase I hypersensitivity analysis followed by sequencing (DNase-seq) experiment with accuracy comparable to that of chromatin immunoprecipitation followed by sequencing (ChIP-seq). We applied PIQ to analyze DNase-seq data from mouse embryonic stem cells differentiating into prepancreatic and intestinal endoderm. We identified 120 and experimentally validated eight ‘pioneer’ TF families that dynamically open chromatin. Four pioneerTF families only opened chromatin in one direction from their motifs. Furthermore, we identified ‘settler’ TFs whose genomic binding is principally governed by proximity to open chromatin. Our results support a model of hierarchical TF binding in which directional and nondirectional pioneer activity shapes the chromatin landscape for population by settler TFs.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/nbt-2.png" alt="">
-        <p> <font size="2">R. I. Sherwood, T. Hashimoto, C. W. O'Donnell, D. Lewis, A. A. Barkal, J. P. van Hoff, V. Karun, T. Jaakkola, D. K. Gifford. Nat Biotechnol. 2014 Feb;32(2):171-8. doi: 10.1038/nbt.2798. Epub 2014 Jan 19</font></p>
+        <p> <font size="2">R. I. Sherwood, T. Hashimoto, C. W. O'Donnell, D. Lewis, A. A. Barkal, J. P. van Hoff, V. Karun, T. Jaakkola, D. K. Gifford. 
+        <br> <i>Nat Biotechnol</i>. 2014 Feb;32(2):171-8. doi: 10.1038/nbt.2798. Epub 2014 Jan 19</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
 
+
 <div class="row t60">
+    
     <div class="medium-8 columns b30">
         <p><b><a href="http://cgs.csail.mit.edu/pubs/mahony-stem-cell-reports.pdf">A Cdx4-Sall4 Regulatory Module Controls the Transition from Mesoderm Formation to Embryonic Hematopoiesis</a></b></p>
-        <p><font size="1">Deletion of
-caudal
-/
-cdx
-genes alters
-hox
-gene expression and causes defects in posterior tissues and hematopoiesis. Yet, the defects in
-hox
-gene expression only partially explain these phenotypes. To gain deeper insight into Cdx4 function, we performed chromatin immuno-
-precipitation sequencing (ChIP-seq) combined with gene-expression profiling in zebrafish, and identified the transcription factor
-spalt-like 4
-(
-sall4
-) as a Cdx4 target. ChIP-seq revealed that Sall4 bound to its own gene locus and the
-cdx4
-locus. Expression profiling
-showed that Cdx4 and Sall4 coregulate genes that initiate hematopoiesis, such as
-hox
-,
-scl
-, and
-lmo2
-. Combined
-cdx4
-/
-sall4
-gene knock-
-down impaired erythropoiesis, and overexpression of the Cdx4 and Sall4 target genes
-scl
-and
-lmo2
-together rescued the erythroid pro-
-gram. These findings suggest that auto- and cross-regulation of Cdx4 and Sall4 establish a stable molecular circuit in the mesoderm
-that facilitates the activation of the blood-specific program as development proceeds.</font></p>
+        <p><font size="2">Deletion of caudal / cdx genes alters hox gene expression and causes defects in posterior tissues and hematopoiesis. Yet, the defects in hox gene expression only partially explain these phenotypes. To gain deeper insight into Cdx4 function, we performed chromatin immuno-precipitation sequencing (ChIP-seq) combined with gene-expression profiling in zebrafish, and identified the transcription factor spalt-like 4 (sall4 ) as a Cdx4 target. ChIP-seq revealed that Sall4 bound to its own gene locus and the cdx4 locus. Expression profiling showed that Cdx4 and Sall4 coregulate genes that initiate hematopoiesis, such as hox,scl, and lmo2. Combined cdx4 /sall4 gene knock-down impaired erythropoiesis, and overexpression of the Cdx4 and Sall4 target genes scl and lmo2 together rescued the erythroid program. These findings suggest that auto- and cross-regulation of Cdx4 and Sall4 establish a stable molecular circuit in the mesoderm that facilitates the activation of the blood-specific program as development proceeds.</font></p>
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/mahony-stem-cell-reports-3.png" alt="">
-        <p> <font size="2">E.J. Paik, S. Mahony, R. M. White, E.N. Price, A. Dibiase, B. Dorjsuren, C. Mosimann, A. J. Davidson, D. Gifford, L. I. Zon. Stem Cell Reports. 2013 Nov 7;1(5):425-436</font></p>
+        <p> <font size="2">E.J. Paik, S. Mahony, R. M. White, E.N. Price, A. Dibiase, B. Dorjsuren, C. Mosimann, A. J. Davidson, D. Gifford, L. I. Zon. 
+        <br> <i>Stem Cell Reports</i>. 2013 Nov 7;1(5):425-436</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
@@ -362,7 +215,7 @@ _Science_,  2012 Sep 14'337(6100):1353-6.
 		 
 * <a href="http://cgs.csail.mit.edu/pubs/journal.pcbi.1002638.pdf">High resolution genome wide binding event finding and motif discovery reveals transcription factor spatial binding constraints.</a>  
 Y. Guo, S. Mahony, D. K. Gifford.  
-PLoS Comput Biol. 2012 Aug;8(8):e1002638. 
+_PLoS Comput Biol_. 2012 Aug;8(8):e1002638. 
 
 
 * <a href="http://cgs.csail.mit.edu/pubs/pone-0043210.pdf">Ruler arrays reveal haploid genomic structural variation</a>  
@@ -424,7 +277,7 @@ R. D. Dowell, O. Ryan, A. Jansen, D. Cheung, S. Agarwala, T. Danford, D. A. Bern
 _Science_ , 23, April, 2010, p. 469
 
 * <a href="http://cgs.csail.mit.edu/pubs/513.full.pdf">Feed-forward Regulation of a Cell Fate Determinant by an RNA-binding Protein Generates Asymmetry in Yeast</a>  
-J. Wolff, R. D. Dowell, S. Mahony, M. Rabani, D. K. Gifford, and G. R. Fink. 
+J. Wolff, R. D. Dowell, S. Mahony, M. Rabani, D. K. Gifford, and G. R. Fink.  
 _Genetics_ 2010 
 
 
@@ -501,7 +354,7 @@ L. A. Boyer, K. Plath,
                            M. Wernig, A. Tajonar, M. K. Ray,
                            G. W. Bell, A. P. Otte, M. Vidal,
                            D. K. Gifford, R. A. Young, and
-                           R. Jaenisch. 
+                           R. Jaenisch.  
 _Nature_, 441:349-353, May 2006 
 
 * <a href="http://cgs.csail.mit.edu/pubs/schreiber_pnas06.pdf">Coordinated binding of NF-kB family members in the
@@ -528,8 +381,7 @@ _Nature Biotechnology_, 24, 963-960 (2006)
 D.T. Odom, R.D. Dowell, E.S. Jacobsen,
                  L. Nekludova, P.A. Rolfe, T.W. Danford, D.K. Gifford,
                  E. Fraenkel, G.I. Bell, and R.A. Young.  
-Nature/EMBO
-                 Molecular Systems Biology, msb4100059, 2 May 2006. 
+_Nature/EMBO Molecular Systems Biology_, msb4100059, 2 May 2006. 
 
 
 * <a href="http://cgs.csail.mit.edu/pubs/genome-wide.pdf">Genome-wide map of nucleosome acetylation and
@@ -572,8 +424,8 @@ C. Harbison,
                 D. B. Gordon, T. I Lee, N. J. Rinaldi, K. D. MacIsaac, T. W. Danford, 
                 N. M. Hannett, J.B. Tagne, D. B. Reynolds, J. Yoo, E. G. Jennings, 
                 J. Zeitlinger, D. K. Pokholok, M. Kellis, P. A. Rolfe, K. T. Takusagawa, 
-                E. S. Lander, D. K. Gifford, E. Fraenkel, and R. A. Young  _
-Nature_, 
+                E. S. Lander, D. K. Gifford, E. Fraenkel, and R. A. Young  
+                _Nature_, 
                 431:99-104, September, 2004
 
 
@@ -582,14 +434,14 @@ Nature_,
                 Odom, D. T., Zizlsperger, N., Gordon, D. B., Bell, G. W., Rinaldi, 
                 N. J., Murray, H. L., Volkert, T. L., Schreiber, J., Rolfe, P. 
                 A., Gifford, D. K., Fraenkel, E., Bell, G. I., Young, R. A.  
-Science, 
+_Science_, 
                 303:1378-1381, February, 2004 
 
 * <a href="http://cgs.csail.mit.edu/pubs/barjoseph_pnas03.pdf">Comparing the Continuous Representation
 		of Time Series Gene Expression Profiles to Identify
 		Differentially Expressed Genes</a>  Z. Bar-Joseph,
 		G.K. Gerber, I. Simon, D.K. Gifford, and
-		T.S. Jaakkola
+		T.S. Jaakkola  
 _Proceedings of the National Academy of
 		Sciences_, 2003 Sept. 2; 100(18):10146-10151
 
@@ -723,14 +575,14 @@ _Theory of Computing Systems_, 255, pp 483-499, 2002.
                 Biological Reactions: A Modular Approach</a>  
 Alexander 
                 J. Hartemink, Tarjei S. Mikkelsen, and David K. Gifford 
-5th Annual 
+5th Annual  
                 _DIMACS Workshop on DNA-Based Computers_, Boston, Massachusetts, 
                 June 1999
 
 
 * <a href="http://cgs.csail.mit.edu/pubs/scan.pdf">Automated 
                 Constraint-Based Nucleotide Sequence Selection for DNA Computation</a>  
-Alexander J. Hartemink, David K. Gifford, and Julia Khodor 
+Alexander J. Hartemink, David K. Gifford, and Julia Khodor  
  _4th Annual DIMACS Workshop on DNA-Based Computers_, Philadelphia, Pennsylvania, 
                 June 1998
 
@@ -738,7 +590,7 @@ Alexander J. Hartemink, David K. Gifford, and Julia Khodor
 * <a href="http://cgs.csail.mit.edu/pubs/paper">Design 
                 &amp; Implementation of Computational Systems Based on Programmed 
                 Mutagenesis</a>  
-Khodor, J. and Gifford, D. K.  
+Khodor, J. and Gifford, D. K.   
 _DIMACS Workshop 
                 on Nucleic Acid Selection and Computing_, Princeton University, 
                 March, 1998 
@@ -746,7 +598,7 @@ _DIMACS Workshop
 
 * <a href="http://cgs.csail.mit.edu/pubs/bind.pdf">Thermodynamic 
 		  Simulation of Deoxyoligonucleotide Hybridization for DNA Computation</a>  
-Alexander J. Hartemink and David K. Gifford  
+Alexander J. Hartemink and David K. Gifford   
 _3rd Annual DIMACS 
                 Workshop on DNA-Based Computers_, Philadelphia, Pennsylvania, June 
                 1997 
