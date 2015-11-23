@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Research"
 header:
-     image_fullwidth: "PsychiatricGenomics-3col.jpg"
+     image_fullwidth: "dna.jpg"
 permalink: "/research/"
 ---
 ### Current Projects ###
