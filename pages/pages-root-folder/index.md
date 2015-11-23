@@ -20,13 +20,19 @@ identify transcription factor (TF) binding sites.'
 widget2:
   title: "Nonchromosomal effects on heritability"
   url: '/research/Matt'
-  image: PNAS-2014-Edwards.png
+  image: PNAS-2014-Edwards2.png
   text: 'We have designed a unique system in yeast where we can control both sources of information so that the phenotype of a single chromosomal polymorphism can be measured in the presence of different cytoplasmic elements. With this system, we have shown that both the source of the mitochondrial genome and the presence or absence of a dsRNA virus influence the phenotype of chromosomal variants that affect the growth of yeast.'
 widget3:
-  title: "Enhancer-Promoter Mapping"
+  title: "GERV: a statictical method for generative evaluation of regulatory variants for trancription factor binding"
   url: '/research/Chris'
-  image: germ-germ.png
-  text: 'We introduce Germ , a computational method that estimates the likeli- hood that any two narrowly defined genomic locations are jointly occupied by RNA Polymer- ase II.'
+  image: gerv-img2.jpg
+  text: 'GERV (generative evaluation of regulatory variants), is a novel computational
+method for predicting regulatory variants that affect transcription factor binding. We show that GERV outperforms existing methods
+in predicting single-nucleotide polymorphisms associated with allele-specific binding. GERV
+correctly predicts a validated causal variant among linked single-nucleotide polymorphisms and
+prioritizes the variants previously reported to modulate the binding of FOXA1 in breast cancer cell
+lines. Thus, GERV provides a powerful approach for functionally annotating and prioritizing causal
+variants for experimental follow-up analysis.'
 
 permalink: /index.html
 ---
