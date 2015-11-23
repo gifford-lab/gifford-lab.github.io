@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Publications"
 header:
-     image_fullwidth: "PsychiatricGenomics-3col.jpg"
+     image_fullwidth: "dna.jpg"
 permalink: "/publications/"
 ---
 <!--more-->
