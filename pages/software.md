@@ -7,10 +7,10 @@ header:
      caption_url: https://www.flickr.com/photos/justinjensen/4454664922/
 permalink: "/software/"
 ---
-More softwares can be found in our [GitHub](https://github.com/gifford-lab/) Repository.
+More softwarescan be found in our [GitHub](https://github.com/gifford-lab/) Repository.
 
 
-   * [GEM](http://cgs.csail.mit.edu/gem/) - Integrative Genome wide Event finding and Motif discovery for ChIP-Seq and ChIP-exo data.  
+   * [GEM](http://cgs.csail.mit.edu/gem/) - Integrative Genome wide Event finding and Motif discovery for ChIP-seq and ChIP-exo data.  
    
    * [GPS](http://cgs.csail.mit.edu/onePageGPS/) - The Genome Positioning System for discovering binding events in ChIP-seq data.
    
@@ -20,5 +20,5 @@ More softwares can be found in our [GitHub](https://github.com/gifford-lab/) Rep
    
    * [JBD](http://cgs.csail.mit.edu/jbd.html) - The JBD(Joint Binding Deconvolution) algorithm detects binding sites based on ChIP-chip data and guides.
    
-   * [GeneProgram](http://cgs.csail.mit.edu/geneprogram.html) - Automated discovery of functional generality of gene expression programs (sets co-expressed genes).
+   * [GeneProgram](http://cgs.csail.mit.edu/geneprogram.html) - Automated discovery of functional generality of gene expression programs (sets co-expressed genes)
 

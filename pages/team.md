@@ -7,7 +7,7 @@ header:
      caption_url: https://www.flickr.com/photos/seeminglee/3791607622/
 permalink: "/team/"
 ---
-<h3>Principle Investigator</h3>
+<h3>Principal Investigator</h3>
 <div class="row">
 <br>
   <div class="large-4 columns">
@@ -33,7 +33,7 @@ permalink: "/team/"
       <img src="{{ site.url }}/images/nisha.jpg">
       <p>
       <b><font size="2">Nisha Rajagopal, Ph.D.</font></b>
-      <br><font size="2">nish.iitg@gmail.com</font>
+      <br><font size="2">nishar@csail.mit.edu</font>
       </p>
   </div>
   <div class="large-4 columns"></div>
@@ -55,15 +55,15 @@ permalink: "/team/"
       <img src="{{ site.url }}/images/matt.jpg">
       <p>
       <b><font size="2"><a href="http://medwards.org">Matt Edwards</a></font></b>
-      <br><font size="2">mattted@mit.edu</font>
+      <br><font size="2">matted@mit.edu</font>
       </p>
   </div>
 
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/tatsu.jpg">
       <p>
-      <b><font size="2">Tatsu Hashimoto</font></b>
-      <br><font size="2">tatsu23456@gmail.com</font>
+      <b><font size="2"><a href="http://www.mit.edu/~thashim">Tatsu Hashimoto</a></font></b>
+      <br><font size="2">thashim@mit.edu</font>
       </p>
   </div>
 </div>
@@ -72,8 +72,8 @@ permalink: "/team/"
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/jonas.jpg">
       <p>
-      <b><font size="2">Jonas Mueller</font></b>
-      <br><font size="2">jonasmueller at csail.mit.edu</font>
+      <b><font size="2"><a href="http://www.mit.edu/~jonasm">Jonas Mueller</a></font></b>
+      <br><font size="2">jonasm@mit.edu</font>
       </p>
   </div>
 
@@ -88,7 +88,7 @@ permalink: "/team/"
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/haoyang.jpg">
       <p>
-      <b><font size="2"><a href="haoyangz.github.io">Haoyang Zeng</a></font></b>
+      <b><font size="2"><a href="http://haoyangz.github.io">Haoyang Zeng</a></font></b>
       <br><font size="2">haoyangz@mit.edu</font>
       </p>
   </div> 
@@ -96,7 +96,7 @@ permalink: "/team/"
 
 <div class="row">
   <div class="large-4 columns">
-      <img src="{{ site.url }}/images/photo.jpg">
+      <img src="{{ site.url }}/images/grace.jpg">
       <p>
       <b><font size="2">Grace Yeo</font></b>
       <br><font size="2">yhtgrace@mit.edu</font>
@@ -157,7 +157,7 @@ permalink: "/team/"
   <div class="large-4 columns"></div>  
 
   <div class="large-4 columns">
-      <img src="{{ site.url }}/images/photo.jpg">
+      <img src="{{ site.url }}/images/sharanya.jpg">
       <p>
       <b><font size="2">Sharanya Srinavasan</font></b>
       <br><font size="2">Technician</font>
