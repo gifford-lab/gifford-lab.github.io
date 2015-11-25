@@ -2,9 +2,7 @@
 layout: page-fullwidth
 title: "Publications"
 header:
-     image_fullwidth: "stata5.jpg"
-     caption: (image credit)
-     caption_url: https://www.flickr.com/photos/fgr1986/22696641061/
+     image_fullwidth: "dna.jpg"
 permalink: "/publications/"
 ---
 <!--more-->
@@ -96,7 +94,7 @@ permalink: "/publications/"
     </div><!-- /.medium-6.columns -->
     
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/journal.pcbi.png" alt="">
+        <img src="{{ site.url }}/images/journal.pcbi2.jpg" alt="">
         <p> <font size="2">S. Mahony, M. D. Edwards, E. O. Mazzoni, R. I. Sherwood, A. Kakumanu, C. A. Morrison, H. Wichterle, D. K. Gifford . 
         <br><i> PLoS Comput Biol</i>. 2014 Mar 27;10(3):e1003501. doi: 10.1371/journal.pcbi.1003501. eCollection 2014 Mar</font></p>
     </div><!-- /.medium-6.columns -->
