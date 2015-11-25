@@ -23,16 +23,10 @@ widget2:
   image: PNAS-2014-Edwards2.png
   text: 'We have designed a unique system in yeast where we can control both sources of information so that the phenotype of a single chromosomal polymorphism can be measured in the presence of different cytoplasmic elements. With this system, we have shown that both the source of the mitochondrial genome and the presence or absence of a dsRNA virus influence the phenotype of chromosomal variants that affect the growth of yeast.'
 widget3:
-  title: "GERV: a statictical method for generative evaluation of regulatory variants for trancription factor binding"
-  url: '/research/Chris'
+  title: "Interpretation non-coding variants"
+  url: '/research/GERV'
   image: gerv-img2.jpg
-  text: 'GERV (generative evaluation of regulatory variants), is a novel computational
-method for predicting regulatory variants that affect transcription factor binding. We show that GERV outperforms existing methods
-in predicting single-nucleotide polymorphisms associated with allele-specific binding. GERV
-correctly predicts a validated causal variant among linked single-nucleotide polymorphisms and
-prioritizes the variants previously reported to modulate the binding of FOXA1 in breast cancer cell
-lines. Thus, GERV provides a powerful approach for functionally annotating and prioritizing causal
-variants for experimental follow-up analysis.'
+  text: 'We present GERV, a novel computational method for predicting regulatory variants that affect transcription factor binding. GERV learns a k-mer-based generative model of transcription factor binding from ChIP-seq and DNase-seq data, and scores variants by the change of predicted ChIP-seq reads between the reference and alternate allele.'
 
 permalink: /index.html
 ---

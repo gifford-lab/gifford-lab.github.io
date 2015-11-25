@@ -54,7 +54,7 @@ permalink: "/team/"
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/matt.jpg">
       <p>
-      <b><font size="2"><a href="http://medwards.org">Matt Edwards</a></font></b>
+      <b><font size="2"><a href="http://www.mdedwards.org">Matt Edwards</a></font></b>
       <br><font size="2">matted@mit.edu</font>
       </p>
   </div>
@@ -114,7 +114,7 @@ permalink: "/team/"
     <div class="large-4 columns">
       <img src="{{ site.url }}/images/logan.jpg">
       <p>
-      <b><font size="2"><a href="loganengstrom.com">Logan Engstrom</a></font></b>
+      <b><font size="2"><a href="http://loganengstrom.com">Logan Engstrom</a></font></b>
       <br><font size="2">engstrom@mit.edu</font>
       </p>
     </div>
