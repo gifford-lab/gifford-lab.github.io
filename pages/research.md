@@ -2,7 +2,9 @@
 layout: page-fullwidth
 title: "Research"
 header:
-     image_fullwidth: "PsychiatricGenomics-3col.jpg"
+     image_fullwidth: "stata4.jpg"
+     caption: (image credit)
+     caption_url: https://www.flickr.com/photos/koalie/16175053750/
 permalink: "/research/"
 ---
 ### Current Projects ###

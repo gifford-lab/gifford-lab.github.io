@@ -2,7 +2,9 @@
 layout: page-fullwidth
 title: "Publications"
 header:
-     image_fullwidth: "PsychiatricGenomics-3col.jpg"
+     image_fullwidth: "stata5.jpg"
+     caption: (image credit)
+     caption_url: https://www.flickr.com/photos/fgr1986/22696641061/
 permalink: "/publications/"
 ---
 <!--more-->
