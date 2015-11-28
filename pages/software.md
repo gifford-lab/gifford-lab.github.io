@@ -23,15 +23,15 @@ More software can be found in our [GitHub](https://github.com/gifford-lab/) Repo
    
    * [Multipool](https://github.com/matted/multipool) - High-resolution genetic mapping for pooled sequencing
 	
-   * [GEM](http://cgs.csail.mit.edu/gem/) - Integrative Genome wide Event finding and Motif discovery for ChIP-seq and ChIP-exo data.  
+   * [GEM](http://groups.csail.mit.edu/cgs/gem/) - Integrative Genome wide Event finding and Motif discovery for ChIP-seq and ChIP-exo data.  
    
-   * [GPS](http://cgs.csail.mit.edu/onePageGPS/) - The Genome Positioning System for discovering binding events in ChIP-seq data.
+   * [GPS](http://groups.csail.mit.edu/cgs/onePageGPS/) - The Genome Positioning System for discovering binding events in ChIP-seq data.
    
-   * [GSE](http://cgs.csail.mit.edu/gse.html) - Genomic Spatial Events system, a database for storing, visualizing, and analyzing ChIP-base transcription factor binding data and gene expression data.
+   * [GSE](http://groups.csail.mit.edu/cgs/gse.html) - Genomic Spatial Events system, a database for storing, visualizing, and analyzing ChIP-base transcription factor binding data and gene expression data.
    
-   * [GRAM](http://cgs.csail.mit.edu/onePageGram/) - The GRAM (Genetic RegulAtory Modules) algorithm identifies modules, collections of genes that share common regulators, as well as expression profiles.
+   * [GRAM](http://groups.csail.mit.edu/cgs/onePageGram/) - The GRAM (Genetic RegulAtory Modules) algorithm identifies modules, collections of genes that share common regulators, as well as expression profiles.
    
-   * [JBD](http://cgs.csail.mit.edu/jbd.html) - The JBD (Joint Binding Deconvolution) algorithm detects binding sites based on ChIP-chip data and guides.
+   * [JBD](http://groups.csail.mit.edu/cgs/jbd.html) - The JBD (Joint Binding Deconvolution) algorithm detects binding sites based on ChIP-chip data and guides.
    
-   * [GeneProgram](http://cgs.csail.mit.edu/geneprogram.html) - Automated discovery of functional generality of gene expression programs (sets co-expressed genes)
+   * [GeneProgram](http://groups.csail.mit.edu/cgs/geneprogram.html) - Automated discovery of functional generality of gene expression programs (sets co-expressed genes)
 
