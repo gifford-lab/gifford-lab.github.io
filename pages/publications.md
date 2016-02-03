@@ -7,6 +7,24 @@ permalink: "/publications/"
 ---
 <!--more-->
 
+
+<div class="row t60">
+    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/nbt.3468.pdf">High-throughput mapping of regulatory DNA</a></b></p>
+        <p><font size="2">Quantifying the effects of cis-regulatory DNA on gene expression is a major challenge. Here, we present the multiplexed editing regulatory assay (MERA), a high-throughput CRISPR-Cas9–based approach that analyzes the functional impact of the regulatory genome in its native context. MERA tiles thousands of mutations across ~40 kb of cis-regulatory genomic space and uses knock-in green fluorescent protein (GFP) reporters to read out gene activity. Using this approach, we obtain quantitative information on the contribution of cis-regulatory regions to gene expression. We identify proximal and distal regulatory elements necessary for expression of four embryonic stem cell–specific genes. We show a consistent contribution of neighboring gene promoters to gene expression and identify unmarked regulatory elements (UREs) that control gene expression but do not have typical enhancer epigenetic or chromatin features. We compare thousands of functional and nonfunctional genotypes at a genomic location and identify the base pair–resolution functional motifs of regulatory elements.</font></p>
+    </div><!-- /.medium-6.columns -->
+    
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/nbt.3468-F1.png" alt="">
+        <p> <font size="2">Rajagopal, Nisha, Sharanya Srinivasan, Kameron Kooshesh, Yuchun Guo, Matthew D. Edwards, Budhaditya Banerjee, Tahin Syed, Bart JM Emons, David K. Gifford, and Richard I. Sherwood. 
+        <br> <i>Nature Biotechnology</i>. 2016 </font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+
+
 <div class="row t60">
     
     <div class="medium-8 columns b30">

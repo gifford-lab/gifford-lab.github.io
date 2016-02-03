@@ -18,10 +18,10 @@ a computational method for modeling the magnitude and
 shape of genome-wide DNase I hypersensitivity profiles to 
 identify transcription factor (TF) binding sites.'
 widget2:
-  title: "Nonchromosomal effects on heritability"
-  url: '/research/Matt'
-  image: PNAS-2014-Edwards2.png
-  text: 'We have designed a unique system in yeast where we can control both sources of information so that the phenotype of a single chromosomal polymorphism can be measured in the presence of different cytoplasmic elements. With this system, we have shown that both the source of the mitochondrial genome and the presence or absence of a dsRNA virus influence the phenotype of chromosomal variants that affect the growth of yeast.'
+  title: "High-throughput mapping of regulatory DNA"
+  url: '/research/MERA'
+  image: nbt.3468-F1.png
+  text: 'Here, we present the multiplexed editing regulatory assay (MERA), a high-throughput CRISPR-Cas9–based approach that analyzes the functional impact of the regulatory genome in its native context. Using this approach, we identify unmarked regulatory elements (UREs) that control gene expression but do not have typical enhancer epigenetic or chromatin features.'
 widget3:
   title: "Interpretation non-coding variants"
   url: '/research/GERV'
