@@ -110,7 +110,20 @@ permalink: "/team/"
 
   
   <div class="large-4 columns"></div>
-  <div class="large-4 columns"></div>  
+  <div class="large-4 columns"></div>
+  
+  <div class="large-4 columns">
+  	<img src="{{ site.url }}/images/profile_placeholder.png">
+      <p>
+      
+      <b><font size="2">Max Shen</font></b>
+      <br><font size="2">maxwshen@mit.edu</font>
+      </p>
+  </div>
+
+  
+  <div class="large-4 columns"></div>
+  <div class="large-4 columns"></div>    
 </div>
 
 
@@ -154,6 +167,8 @@ permalink: "/team/"
       <br><font size="2">shars@mit.edu</font>
       </p>
   </div> 
+    <div class="large-4 columns"></div>
+  <div class="large-4 columns"></div>  
 </div>
 
 
@@ -161,9 +176,10 @@ permalink: "/team/"
 <h3>Previous group members</h3> 
 
 ##### Graduate students
-+ Chris Reeder
-+ Tim Danford (Now at Novartis)
-+ Amy Williams
++ Rujian Chen
++ Chris Reeder (Now at Kyruus)
++ Tim Danford (Now at Tamr Inc.)
++ [Amy Williams](http://williamslab.bscb.cornell.edu/) (Now faculty in Cornell)
 + Alex Rolfe (Now at EMD Serono)
 + [Georg Gerber](https://sites.google.com/a/clinpath.bwh.harvard.edu/gerberlab/home) (Now faculty at Harvard Medical School)
 + [Ziv Bar-Joseph](http://www.cs.cmu.edu/~zivbj/) (Now faculty at CMU)
