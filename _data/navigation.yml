@@ -15,13 +15,12 @@
   side: left
 
 - title: Publications
-  url: "/publications/"
   side: left
-  #dropdown:
-  #- title: "Complete"
-  #  url: "/publications/"
-  #- title: "Gallery"
-  #  url: "/roadmap/"
+  dropdown:
+  - title: "Peer-referred"
+    url: "/publications/"
+  - title: "Preprint"
+    url: "/preprints/"
   #- title: "PubMed"
   #  url: "/roadmap/"
 

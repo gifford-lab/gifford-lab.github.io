@@ -7,6 +7,20 @@ permalink: "/publications/"
 ---
 <!--more-->
 
+<div class="row t60">
+    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0152683.PDF">Cas9 Functionally Opens Chromatin</a></b></p>
+        <p><font size="2">Using a nuclease-dead Cas9 mutant, we show that Cas9 reproducibly induces chromatin accessibility at previously inaccessible genomic loci. Cas9 chromatin opening is sufficient to enable adjacent binding and transcriptional activation by the settler transcription factor retinoic acid receptor at previously unbound motifs. Thus, we demonstrate a new use for Cas9 in increasing surrounding chromatin accessibility to alter local transcription factor binding.</font></p>
+    </div><!-- /.medium-6.columns -->
+    
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/journal.pone.0152683.g001.PNG" alt="">
+        <p> <font size="2">Barkal AA Srinivasan S, Hashimoto T, Gifford DK, Sherwood RI.
+        <br> <i>PLoS One</i>. 2016 Mar 31;11(3):e0152683.  </font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
 
 <div class="row t60">
     
@@ -18,7 +32,7 @@ permalink: "/publications/"
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/nbt.3468-F1.png" alt="">
         <p> <font size="2">Rajagopal, Nisha, Sharanya Srinivasan, Kameron Kooshesh, Yuchun Guo, Matthew D. Edwards, Budhaditya Banerjee, Tahin Syed, Bart JM Emons, David K. Gifford, and Richard I. Sherwood. 
-        <br> <i>Nature Biotechnology</i>. 2016 </font></p>
+        <br> <i>Nature Biotechnology</i> 34, 167–174 (2016) </font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
@@ -35,7 +49,7 @@ permalink: "/publications/"
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/gerv-img.jpg" alt="">
         <p> <font size="2">H. Zeng, T. Hashimoto, D.D. Kang, D.K. Gifford.
-        <br> <i>Bioinformatics</i>. 2015 Oct 17. doi: 10.1093/bioinformatics/btv565</font></p>
+        <br> <i>Bioinformatics</i>  32 (4): 490-496 (2016)</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 

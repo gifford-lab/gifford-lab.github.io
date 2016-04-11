@@ -43,19 +43,20 @@ permalink: "/team/"
 <h3>Graduate Students</h3>
 <div class="row">
 <br>
-  <div class="large-4 columns">
-      <img src="{{ site.url }}/images/rujian.jpg">
-      <p>
-      <b><font size="2">Rujian Chen</font></b>
-      <br><font size="2">rjchen@mit.edu</font>
-      </p>
-  </div>
 
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/matt.jpg">
       <p>
       <b><font size="2"><a href="http://www.mdedwards.org">Matt Edwards</a></font></b>
       <br><font size="2">matted@mit.edu</font>
+      </p>
+  </div>
+  
+   <div class="large-4 columns">
+      <img src="{{ site.url }}/images/tahin.jpg">
+      <p>
+      <b><font size="2">Tahin Syed</font></b>
+      <br><font size="2">syedt@mit.edu</font>
       </p>
   </div>
 
@@ -77,13 +78,7 @@ permalink: "/team/"
       </p>
   </div>
 
-  <div class="large-4 columns">
-      <img src="{{ site.url }}/images/tahin.jpg">
-      <p>
-      <b><font size="2">Tahin Syed</font></b>
-      <br><font size="2">syedt@mit.edu</font>
-      </p>
-  </div>
+
 
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/haoyang.jpg">
@@ -92,20 +87,32 @@ permalink: "/team/"
       <br><font size="2">haoyangz@mit.edu</font>
       </p>
   </div> 
-</div>
-
-<div class="row">
-  <div class="large-4 columns">
+  
+    <div class="large-4 columns">
       <img src="{{ site.url }}/images/grace.jpg">
       <p>
       <b><font size="2">Grace Yeo</font></b>
       <br><font size="2">yhtgrace@mit.edu</font>
       </p>
   </div>
+</div>
+
+<div class="row">
+
+  
+   <div class="large-4 columns">
+      <img src="{{ site.url }}/images/saber.jpg">
+      <p>
+      <b><font size="2">Ge (Saber) Liu</font></b>
+      <br><font size="2">geliu@mit.edu</font>
+      </p>
+  </div>
+
   
   <div class="large-4 columns"></div>
   <div class="large-4 columns"></div>  
 </div>
+
 
 <h3>Undergraduate Students</h3>
 
@@ -118,14 +125,6 @@ permalink: "/team/"
       <br><font size="2">engstrom@mit.edu</font>
       </p>
     </div>
-  
-  <div class="large-4 columns">
-      <img src="{{ site.url }}/images/kevin.png">
-      <p>
-      <b><font size="2">Kevin  Tian</font></b>
-      <br><font size="2">ktian6@mit.edu</font>
-      </p>
-  </div>
 
   <div class="large-4 columns"></div>
 </div>
@@ -135,15 +134,6 @@ permalink: "/team/"
 
 <div class="row">
 <br>
-  <div class="large-4 columns">
-      <img src="{{ site.url }}/images/darling.jpg">
-      <p>
-      <b><font size="2">Jeanne Darling</font></b>
-      <br>
-      <font size="2">Lab Staff</font>
-      <br><font size="2">darling@mit.edu</font>
-      </p>
-  </div>
 
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/patrice-new.jpg">
@@ -168,3 +158,26 @@ permalink: "/team/"
 
 
 
+<h3>Previous group members</h3> 
+
+##### Graduate students
++ Chris Reeder
++ Tim Danford (Now at Novartis)
++ Amy Williams
++ Alex Rolfe (Now at EMD Serono)
++ [Georg Gerber](https://sites.google.com/a/clinpath.bwh.harvard.edu/gerberlab/home) (Now faculty at Harvard Medical School)
++ [Ziv Bar-Joseph](http://www.cs.cmu.edu/~zivbj/) (Now faculty at CMU)
++ [Alex Hartemink](https://users.cs.duke.edu/~amink/) (Now faculty at Duke)
+
+##### Post-docs
++ [Charlie O'Donnell](http://www.codonnell.org/) (Now at Biogen)
++ [Shaun Mahony](http://mahonylab.org/) (Now faculty at Penn State U)
++ [Robin Dowell](http://dowell.colorado.edu/index.html) (Now faculty at U of Colorado)
++ [Alan Qi](https://www.cs.purdue.edu/homes/alanqi/index.htm) (Now faculty at U of Purdue)
+
+##### Undergraduate students
++ Kevin Tian
++ Daniel Kang
+
+##### Staff
++ Jeanne Darling
