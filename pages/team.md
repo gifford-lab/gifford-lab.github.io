@@ -113,7 +113,7 @@ permalink: "/team/"
   <div class="large-4 columns"></div>
   
   <div class="large-4 columns">
-  	<img src="{{ site.url }}/images/profile_placeholder.png">
+  	<img src="{{ site.url }}/images/Max.jpg">
       <p>
       
       <b><font size="2">Max Shen</font></b>
@@ -173,7 +173,7 @@ permalink: "/team/"
 
 
 
-<h3>Previous group members</h3> 
+<h3>Previous group members (not complete)</h3> 
 
 ##### Graduate students
 + Rujian Chen
