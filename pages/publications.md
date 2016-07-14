@@ -6,6 +6,35 @@ header:
 permalink: "/publications/"
 ---
 <!--more-->
+<div class="row t60">
+    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://bioinformatics.oxfordjournals.org/content/32/12/i121.long">Convolutional neural network architectures for predicting DNA-protein binding.</a></b></p>
+        <p><font size="2">We present a systematic exploration of CNN architectures for predicting DNA sequence binding using a large compendium of transcription factor datasets. We identify the best-performing architectures by varying CNN width, depth and pooling designs. We find that adding convolutional kernels to a network is important for motif-based tasks. We show the benefits of CNNs in learning rich higher-order sequence features, such as secondary motifs and local sequence context, by comparing network performance on multiple modeling tasks ranging in difficulty. We also demonstrate how careful construction of sequence benchmark datasets, using approaches that control potentially confounding effects like positional or motif strength bias, is critical in making fair comparisons between competing methods. We explore how to establish the sufficiency of training data for these learning tasks, and we have created a flexible cloud-based framework that permits the rapid exploration of alternative neural network architectures for problems in computational biology.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/cnn_structure.png" alt="">
+        <p> <font size="2">Zeng H, Edwards MD, Liu G, Gifford DK.
+        <br> <i>Bioinformatics</i>. 2016 Jun 15;32(12):i121-i127. doi: 10.1093/bioinformatics/btw255.</font></p>
+    </div><!-- /.medium-6.columns -->
+
+</div><!-- /.row -->
+
+<div class="row t60">
+    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/PNAS-2016-Ferreira-5364-9.pdf">A distant trophoblast-specific enhancer controls HLA-G expression at the maternal-fetal interface.</a></b></p>
+        <p><font size="2">HLA-G, a nonclassical HLA molecule uniquely expressed in the placenta, is a central component of fetus-induced immune tolerance during pregnancy. The tissue-specific expression of HLA-G, however, remains poorly understood. Here, systematic interrogation of the HLA-G locus using massively parallel reporter assay (MPRA) uncovered a previously unidentified cis-regulatory element 12 kb upstream of HLA-G with enhancer activity, Enhancer L Strikingly, clustered regularly-interspaced short palindromic repeats (CRISPR)/Cas9-mediated deletion of this enhancer resulted in ablation of HLA-G expression in JEG3 cells and in primary human trophoblasts isolated from placenta. RNA-seq analysis demonstrated that Enhancer L specifically controls HLA-G expression. Moreover, DNase-seq and chromatin conformation capture (3C) defined Enhancer L as a cell type-specific enhancer that loops into the HLA-G promoter. Interestingly, MPRA-based saturation mutagenesis of Enhancer L identified motifs for transcription factors of the CEBP and GATA families essential for placentation. These factors associate with Enhancer L and regulate HLA-G expression. Our findings identify long-range chromatin looping mediated by core trophoblast transcription factors as the mechanism controlling tissue-specific HLA-G expression at the maternal-fetal interface. More broadly, these results establish the combination of MPRA and CRISPR/Cas9 deletion as a powerful strategy to investigate human immune gene regulation.</font></p>
+    </div><!-- /.medium-6.columns -->
+    
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/HLA-G.png" alt="">
+        <p> <font size="2">Ferreira LM, Meissner TB, Mikkelsen TS, Mallard W, O'Donnell CW, Tilburgs T, Gomes HA, Camahort R, Sherwood RI, Gifford DK, Rinn JL, Cowan CA, Strominger JL.
+        <br> <i>Proc Natl Acad Sci U.S.A </i>. 2016 May 10;113(19):5364-9. doi: 10.1073/pnas.1602886113. </font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
 
 <div class="row t60">
     
