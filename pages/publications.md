@@ -6,8 +6,13 @@ header:
 permalink: "/publications/"
 ---
 <!--more-->
+
+
 <div class="row t60">
-    
+<img src="{{ site.url }}/images/hiring_postdocs.png" style="width:200px;height:126px;">
+</div>
+
+<div class="row t60">    
     <div class="medium-8 columns b30">
         <p><b><a href="http://bioinformatics.oxfordjournals.org/content/32/12/i121.long">Convolutional neural network architectures for predicting DNA-protein binding.</a></b></p>
         <p><font size="2">We present a systematic exploration of CNN architectures for predicting DNA sequence binding using a large compendium of transcription factor datasets. We identify the best-performing architectures by varying CNN width, depth and pooling designs. We find that adding convolutional kernels to a network is important for motif-based tasks. We show the benefits of CNNs in learning rich higher-order sequence features, such as secondary motifs and local sequence context, by comparing network performance on multiple modeling tasks ranging in difficulty. We also demonstrate how careful construction of sequence benchmark datasets, using approaches that control potentially confounding effects like positional or motif strength bias, is critical in making fair comparisons between competing methods. We explore how to establish the sufficiency of training data for these learning tasks, and we have created a flexible cloud-based framework that permits the rapid exploration of alternative neural network architectures for problems in computational biology.</font></p>
@@ -17,7 +22,6 @@ permalink: "/publications/"
         <p> <font size="2">Zeng H, Edwards MD, Liu G, Gifford DK.
         <br> <i>Bioinformatics</i>. 2016 Jun 15;32(12):i121-i127. doi: 10.1093/bioinformatics/btw255.</font></p>
     </div><!-- /.medium-6.columns -->
-
 </div><!-- /.row -->
 
 <div class="row t60">

@@ -7,6 +7,11 @@ header:
      caption_url: https://www.flickr.com/photos/seeminglee/3791607622/
 permalink: "/team/"
 ---
+<div class="row t60">
+<img src="{{ site.url }}/images/hiring_postdocs.png" style="width:200px;height:126px;">
+</div>
+
+
 <h3>Principal Investigator</h3>
 <div class="row">
 <br>
@@ -29,14 +34,6 @@ permalink: "/team/"
       <br><font size="2">yguo@mit.edu</font>
       </p>
   </div>
-  <div class="large-4 columns">
-      <img src="{{ site.url }}/images/nisha.jpg">
-      <p>
-      <b><font size="2">Nisha Rajagopal, Ph.D.</font></b>
-      <br><font size="2">nishar@csail.mit.edu</font>
-      </p>
-  </div>
-  <div class="large-4 columns"></div>
 </div>
 
 
@@ -47,7 +44,7 @@ permalink: "/team/"
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/matt.jpg">
       <p>
-      <b><font size="2"><a href="http://www.mdedwards.org">Matt Edwards</a></font></b>
+      <b><font size="2">Matt Edwards [<a href="http://www.mdedwards.org">website</a>]</font></b>
       <br><font size="2">matted@mit.edu</font>
       </p>
   </div>
@@ -59,31 +56,25 @@ permalink: "/team/"
       <br><font size="2">syedt@mit.edu</font>
       </p>
   </div>
-
-  <div class="large-4 columns">
-      <img src="{{ site.url }}/images/tatsu.jpg">
-      <p>
-      <b><font size="2"><a href="http://www.mit.edu/~thashim">Tatsu Hashimoto</a></font></b>
-      <br><font size="2">thashim@mit.edu</font>
-      </p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="large-4 columns">
+ <div class="large-4 columns">
       <img src="{{ site.url }}/images/jonas.jpg">
       <p>
-      <b><font size="2"><a href="http://www.mit.edu/~jonasm">Jonas Mueller</a></font></b>
+      <b><font size="2">Jonas Mueller [<a href="http://www.mit.edu/~jonasm">website</a>]</font></b>
       <br><font size="2">jonasm@mit.edu</font>
       </p>
   </div>
 
 
+</div>
+
+<div class="row">
+ 
+
 
   <div class="large-4 columns">
       <img src="{{ site.url }}/images/haoyang.jpg">
       <p>
-      <b><font size="2"><a href="http://haoyangz.github.io">Haoyang Zeng</a></font></b>
+      <b><font size="2">Haoyang Zeng [<a href="http://haoyangz.github.io">website</a>]</font></b>
       <br><font size="2">haoyangz@mit.edu</font>
       </p>
   </div> 
@@ -95,12 +86,8 @@ permalink: "/team/"
       <br><font size="2">yhtgrace@mit.edu</font>
       </p>
   </div>
-</div>
-
-<div class="row">
-
   
-   <div class="large-4 columns">
+     <div class="large-4 columns">
       <img src="{{ site.url }}/images/saber.jpg">
       <p>
       <b><font size="2">Ge (Saber) Liu</font></b>
@@ -108,11 +95,11 @@ permalink: "/team/"
       </p>
   </div>
 
-  
-  <div class="large-4 columns"></div>
-  <div class="large-4 columns"></div>
-  
-  <div class="large-4 columns">
+
+</div>
+
+<div class="row">
+<div class="large-4 columns">
   	<img src="{{ site.url }}/images/Max.jpg">
       <p>
       
@@ -120,10 +107,9 @@ permalink: "/team/"
       <br><font size="2">maxwshen@mit.edu</font>
       </p>
   </div>
-
-  
+ 
   <div class="large-4 columns"></div>
-  <div class="large-4 columns"></div>    
+  <div class="large-4 columns"></div>  
 </div>
 
 
@@ -134,7 +120,7 @@ permalink: "/team/"
     <div class="large-4 columns">
       <img src="{{ site.url }}/images/logan.jpg">
       <p>
-      <b><font size="2"><a href="http://loganengstrom.com">Logan Engstrom</a></font></b>
+      <b><font size="2">Logan Engstrom [<a href="http://loganengstrom.com">website</a>]</font></b>
       <br><font size="2">engstrom@mit.edu</font>
       </p>
     </div>
@@ -176,6 +162,7 @@ permalink: "/team/"
 <h3>Previous group members (not complete)</h3> 
 
 ##### Graduate students
++ [Tatsunori Hashimoto](http://www.mit.edu/~thashim/) (Now post-doc at Stanford)
 + Rujian Chen
 + Chris Reeder (Now at Kyruus)
 + Tim Danford (Now at Tamr Inc.)
@@ -186,6 +173,7 @@ permalink: "/team/"
 + [Alex Hartemink](https://users.cs.duke.edu/~amink/) (Now faculty at Duke)
 
 ##### Post-docs
++ Nisha Rajagopal (Now at )
 + [Charlie O'Donnell](http://www.codonnell.org/) (Now at Biogen)
 + [Shaun Mahony](http://mahonylab.org/) (Now faculty at Penn State U)
 + [Robin Dowell](http://dowell.colorado.edu/index.html) (Now faculty at U of Colorado)

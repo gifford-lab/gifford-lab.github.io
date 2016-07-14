@@ -7,6 +7,10 @@ header:
      caption_url: https://www.flickr.com/photos/askpang/14246424833/
 permalink: "/research/"
 ---
+<div class="row t60">
+<img src="{{ site.url }}/images/hiring_postdocs.png" style="width:200px;height:126px;">
+</div>
+
 ### Current Projects
 
 #### Transcription factor organization during cellular reprogramming
