@@ -173,8 +173,8 @@ permalink: "/team/"
 + [Alex Hartemink](https://users.cs.duke.edu/~amink/) (Now faculty at Duke)
 
 ##### Post-docs
-+ Nisha Rajagopal (Now at )
-+ [Charlie O'Donnell](http://www.codonnell.org/) (Now at Biogen)
++ Nisha Rajagopal (Now at [Syros](http://syros.com/) )
++ [Charlie O'Donnell](http://www.codonnell.org/) (Now at [Biogen](https://www.biogen.com/))
 + [Shaun Mahony](http://mahonylab.org/) (Now faculty at Penn State U)
 + [Robin Dowell](http://dowell.colorado.edu/index.html) (Now faculty at U of Colorado)
 + [Alan Qi](https://www.cs.purdue.edu/homes/alanqi/index.htm) (Now faculty at U of Purdue)
