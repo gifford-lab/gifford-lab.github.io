@@ -14,6 +14,19 @@ permalink: "/publications/"
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/hashimoto16.pdf ">Learning Population-Level Diffusions with Generative Recurrent Networks</a></b></p>
+        <p><font size="2">We estimate stochastic processes that govern thedynamics of evolving populations such as celldifferentiation. The problem is challenging sincelongitudinal trajectory measurements of individualsin a population are rarely available due toexperimental cost and/or privacy. We show thatcross-sectional samples from an evolving populationsuffice for recovery within a class of processeseven if samples are available only at afew distinct time points. We provide a stratifiedanalysis of recoverability conditions, and establishthat reversibility is sufficient for recoverability.For estimation, we derive a natural loss andregularization, and parameterize the processes asdiffusive recurrent neural networks. We demonstratethe approach in the context of uncoveringcomplex cellular dynamics known as the ‘epigeneticlandscape’ from existing biological assays.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/hashimoto16.png" alt="">
+        <p> <font size="2">Hashimoto TB, Gifford DK, Jaakkola TS.
+        <br> <i>Proceedings of the 33 rd International Conference on MachineLearning (ICML)</i></font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
         <p><b><a href="http://bioinformatics.oxfordjournals.org/content/32/12/i121.long">Convolutional neural network architectures for predicting DNA-protein binding.</a></b></p>
         <p><font size="2">We present a systematic exploration of CNN architectures for predicting DNA sequence binding using a large compendium of transcription factor datasets. We identify the best-performing architectures by varying CNN width, depth and pooling designs. We find that adding convolutional kernels to a network is important for motif-based tasks. We show the benefits of CNNs in learning rich higher-order sequence features, such as secondary motifs and local sequence context, by comparing network performance on multiple modeling tasks ranging in difficulty. We also demonstrate how careful construction of sequence benchmark datasets, using approaches that control potentially confounding effects like positional or motif strength bias, is critical in making fair comparisons between competing methods. We explore how to establish the sufficiency of training data for these learning tasks, and we have created a flexible cloud-based framework that permits the rapid exploration of alternative neural network architectures for problems in computational biology.</font></p>
     </div><!-- /.medium-6.columns -->
