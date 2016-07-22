@@ -17,7 +17,7 @@
 - title: Publications
   side: left
   dropdown:
-  - title: "Peer-referred"
+  - title: "Peer-refereed"
     url: "/publications/"
   - title: "Preprint"
     url: "/preprints/"
