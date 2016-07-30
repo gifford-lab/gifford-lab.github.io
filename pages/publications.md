@@ -14,6 +14,22 @@ permalink: "/publications/"
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">A Synergistic DNA Logic Predicts Genome-wide Chromatin Accessibility </a></b></p>
+        <p><font size="2">Enhancers and promoters commonly occur in accessible chromatin characterized by depleted nucleosome contact; however, it is unclear how chromatin accessibility is governed. We show that log-additive cis-acting DNA sequence features can predict chromatin accessibility at high spatial resolution. We develop a new type of high-dimensional machine learning model, the Synergistic Chromatin Model (SCM), which when trained with DNase-seq data for a cell type is capable of predicting expected read counts of a genome-wide chromatin accessibility at every base from DNA
+sequence alone, with the highest accuracy at hypersensitive sites shared across cell types. We confirm that a SCM accurately predicts chromatin accessibility for thousands of synthetic DNA sequences using a novel CRISPR-based method of highly efficient site-specific DNA library integration. SCMs are directly interpretable and reveal that a logic based on local, non-specific synergistic effects, largely among pioneer TFs, is sufficient to predict a large fraction of cellular chromatin accessibility in a wide
+variety of cell types. </font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/scm.png" alt="">
+        <p> <font size="2">Hashimoto TB, Sherwood RI, Kang DD, Barkal AA, Zeng H, Emons BJM, Srinivasan S, Rajagopal N, Jaakkola T, and Gifford DK.
+        <br> <i>Genome Research</i>, doi:
+10.1101/gr.199778.115</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
         <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/hashimoto16.pdf ">Learning Population-Level Diffusions with Generative Recurrent Networks</a></b></p>
         <p><font size="2">We estimate stochastic processes that govern thedynamics of evolving populations such as celldifferentiation. The problem is challenging sincelongitudinal trajectory measurements of individualsin a population are rarely available due toexperimental cost and/or privacy. We show thatcross-sectional samples from an evolving populationsuffice for recovery within a class of processeseven if samples are available only at afew distinct time points. We provide a stratifiedanalysis of recoverability conditions, and establishthat reversibility is sufficient for recoverability.For estimation, we derive a natural loss andregularization, and parameterize the processes asdiffusive recurrent neural networks. We demonstratethe approach in the context of uncoveringcomplex cellular dynamics known as the ‘epigeneticlandscape’ from existing biological assays.</font></p>
     </div><!-- /.medium-6.columns -->
