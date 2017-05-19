@@ -20,7 +20,7 @@ permalink: "/publications/"
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/zeng-2017-Predicting-impact.jpeg" alt="">
         <p> <font size="2">Zeng H, Gifford DK.
-        <br> <i>Hum Mutat. 2017 Feb 21</i>, doi:
+        <br> <i>Nucleic Acids Res. 2017 Mar 16.</i>, doi:
  https://doi.org/10.1093/nar/gkx177
  </font></p>
     </div><!-- /.medium-6.columns -->
