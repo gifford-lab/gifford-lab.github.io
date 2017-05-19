@@ -80,6 +80,22 @@ Our results provide comprehensive cell-type-specific combinatorial binding maps 
 </div><!-- /.row -->
 
 
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">Identification of new branch points and unconventional introns in Saccharomyces cerevisiae.</a></b></p>
+        <p><font size="2">Spliced messages constitute one-fourth of expressed mRNAs in the yeast Saccharomyces cerevisiae, and most mRNAs in metazoans. Splicing requires 5′ splice site (5′SS), branch point (BP), and 3′ splice site (3′SS) elements, but the role of the BP in splicing control is poorly understood because BP identification remains difficult. We developed a high-throughput method, Branch-seq, to map BPs and 5′SSs of isolated RNA lariats. Applied to S. cerevisiae, Branch-seq detected 76% of expressed, annotated BPs and identified a comparable number of novel BPs. We performed RNA-seq to confirm associated 3′SS locations, identifying some 200 novel splice junctions, including an AT-AC intron. We show that several yeast introns use two or even three different BPs, with effects on 3′SS choice, protein coding potential, or RNA stability, and identify novel introns whose splicing changes during meiosis or in response to stress. Together, these findings show unanticipated complexity of splicing in yeast.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/Gould-Oct-2016-Identification of new branch.jpg" alt="">
+        <p> <font size="2">Gould GM, Paggi JM, Guo Y, Phizicky DV, Zinshteyn B, Wang ET, Gilbert WV, Gifford DK, Burge CB.  
+        <br> <i>RNA. 2016 Oct;22(10):1522-34.</i>, doi:
+10.1261/ma.057216.116.</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+
+
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
