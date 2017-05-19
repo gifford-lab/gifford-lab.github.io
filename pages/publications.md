@@ -15,6 +15,74 @@ permalink: "/publications/"
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
+        <p><b><a href="http://onlinelibrary.wiley.com/doi/10.1002/humu.23198/epdf">Accurate eQTL prioritization with an ensemble-based framework </a></b></p>
+        <p><font size="2">We present a novel ensemble-based computational framework, EnsembleExpr, that achieved the best performance in the Fourth Critical Assessment of Genome Interpretation expression quantitative trait locus "(eQTL)-causal SNPs" challenge for identifying eQTLs and prioritizing their gene expression effects. eQTLs are genome sequence variants that result in gene expression changes and are thus prime suspects in the search for contributions to the causality of complex traits. When EnsembleExpr is trained on data from massively parallel reporter assays, it accurately predicts reporter expression levels from unseen regulatory sequences and identifies sequence variants that exhibit significant changes in reporter expression. Compared with other state-of-the-art methods, EnsembleExpr achieved competitive performance when applied on eQTL datasets determined by other protocols. We envision EnsembleExpr to be a resource to help interpret noncoding regulatory variants and prioritize disease-associated mutations for downstream validation.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/scm.png" alt="">
+        <p> <font size="2">Zeng H, Edwards MD, Guo Y, Gifford DK.
+        <br> <i>Hum Mutat. 2017 Feb 21</i>, doi:
+10.1002/humu.23198. </font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">Modular combinatorial binding among human trans-acting factors reveals direct and indirect factor binding.</a></b></p>
+        <p><font size="2">BACKGROUND:
+
+The combinatorial binding of trans-acting factors (TFs) to the DNA is critical to the spatial and temporal specificity of gene regulation. For certain regulatory regions, more than one regulatory module (set of TFs that bind together) are combined to achieve context-specific gene regulation. However, previous approaches are limited to either pairwise TF co-association analysis or assuming that only one module is used in each regulatory region.
+RESULTS:
+
+We present a new computational approach that models the modular organization of TF combinatorial binding. Our method learns compact and coherent regulatory modules from in vivo binding data using a topic model. We found that the binding of 115 TFs in K562 cells can be organized into 49 interpretable modules. Furthermore, we found that tens of thousands of regulatory regions use multiple modules, a structure that cannot be observed with previous hard clustering based methods. The modules discovered recapitulate many published protein-protein physical interactions, have consistent functional annotations of chromatin states, and uncover context specific co-binding such as gene proximal binding of NFY + FOS + SP and distal binding of NFY + FOS + USF. For certain TFs, the co-binding partners of direct binding (motif present) differs from those of indirect binding (motif absent); the distinct set of co-binding partners can predict whether the TF binds directly or indirectly with up to 95% accuracy. Joint analysis across two cell types reveals both cell-type-specific and shared regulatory modules.
+CONCLUSIONS:
+
+Our results provide comprehensive cell-type-specific combinatorial binding maps and suggest a modular organization of combinatorial binding..</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/scm.png" alt="">
+        <p> <font size="2">Kreimer A, Zeng H, Edwards MD, Guo Y, Tian K, Shin S, Welch R, Wainberg M, Mohan R, Sinnott-Armstrong NA, Li Y, Eraslan G, Amin TB, Goke J, Mueller NS, Kellis M, Kundaje A, Beer MA, Keles S, Gifford DK, Yosef N.  
+        <br> <i>HBMC Genomics. 2017 Jan 6;18(1):45.</i>, doi:
+10.1186/s12864-016-3434-3.</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">Expression of Terminal Effector Genes in Mammalian Neurons Is Maintained by a Dynamic Relay of Transient Enhancers. </a></b></p>
+        <p><font size="2">Generic spinal motor neuron identity is established by cooperative binding of programming transcription factors (TFs), Isl1 and Lhx3, to motor-neuron-specific enhancers. How expression of effector genes is maintained following downregulation of programming TFs in maturing neurons remains unknown. High-resolution exonuclease (ChIP-exo) mapping revealed that the majority of enhancers established by programming TFs are rapidly deactivated following Lhx3 downregulation in stem-cell-derived hypaxial motor neurons. Isl1 is released from nascent motor neuron enhancers and recruited to new enhancers bound by clusters of Onecut1 in maturing neurons. Synthetic enhancer reporter assays revealed that Isl1 operates as an integrator factor, translating the density of Lhx3 or Onecut1 binding sites into transient enhancer activity. Importantly, independent Isl1/Lhx3- and Isl1/Onecut1-bound enhancers contribute to sustained expression of motor neuron effector genes, demonstrating that outwardly stable expression of terminal effector genes in postmitotic neurons is controlled by a dynamic relay of stage-specific enhancers.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/Expression-of-Terminal-Effector.jpg" alt="">
+        <p> <font size="2">.Rhee HS, Closser M, Guo Y, Bashkirova EV, Tan CG, Gifford DK, Wichterle H.  
+        <br> <i>Neuron. 2016 Dec 21;92(6):1252-1265.</i>, doi:
+10.1016/j.neuron.2016.11.037.</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">Predicting gene expression in massively parallel reporter assays: A comparative study. </a></b></p>
+        <p><font size="2">In many human diseases, associated genetic changes tend to occur within noncoding regions, whose effect might be related to transcriptional control. A central goal in human genetics is to understand the function of such noncoding regions: given a region that is statistically associated with changes in gene expression (expression quantitative trait locus [eQTL]), does it in fact play a regulatory role? And if so, how is this role “coded” in its sequence? These questions were the subject of the Critical Assessment of Genome Interpretation eQTL challenge. Participants were given a set of sequences that flank eQTLs in humans and were asked to predict whether these are capable of regulating transcription (as evaluated by massively parallel reporter assays), and whether this capability changes between alternative alleles. Here, we report lessons learned from this community effort. By inspecting predictive properties in isolation, and conducting meta-analysis over the competing methods, we find that using chromatin accessibility and transcription factor binding as features in an ensemble of classifiers or regression models leads to the most accurate results. We then characterize the loci that are harder to predict, putting the spotlight on areas of weakness, which we expect to be the subject of future studies.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/scm.png" alt="">
+        <p> <font size="2">Kreimer A, Zeng H, Edwards MD, Guo Y, Tian K, Shin S, Welch R, Wainberg M, Mohan R, Sinnott-Armstrong NA, Li Y, Eraslan G, Amin TB, Goke J, Mueller NS, Kellis M, Kundaje A, Beer MA, Keles S, Gifford DK, Yosef N.  
+        <br> <i>Hum Mutat. 2017 Feb 21.</i>, doi:
+10.1002/humu.23197.</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
         <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">A Synergistic DNA Logic Predicts Genome-wide Chromatin Accessibility </a></b></p>
         <p><font size="2">Enhancers and promoters commonly occur in accessible chromatin characterized by depleted nucleosome contact; however, it is unclear how chromatin accessibility is governed. We show that log-additive cis-acting DNA sequence features can predict chromatin accessibility at high spatial resolution. We develop a new type of high-dimensional machine learning model, the Synergistic Chromatin Model (SCM), which when trained with DNase-seq data for a cell type is capable of predicting expected read counts of a genome-wide chromatin accessibility at every base from DNA
 sequence alone, with the highest accuracy at hypersensitive sites shared across cell types. We confirm that a SCM accurately predicts chromatin accessibility for thousands of synthetic DNA sequences using a novel CRISPR-based method of highly efficient site-specific DNA library integration. SCMs are directly interpretable and reveal that a logic based on local, non-specific synergistic effects, largely among pioneer TFs, is sufficient to predict a large fraction of cellular chromatin accessibility in a wide
