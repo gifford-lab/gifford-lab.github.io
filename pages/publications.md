@@ -32,7 +32,7 @@ permalink: "/publications/"
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
-        <p><b><a href="http://onlinelibrary.wiley.com/doi/10.1002/humu.23198/epdf">Accurate eQTL prioritization with an ensemble-based framework </a></b></p>
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Zeng_et_al-2017-Human_Mutation.pdf">Accurate eQTL prioritization with an ensemble-based framework </a></b></p>
         <p><font size="2">We present a novel ensemble-based computational framework, EnsembleExpr, that achieved the best performance in the Fourth Critical Assessment of Genome Interpretation expression quantitative trait locus "(eQTL)-causal SNPs" challenge for identifying eQTLs and prioritizing their gene expression effects. eQTLs are genome sequence variants that result in gene expression changes and are thus prime suspects in the search for contributions to the causality of complex traits. When EnsembleExpr is trained on data from massively parallel reporter assays, it accurately predicts reporter expression levels from unseen regulatory sequences and identifies sequence variants that exhibit significant changes in reporter expression. Compared with other state-of-the-art methods, EnsembleExpr achieved competitive performance when applied on eQTL datasets determined by other protocols. We envision EnsembleExpr to be a resource to help interpret noncoding regulatory variants and prioritize disease-associated mutations for downstream validation.</font></p>
     </div><!-- /.medium-6.columns -->
     <div class="medium-4 columns b30">
