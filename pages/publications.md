@@ -42,7 +42,7 @@ Our results provide comprehensive cell-type-specific combinatorial binding maps 
     </div><!-- /.medium-6.columns -->
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/Guo-2016-Modular-combinatorial.jpg" alt="">
-        <p> <font size="2">Kreimer A, Zeng H, Edwards MD, Guo Y, Tian K, Shin S, Welch R, Wainberg M, Mohan R, Sinnott-Armstrong NA, Li Y, Eraslan G, Amin TB, Goke J, Mueller NS, Kellis M, Kundaje A, Beer MA, Keles S, Gifford DK, Yosef N.  
+        <p> <font size="2">Guo Y, Gifford DK.   
         <br> <i>HBMC Genomics. 2017 Jan 6;18(1):45.</i>, doi:
 10.1186/s12864-016-3434-3.</font></p>
     </div><!-- /.medium-6.columns -->
