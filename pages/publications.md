@@ -19,7 +19,7 @@ permalink: "/publications/"
         <p><font size="2">We present a novel ensemble-based computational framework, EnsembleExpr, that achieved the best performance in the Fourth Critical Assessment of Genome Interpretation expression quantitative trait locus "(eQTL)-causal SNPs" challenge for identifying eQTLs and prioritizing their gene expression effects. eQTLs are genome sequence variants that result in gene expression changes and are thus prime suspects in the search for contributions to the causality of complex traits. When EnsembleExpr is trained on data from massively parallel reporter assays, it accurately predicts reporter expression levels from unseen regulatory sequences and identifies sequence variants that exhibit significant changes in reporter expression. Compared with other state-of-the-art methods, EnsembleExpr achieved competitive performance when applied on eQTL datasets determined by other protocols. We envision EnsembleExpr to be a resource to help interpret noncoding regulatory variants and prioritize disease-associated mutations for downstream validation.</font></p>
     </div><!-- /.medium-6.columns -->
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/scm.png" alt="">
+        <img src="{{ site.url }}/images/Zeng-2017-Accurate-eQTL.png" alt="">
         <p> <font size="2">Zeng H, Edwards MD, Guo Y, Gifford DK.
         <br> <i>Hum Mutat. 2017 Feb 21</i>, doi:
 10.1002/humu.23198. </font></p>
@@ -41,7 +41,7 @@ CONCLUSIONS:
 Our results provide comprehensive cell-type-specific combinatorial binding maps and suggest a modular organization of combinatorial binding..</font></p>
     </div><!-- /.medium-6.columns -->
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/scm.png" alt="">
+        <img src="{{ site.url }}/images/Guo-2016-Modular-combinatorial.jpg" alt="">
         <p> <font size="2">Kreimer A, Zeng H, Edwards MD, Guo Y, Tian K, Shin S, Welch R, Wainberg M, Mohan R, Sinnott-Armstrong NA, Li Y, Eraslan G, Amin TB, Goke J, Mueller NS, Kellis M, Kundaje A, Beer MA, Keles S, Gifford DK, Yosef N.  
         <br> <i>HBMC Genomics. 2017 Jan 6;18(1):45.</i>, doi:
 10.1186/s12864-016-3434-3.</font></p>
