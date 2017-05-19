@@ -46,7 +46,7 @@ permalink: "/publications/"
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
-        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">Modular combinatorial binding among human trans-acting factors reveals direct and indirect factor binding.</a></b></p>
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Guo-Jan-2017-BMC-Genomics-Modular.pdf ">Modular combinatorial binding among human trans-acting factors reveals direct and indirect factor binding.</a></b></p>
         <p><font size="2">BACKGROUND:
 
 The combinatorial binding of trans-acting factors (TFs) to the DNA is critical to the spatial and temporal specificity of gene regulation. For certain regulatory regions, more than one regulatory module (set of TFs that bind together) are combined to achieve context-specific gene regulation. However, previous approaches are limited to either pairwise TF co-association analysis or assuming that only one module is used in each regulatory region.
