@@ -12,6 +12,23 @@ permalink: "/publications/"
 <img src="{{ site.url }}/images/hiring_postdocs.png" style="width:200px;height:126px;">
 </div>
 
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://onlinelibrary.wiley.com/doi/10.1002/humu.23198/epdf">Predicting the impact of non-coding variants on DNA methylation.</a></b></p>
+        <p><font size="2">DNA methylation plays a crucial role in the establishment of tissue-specific gene expression and the regulation of key biological processes. However, our present inability to predict the effect of genome sequence variation on DNA methylation precludes a comprehensive assessment of the consequences of non-coding variation. We introduce CpGenie, a sequence-based framework that learns a regulatory code of DNA methylation using a deep convolutional neural network and uses this network to predict the impact of sequence variation on proximal CpG site DNA methylation. CpGenie produces allele-specific DNA methylation prediction with single-nucleotide sensitivity that enables accurate prediction of methylation quantitative trait loci (meQTL). We demonstrate that CpGenie prioritizes validated GWAS SNPs, and contributes to the prediction of functional non-coding variants, including expression quantitative trait loci (eQTL) and disease-associated mutations. CpGenie is publicly available to assist in identifying and interpreting regulatory non-coding variants.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/zeng-2017-Predicting-impact.jpeg" alt="">
+        <p> <font size="2">Zeng H, Gifford DK.
+        <br> <i>Hum Mutat. 2017 Feb 21</i>, doi:
+ https://doi.org/10.1093/nar/gkx177
+ </font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+
+
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
