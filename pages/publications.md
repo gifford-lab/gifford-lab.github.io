@@ -6,28 +6,78 @@ header:
 permalink: "/publications/"
 ---
 <!--more-->
-
-
-<div class="row t60">
-<img src="{{ site.url }}/images/hiring_postdocs.png" style="width:200px;height:126px;">
-</div>
-
 <div class="row t60">    
     <div class="medium-8 columns b30">
-        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Zeng-2017-NAR-Predicting.pdf">Predicting the impact of non-coding variants on DNA methylation.</a></b></p>
-        <p><font size="2">DNA methylation plays a crucial role in the establishment of tissue-specific gene expression and the regulation of key biological processes. However, our present inability to predict the effect of genome sequence variation on DNA methylation precludes a comprehensive assessment of the consequences of non-coding variation. We introduce CpGenie, a sequence-based framework that learns a regulatory code of DNA methylation using a deep convolutional neural network and uses this network to predict the impact of sequence variation on proximal CpG site DNA methylation. CpGenie produces allele-specific DNA methylation prediction with single-nucleotide sensitivity that enables accurate prediction of methylation quantitative trait loci (meQTL). We demonstrate that CpGenie prioritizes validated GWAS SNPs, and contributes to the prediction of functional non-coding variants, including expression quantitative trait loci (eQTL) and disease-associated mutations. CpGenie is publicly available to assist in identifying and interpreting regulatory non-coding variants.</font></p>
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Seq2betterSeq.pdf">Sequence to Better Sequence: Continuous Revision of Combinatorial Structures  </a></b></p>
+        <p><font size="2">We present a model that, after learning on observations
+of (sequence, outcome) pairs, can be
+efficiently used to revise a new sequence in order
+to improve its associated outcome. Our framework
+requires neither example improvements,
+nor additional evaluation of outcomes for proposed
+revisions. To avoid combinatorial-search
+over sequence elements, we specify a generative
+model with continuous latent factors, which is
+learned via joint approximate inference using a
+recurrent variational autoencoder (VAE) and an
+outcome-predicting neural network module. Under
+this model, gradient methods can be used to
+efficiently optimize the continuous latent factors
+with respect to inferred outcomes. By appropriately
+constraining this optimization and using the
+VAE decoder to generate a revised sequence, we
+ensure the revision is fundamentally similar to
+the original sequence, is associated with better
+outcomes, and looks natural. These desiderata
+are proven to hold with high probability under
+our approach, which is empirically demonstrated
+for revising natural language sentences.</font></p>
     </div><!-- /.medium-6.columns -->
     <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/zeng-2017-Predicting-impact.jpeg" alt="">
-        <p> <font size="2">Zeng H, Gifford DK.
-        <br> <i>Nucleic Acids Res. 2017 Mar 16.</i>, doi:
- https://doi.org/10.1093/nar/gkx177
- </font></p>
+        <img src="{{ site.url }}/images/seq2betterseq.png" alt="">
+        <p> <font size="2">Mueller J,  Gifford DK,  Jaakkola T.
+        <br> <i>International Conference on Machine Learning</i>, pp. 2536-2544. 2017.</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/persistentTrends.pdf">Modeling Persistent Trends in Distributions</a></b></p>
+        <p><font size="2">We present a nonparametric framework to model a short sequence of probability distributions
+that vary both due to underlying effects of sequential progression and confounding
+noise. To distinguish between these two types of variation and estimate the sequentialprogression
+effects, our approach leverages an assumption that these effects follow a persistent
+trend. This work is motivated by the recent rise of single-cell RNA-sequencing
+experiments over a brief time course, which aim to identify genes relevant to the progression
+of a particular biological process across diverse cell populations. While classical
+statistical tools focus on scalar-response regression or order-agnostic differences between
+distributions, it is desirable in this setting to consider both the full distributions as well as
+the structure imposed by their ordering. We introduce a new regression model for ordinal
+covariates where responses are univariate distributions and the underlying relationship re-
+flects consistent changes in the distributions over increasing levels of the covariate. This
+concept is formalized as a trend in distributions, which we define as an evolution that is
+linear under the Wasserstein metric. Implemented via a fast alternating projections algorithm,
+our method exhibits numerous strengths in simulations and analyses of single-cell
+gene expression data.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/trends.png" alt="">
+        <p> <font size="2">Mueller J,  Jaakkola T, Gifford DK.
+        <br> <i>Journal of the American Statistical Association</i> 2017</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
 
-
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/journal.pone.0179411">Differential chromatin profiles partially determine transcription factor binding </a></b></p>
+        <p><font size="2">We characterize how genomic variants that alter chromatin accessibility influence regulatory factor binding with a new method called DeltaBind that predicts condition specific factor binding more accurately than other methods based on DNase-seq data. Using DeltaBind and DNase-seq experiments we predicted the differential binding of 18 factors in K562 and GM12878 cells with an average precision of 28% at 10% recall, with the prediction of individual factors ranging from 5% to 65% precision. We further found that genome variants that alter chromatin accessibility are not necessarily predictive of altering proximal factor binding. Taken together these findings suggest that DNase-seq or ATAC-seq Quantitative Trait Loci (dsQTLs), while important, must be considered in a broader context to establish causality for phenotypic changes.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/pone.0179411.g001.jpg" alt="">
+        <p> <font size="2">Chen R and Gifford DK.
+        <br> <i>PLoS One.</i> 2017 Jul 13;12(7):e0179411. doi: 10.1371/journal.pone.0179411. eCollection 2017.</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
 
 
 <div class="row t60">    
@@ -38,7 +88,7 @@ permalink: "/publications/"
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/Zeng-2017-Accurate-eQTL.png" alt="">
         <p> <font size="2">Zeng H, Edwards MD, Guo Y, Gifford DK.
-        <br> <i>Hum Mutat. 2017 Feb 21</i>, doi:
+        <br> <i>Hum Mutat.</i> 2017 Feb 21, doi:
 10.1002/humu.23198. </font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -60,7 +110,7 @@ Our results provide comprehensive cell-type-specific combinatorial binding maps 
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/Guo-2016-Modular-combinatorial.jpg" alt="">
         <p> <font size="2">Guo Y, Gifford DK.   
-        <br> <i>HBMC Genomics. 2017 Jan 6;18(1):45.</i>, doi:
+        <br> <i>HBMC Genomics.</i> 2017 Jan 6;18(1):45., doi:
 10.1186/s12864-016-3434-3.</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -68,13 +118,13 @@ Our results provide comprehensive cell-type-specific combinatorial binding maps 
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
-        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">Expression of Terminal Effector Genes in Mammalian Neurons Is Maintained by a Dynamic Relay of Transient Enhancers. </a></b></p>
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/neuron2016.pdf ">Expression of Terminal Effector Genes in Mammalian Neurons Is Maintained by a Dynamic Relay of Transient Enhancers. </a></b></p>
         <p><font size="2">Generic spinal motor neuron identity is established by cooperative binding of programming transcription factors (TFs), Isl1 and Lhx3, to motor-neuron-specific enhancers. How expression of effector genes is maintained following downregulation of programming TFs in maturing neurons remains unknown. High-resolution exonuclease (ChIP-exo) mapping revealed that the majority of enhancers established by programming TFs are rapidly deactivated following Lhx3 downregulation in stem-cell-derived hypaxial motor neurons. Isl1 is released from nascent motor neuron enhancers and recruited to new enhancers bound by clusters of Onecut1 in maturing neurons. Synthetic enhancer reporter assays revealed that Isl1 operates as an integrator factor, translating the density of Lhx3 or Onecut1 binding sites into transient enhancer activity. Importantly, independent Isl1/Lhx3- and Isl1/Onecut1-bound enhancers contribute to sustained expression of motor neuron effector genes, demonstrating that outwardly stable expression of terminal effector genes in postmitotic neurons is controlled by a dynamic relay of stage-specific enhancers.</font></p>
     </div><!-- /.medium-6.columns -->
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/Expression-of-Terminal-Effector.jpg" alt="">
-        <p> <font size="2">.Rhee HS, Closser M, Guo Y, Bashkirova EV, Tan CG, Gifford DK, Wichterle H.  
-        <br> <i>Neuron. 2016 Dec 21;92(6):1252-1265.</i>, doi:
+        <p> <font size="2">Rhee HS, Closser M, Guo Y, Bashkirova EV, Tan CG, Gifford DK, Wichterle H.  
+        <br> <i>Neuron.</i> 2016 Dec 21;92(6):1252-1265., doi:
 10.1016/j.neuron.2016.11.037.</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -85,13 +135,13 @@ Our results provide comprehensive cell-type-specific combinatorial binding maps 
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
-        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">Predicting gene expression in massively parallel reporter assays: A comparative study. </a></b></p>
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Kreimer_et_al-2017-Human_Mutation.pdf ">Predicting gene expression in massively parallel reporter assays: A comparative study. </a></b></p>
         <p><font size="2">In many human diseases, associated genetic changes tend to occur within noncoding regions, whose effect might be related to transcriptional control. A central goal in human genetics is to understand the function of such noncoding regions: given a region that is statistically associated with changes in gene expression (expression quantitative trait locus [eQTL]), does it in fact play a regulatory role? And if so, how is this role “coded” in its sequence? These questions were the subject of the Critical Assessment of Genome Interpretation eQTL challenge. Participants were given a set of sequences that flank eQTLs in humans and were asked to predict whether these are capable of regulating transcription (as evaluated by massively parallel reporter assays), and whether this capability changes between alternative alleles. Here, we report lessons learned from this community effort. By inspecting predictive properties in isolation, and conducting meta-analysis over the competing methods, we find that using chromatin accessibility and transcription factor binding as features in an ensemble of classifiers or regression models leads to the most accurate results. We then characterize the loci that are harder to predict, putting the spotlight on areas of weakness, which we expect to be the subject of future studies.</font></p>
     </div><!-- /.medium-6.columns -->
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/Predicting-gene-express-Kreimer.png" alt="">
         <p> <font size="2">Kreimer A, Zeng H, Edwards MD, Guo Y, Tian K, Shin S, Welch R, Wainberg M, Mohan R, Sinnott-Armstrong NA, Li Y, Eraslan G, Amin TB, Goke J, Mueller NS, Kellis M, Kundaje A, Beer MA, Keles S, Gifford DK, Yosef N.  
-        <br> <i>Hum Mutat. 2017 Feb 21.</i>, doi:
+        <br> <i>Hum Mutat.</i> 2017 Feb 21., doi:
 10.1002/humu.23197.</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -99,13 +149,13 @@ Our results provide comprehensive cell-type-specific combinatorial binding maps 
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
-        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">Identification of new branch points and unconventional introns in Saccharomyces cerevisiae.</a></b></p>
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/RNA-2016-Gould-1522-34.pdf ">Identification of new branch points and unconventional introns in Saccharomyces cerevisiae.</a></b></p>
         <p><font size="2">Spliced messages constitute one-fourth of expressed mRNAs in the yeast Saccharomyces cerevisiae, and most mRNAs in metazoans. Splicing requires 5′ splice site (5′SS), branch point (BP), and 3′ splice site (3′SS) elements, but the role of the BP in splicing control is poorly understood because BP identification remains difficult. We developed a high-throughput method, Branch-seq, to map BPs and 5′SSs of isolated RNA lariats. Applied to S. cerevisiae, Branch-seq detected 76% of expressed, annotated BPs and identified a comparable number of novel BPs. We performed RNA-seq to confirm associated 3′SS locations, identifying some 200 novel splice junctions, including an AT-AC intron. We show that several yeast introns use two or even three different BPs, with effects on 3′SS choice, protein coding potential, or RNA stability, and identify novel introns whose splicing changes during meiosis or in response to stress. Together, these findings show unanticipated complexity of splicing in yeast.</font></p>
     </div><!-- /.medium-6.columns -->
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/Gould-Oct-2016-Identification of new branch.jpg" alt="">
         <p> <font size="2">Gould GM, Paggi JM, Guo Y, Phizicky DV, Zinshteyn B, Wang ET, Gilbert WV, Gifford DK, Burge CB.  
-        <br> <i>RNA. 2016 Oct;22(10):1522-34.</i>, doi:
+        <br> <i>RNA.</i> 2016 Oct;22(10):1522-34., doi:
 10.1261/ma.057216.116.</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -116,7 +166,7 @@ Our results provide comprehensive cell-type-specific combinatorial binding maps 
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
-        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/scm.pdf ">A Synergistic DNA Logic Predicts Genome-wide Chromatin Accessibility </a></b></p>
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Genome Res.-2016-Hashimoto-1430-40.pdf ">A Synergistic DNA Logic Predicts Genome-wide Chromatin Accessibility </a></b></p>
         <p><font size="2">Enhancers and promoters commonly occur in accessible chromatin characterized by depleted nucleosome contact; however, it is unclear how chromatin accessibility is governed. We show that log-additive cis-acting DNA sequence features can predict chromatin accessibility at high spatial resolution. We develop a new type of high-dimensional machine learning model, the Synergistic Chromatin Model (SCM), which when trained with DNase-seq data for a cell type is capable of predicting expected read counts of a genome-wide chromatin accessibility at every base from DNA
 sequence alone, with the highest accuracy at hypersensitive sites shared across cell types. We confirm that a SCM accurately predicts chromatin accessibility for thousands of synthetic DNA sequences using a novel CRISPR-based method of highly efficient site-specific DNA library integration. SCMs are directly interpretable and reveal that a logic based on local, non-specific synergistic effects, largely among pioneer TFs, is sufficient to predict a large fraction of cellular chromatin accessibility in a wide
 variety of cell types. </font></p>

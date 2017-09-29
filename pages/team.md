@@ -7,9 +7,6 @@ header:
      caption_url: https://www.flickr.com/photos/seeminglee/3791607622/
 permalink: "/team/"
 ---
-<div class="row t60">
-<img src="{{ site.url }}/images/hiring_postdocs.png" style="width:200px;height:126px;">
-</div>
 
 
 <h3>Principal Investigator</h3>
@@ -40,14 +37,6 @@ permalink: "/team/"
 <h3>Graduate Students</h3>
 <div class="row">
 <br>
-
-  <div class="large-4 columns">
-      <img src="{{ site.url }}/images/matt.jpg">
-      <p>
-      <b><font size="2">Matt Edwards [<a href="http://www.mdedwards.org">website</a>]</font></b>
-      <br><font size="2">matted@mit.edu</font>
-      </p>
-  </div>
   
    <div class="large-4 columns">
       <img src="{{ site.url }}/images/tahin.jpg">
@@ -63,6 +52,14 @@ permalink: "/team/"
       <br><font size="2">jonasm@mit.edu</font>
       </p>
   </div>
+  
+  <div class="large-4 columns">
+      <img src="{{ site.url }}/images/haoyang.jpg">
+      <p>
+      <b><font size="2">Haoyang Zeng [<a href="http://haoyangz.github.io">website</a>]</font></b>
+      <br><font size="2">haoyangz@mit.edu</font>
+      </p>
+  </div> 
 
 
 </div>
@@ -71,13 +68,7 @@ permalink: "/team/"
  
 
 
-  <div class="large-4 columns">
-      <img src="{{ site.url }}/images/haoyang.jpg">
-      <p>
-      <b><font size="2">Haoyang Zeng [<a href="http://haoyangz.github.io">website</a>]</font></b>
-      <br><font size="2">haoyangz@mit.edu</font>
-      </p>
-  </div> 
+  
   
     <div class="large-4 columns">
       <img src="{{ site.url }}/images/grace.jpg">
@@ -94,12 +85,8 @@ permalink: "/team/"
       <br><font size="2">geliu@mit.edu</font>
       </p>
   </div>
-
-
-</div>
-
-<div class="row">
-<div class="large-4 columns">
+  
+  <div class="large-4 columns">
   	<img src="{{ site.url }}/images/Max.jpg">
       <p>
       
@@ -108,8 +95,36 @@ permalink: "/team/"
       </p>
   </div>
  
-  <div class="large-4 columns"></div>
-  <div class="large-4 columns"></div>  
+</div>
+
+
+<div class="row">
+  <div class="large-4 columns">
+  	<img src="{{ site.url }}/images/Konstantin.jpg" height="151" width="222">
+      <p>
+      
+      <b><font size="2">Konstantin Krismer</font></b>
+      <br><font size="2">krismer@mit.edu</font>
+      </p>
+  </div>
+  
+  <div class="large-4 columns">
+  	<img src="{{ site.url }}/images/jen_lab_photo.jpg">
+      <p>
+      
+      <b><font size="2">Jennifer Hammelman</font></b>
+      <br><font size="2">jhammelm@mit.edu</font>
+      </p>
+  </div>
+  
+  <div class="large-4 columns">
+  	<img src="{{ site.url }}/images/brandon.jpg">
+      <p>
+      
+      <b><font size="2">Brandon Carter</font></b>
+      <br><font size="2">bcarter@mit.edu </font>
+      </p>
+  </div> 
 </div>
 
 
@@ -135,26 +150,15 @@ permalink: "/team/"
 <br>
 
   <div class="large-4 columns">
-      <img src="{{ site.url }}/images/patrice-new.jpg">
+      <img src="{{ site.url }}/images/linda.jpg">
       <p>
-      <b><font size="2">Patarice Macmaluso</font></b>
+      <b><font size="2">Linda Lynch</font></b>
       <br>
       <font size="2">Administrative Assistant</font>
-      <br><font size="2">macaluso@mit.edu</font>
+      <br><font size="2">lindalynch@csail.mit.edu </font>
       </p>
         </div>
-  <div class="large-4 columns"></div>  
-
-  <div class="large-4 columns">
-      <img src="{{ site.url }}/images/sharanya.jpg">
-      <p>
-      <b><font size="2">Sharanya Srinavasan</font></b>
-      <br><font size="2">Technician</font>
-      <br><font size="2">shars@mit.edu</font>
-      </p>
-  </div> 
-    <div class="large-4 columns"></div>
-  <div class="large-4 columns"></div>  
+  <div class="large-4 columns"></div>   
 </div>
 
 
@@ -162,6 +166,8 @@ permalink: "/team/"
 <h3>Previous group members (not complete)</h3> 
 
 ##### Graduate students
+
++ [Matthew Edwards](http://www.mdedwards.org/) (Now at Verily)
 + [Tatsunori Hashimoto](http://www.mit.edu/~thashim/) (Now post-doc at Stanford)
 + Rujian Chen
 + Chris Reeder (Now at Kyruus)

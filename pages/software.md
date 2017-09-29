@@ -7,9 +7,6 @@ header:
      caption_url: https://www.flickr.com/photos/justinjensen/4454664922/
 permalink: "/software/"
 ---
-<div class="row t60">
-<img src="{{ site.url }}/images/hiring_postdocs.png" style="width:200px;height:126px;">
-</div>
 
 
 More software can be found in our [GitHub](https://github.com/gifford-lab/) Repository.
