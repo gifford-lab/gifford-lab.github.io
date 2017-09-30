@@ -82,6 +82,41 @@ gene expression data.</font></p>
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/zeng-2017-NAR.pdf ">Predicting the impact of non-coding variants on DNA
+methylation.</a></b></p>
+        <p><font size="2">DNA methylation plays a crucial role in the establishment
+of tissue-specific gene expression and the
+regulation of key biological processes. However, our
+present inability to predict the effect of genome sequence
+variation on DNA methylation precludes a
+comprehensive assessment of the consequences
+of non-coding variation. We introduce CpGenie, a
+sequence-based framework that learns a regulatory
+code of DNA methylation using a deep convolutional
+neural network and uses this network to predict the
+impact of sequence variation on proximal CpG site
+DNA methylation. CpGenie produces allele-specific
+DNA methylation prediction with single-nucleotide
+sensitivity that enables accurate prediction of methylation
+quantitative trait loci (meQTL). We demonstrate
+that CpGenie prioritizes validated GWAS SNPs,
+and contributes to the prediction of functional noncoding
+variants, including expression quantitative
+trait loci (eQTL) and disease-associated mutations.
+CpGenie is publicly available to assist in identifying
+and interpreting regulatory non-coding variants.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/gkx177fig1.jpg" alt="">
+        <p> <font size="2">Zeng H and Gifford DK.   
+        <br> <i>Nucleic Acids Res.</i> 2017 Jun 20;45(11):e99. doi: 10.1093/nar/gkx177.</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
         <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Zeng_et_al-2017-Human_Mutation.pdf">Accurate eQTL prioritization with an ensemble-based framework </a></b></p>
         <p><font size="2">We present a novel ensemble-based computational framework, EnsembleExpr, that achieved the best performance in the Fourth Critical Assessment of Genome Interpretation expression quantitative trait locus "(eQTL)-causal SNPs" challenge for identifying eQTLs and prioritizing their gene expression effects. eQTLs are genome sequence variants that result in gene expression changes and are thus prime suspects in the search for contributions to the causality of complex traits. When EnsembleExpr is trained on data from massively parallel reporter assays, it accurately predicts reporter expression levels from unseen regulatory sequences and identifies sequence variants that exhibit significant changes in reporter expression. Compared with other state-of-the-art methods, EnsembleExpr achieved competitive performance when applied on eQTL datasets determined by other protocols. We envision EnsembleExpr to be a resource to help interpret noncoding regulatory variants and prioritize disease-associated mutations for downstream validation.</font></p>
     </div><!-- /.medium-6.columns -->
@@ -96,6 +131,20 @@ gene expression data.</font></p>
 
 <div class="row t60">    
     <div class="medium-8 columns b30">
+        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Kreimer_et_al-2017-Human_Mutation.pdf ">Predicting gene expression in massively parallel reporter assays: A comparative study. </a></b></p>
+        <p><font size="2">In many human diseases, associated genetic changes tend to occur within noncoding regions, whose effect might be related to transcriptional control. A central goal in human genetics is to understand the function of such noncoding regions: given a region that is statistically associated with changes in gene expression (expression quantitative trait locus [eQTL]), does it in fact play a regulatory role? And if so, how is this role “coded” in its sequence? These questions were the subject of the Critical Assessment of Genome Interpretation eQTL challenge. Participants were given a set of sequences that flank eQTLs in humans and were asked to predict whether these are capable of regulating transcription (as evaluated by massively parallel reporter assays), and whether this capability changes between alternative alleles. Here, we report lessons learned from this community effort. By inspecting predictive properties in isolation, and conducting meta-analysis over the competing methods, we find that using chromatin accessibility and transcription factor binding as features in an ensemble of classifiers or regression models leads to the most accurate results. We then characterize the loci that are harder to predict, putting the spotlight on areas of weakness, which we expect to be the subject of future studies.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/Predicting-gene-express-Kreimer.png" alt="">
+        <p> <font size="2">Kreimer A, Zeng H, Edwards MD, Guo Y, Tian K, Shin S, Welch R, Wainberg M, Mohan R, Sinnott-Armstrong NA, Li Y, Eraslan G, Amin TB, Goke J, Mueller NS, Kellis M, Kundaje A, Beer MA, Keles S, Gifford DK, Yosef N.  
+        <br> <i>Hum Mutat.</i> 2017 Feb 21., doi:
+10.1002/humu.23197.</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
         <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Guo-Jan-2017-BMC-Genomics-Modular.pdf ">Modular combinatorial binding among human trans-acting factors reveals direct and indirect factor binding.</a></b></p>
         <p><font size="2">BACKGROUND:
 
@@ -104,13 +153,12 @@ RESULTS:
 
 We present a new computational approach that models the modular organization of TF combinatorial binding. Our method learns compact and coherent regulatory modules from in vivo binding data using a topic model. We found that the binding of 115 TFs in K562 cells can be organized into 49 interpretable modules. Furthermore, we found that tens of thousands of regulatory regions use multiple modules, a structure that cannot be observed with previous hard clustering based methods. The modules discovered recapitulate many published protein-protein physical interactions, have consistent functional annotations of chromatin states, and uncover context specific co-binding such as gene proximal binding of NFY + FOS + SP and distal binding of NFY + FOS + USF. For certain TFs, the co-binding partners of direct binding (motif present) differs from those of indirect binding (motif absent); the distinct set of co-binding partners can predict whether the TF binds directly or indirectly with up to 95% accuracy. Joint analysis across two cell types reveals both cell-type-specific and shared regulatory modules.
 CONCLUSIONS:
-
-Our results provide comprehensive cell-type-specific combinatorial binding maps and suggest a modular organization of combinatorial binding..</font></p>
+Our results provide comprehensive cell-type-specific combinatorial binding maps and suggest a modular organization of combinatorial binding.</font></p>
     </div><!-- /.medium-6.columns -->
     <div class="medium-4 columns b30">
         <img src="{{ site.url }}/images/Guo-2016-Modular-combinatorial.jpg" alt="">
         <p> <font size="2">Guo Y, Gifford DK.   
-        <br> <i>HBMC Genomics.</i> 2017 Jan 6;18(1):45., doi:
+        <br> <i>BMC Genomics.</i> 2017 Jan 6;18(1):45., doi:
 10.1186/s12864-016-3434-3.</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
@@ -126,23 +174,6 @@ Our results provide comprehensive cell-type-specific combinatorial binding maps 
         <p> <font size="2">Rhee HS, Closser M, Guo Y, Bashkirova EV, Tan CG, Gifford DK, Wichterle H.  
         <br> <i>Neuron.</i> 2016 Dec 21;92(6):1252-1265., doi:
 10.1016/j.neuron.2016.11.037.</font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
-
-
-
-
-
-<div class="row t60">    
-    <div class="medium-8 columns b30">
-        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Kreimer_et_al-2017-Human_Mutation.pdf ">Predicting gene expression in massively parallel reporter assays: A comparative study. </a></b></p>
-        <p><font size="2">In many human diseases, associated genetic changes tend to occur within noncoding regions, whose effect might be related to transcriptional control. A central goal in human genetics is to understand the function of such noncoding regions: given a region that is statistically associated with changes in gene expression (expression quantitative trait locus [eQTL]), does it in fact play a regulatory role? And if so, how is this role “coded” in its sequence? These questions were the subject of the Critical Assessment of Genome Interpretation eQTL challenge. Participants were given a set of sequences that flank eQTLs in humans and were asked to predict whether these are capable of regulating transcription (as evaluated by massively parallel reporter assays), and whether this capability changes between alternative alleles. Here, we report lessons learned from this community effort. By inspecting predictive properties in isolation, and conducting meta-analysis over the competing methods, we find that using chromatin accessibility and transcription factor binding as features in an ensemble of classifiers or regression models leads to the most accurate results. We then characterize the loci that are harder to predict, putting the spotlight on areas of weakness, which we expect to be the subject of future studies.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/Predicting-gene-express-Kreimer.png" alt="">
-        <p> <font size="2">Kreimer A, Zeng H, Edwards MD, Guo Y, Tian K, Shin S, Welch R, Wainberg M, Mohan R, Sinnott-Armstrong NA, Li Y, Eraslan G, Amin TB, Goke J, Mueller NS, Kellis M, Kundaje A, Beer MA, Keles S, Gifford DK, Yosef N.  
-        <br> <i>Hum Mutat.</i> 2017 Feb 21., doi:
-10.1002/humu.23197.</font></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
