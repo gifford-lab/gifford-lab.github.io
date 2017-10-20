@@ -21,7 +21,7 @@ permalink: "/team/"
   </div>
 </div>
 
-<h3>Postdoctoral Associate</h3>
+<h3>Research Scientist</h3>
 <div class="row">
 <br>
   <div class="large-4 columns">
@@ -32,6 +32,19 @@ permalink: "/team/"
       </p>
   </div>
 </div>
+
+<h3>Postdoctoral Associate</h3>
+<div class="row">
+<br>
+  <div class="large-4 columns">
+      <img src="{{ site.url }}/images/sid.png">
+      <p>
+      <b><font size="2">Siddhartha Jain, Ph.D.</font></b>
+      <br><font size="2">tmfs10@gmail.com</font>
+      </p>
+  </div>
+</div>
+
 
 
 <h3>Graduate Students</h3>
