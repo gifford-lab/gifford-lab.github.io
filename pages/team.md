@@ -94,7 +94,7 @@ permalink: "/team/"
      <div class="large-4 columns">
       <img src="{{ site.url }}/images/saber.jpg">
       <p>
-      <b><font size="2">Ge (Saber) Liu</font></b>
+      <b><font size="2">Ge (Saber) Liu [<a href="http://www.mit.edu/~geliu">website</a>]</font></b>
       <br><font size="2">geliu@mit.edu</font>
       </p>
   </div>
