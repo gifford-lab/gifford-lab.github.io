@@ -6,6 +6,50 @@ header:
 permalink: "/publications/"
 ---
 <!--more-->
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="https://genome.cshlp.org/content/early/2018/04/12/gr.226852.117">A novel k-mer set memory (KSM) motif representation improves regulatory variant prediction. </a></b></p>
+        <p><font size="2">The representation and discovery of transcription factor (TF) sequence binding specificities is critical for understanding gene regulatory networks and interpreting the impact of disease-associated non-coding genetic variants. We present a novel TF binding motif representation, the k-mer set memory (KSM), which consists of a set of aligned k-mers that are over-represented at TF binding sites, and a new method called KMAC for de novo discovery of KSMs. We find that KSMs more accurately predict in vivo binding sites than position weight matrix (PWM) models and other more complex motif models across a large set of ChIP-seq experiments. Furthermore, KSMs outperform PWMs and more complex motif models in predicting in vitro binding sites. KMAC also identifies correct motifs in more experiments than five state-of-the-art motif discovery methods. In addition, KSM derived features outperform both PWM and deep learning model derived sequence features in predicting differential regulatory activities of expression quantitative trait loci (eQTL) alleles. Finally, we have applied KMAC to 1600 ENCODE TF ChIP-seq datasets and created a public resource of KSM and PWM motifs. We expect that the KSM representation and KMAC method will be valuable in characterizing TF binding specificities and in interpreting the effects of non-coding genetic variations.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/ksm.png" alt="">
+        <p> <font size="2">Guo Y, Tian K, Zeng H, Guo X, Gifford DK.
+        <br> <i>
+Genome Res</i>. 2018 Apr 13. pii: gr.226852.117. doi: 10.1101/gr.226852.117</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="http://dx.plos.org/10.1371/journal.pone.0187046">DNase-capture reveals differential transcription factor binding modalities. </a></b></p>
+        <p><font size="2">We describe DNase-capture, an assay that increases the analytical resolution of DNase-seq by focusing its sequencing phase on selected genomic regions. We introduce a new method to compensate for capture bias called BaseNormal that allows for accurate recovery of transcription factor protection profiles from DNase-capture data. We show that these normalized data allow for nuanced detection of transcription factor binding heterogeneity with as few as dozens of sites.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/journal.pone.0187046.g001.PNG" alt="">
+        <p> <font size="2">Kang D, Sherwood R, Barkal A, Hashimoto T, Engstrom L, Gifford D.
+        <br> <i>
+PLoS One</i>. 2017 Dec 28;12(12):e0187046. doi: 10.1371/journal.pone.0187046. eCollection 2017.</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
+<div class="row t60">    
+    <div class="medium-8 columns b30">
+        <p><b><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23280">Working toward precision medicine: Predicting phenotypes from exomes in the Critical Assessment of Genome Interpretation (CAGI) challenges.  </a></b></p>
+        <p><font size="2">Precision medicine aims to predict a patient's disease risk and best therapeutic options by using that individual's genetic sequencing data. The Critical Assessment of Genome Interpretation (CAGI) is a community experiment consisting of genotype-phenotype prediction challenges; participants build models, undergo assessment, and share key findings. For CAGI 4, three challenges involved using exome-sequencing data: Crohn's disease, bipolar disorder, and warfarin dosing. Previous CAGI challenges included prior versions of the Crohn's disease challenge. Here, we discuss the range of techniques used for phenotype prediction as well as the methods used for assessing predictive models. Additionally, we outline some of the difficulties associated with making predictions and evaluating them. The lessons learned from the exome challenges can be applied to both research and clinical efforts to improve phenotype prediction from genotype. In addition, these challenges serve as a vehicle for sharing clinical and research exome data in a secure manner with scientists who have a broad range of expertise, contributing to a collaborative effort to advance our understanding of genotype-phenotype relationships.</font></p>
+    </div><!-- /.medium-6.columns -->
+    <div class="medium-4 columns b30">
+        <img src="{{ site.url }}/images/cagi_exome.png" alt="">
+        <p> <font size="2">Daneshjou R et al.
+        <br> <i>
+Hum Mutat</i>. 2017 Sep;38(9):1182-1192. doi: 10.1002/humu.23280. Epub 2017 Jul 7.</font></p>
+    </div><!-- /.medium-6.columns -->
+</div><!-- /.row -->
+
+
 <div class="row t60">    
     <div class="medium-8 columns b30">
         <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/Seq2betterSeq.pdf">Sequence to Better Sequence: Continuous Revision of Combinatorial Structures  </a></b></p>
