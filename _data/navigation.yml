@@ -15,12 +15,13 @@
   side: left
 
 - title: Publications
+  url: "/publications/"
   side: left
-  dropdown:
-  - title: "Peer-refereed"
-    url: "/publications/"
-  - title: "Preprint"
-    url: "/preprints/"
+  #dropdown:
+  #- title: "Peer-refereed"
+  #  url: "/publications/"
+  #- title: "Preprint"
+  #  url: "/preprints/"
   #- title: "PubMed"
   #  url: "/roadmap/"
 
