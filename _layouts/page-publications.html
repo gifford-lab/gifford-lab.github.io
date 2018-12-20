@@ -33,8 +33,8 @@ format: page-fullwidth
             {% for pub in site.publications %}
             <div class="row t60">
                 <div class="medium-8 columns b30">
-                    <p><b><a href="{{ pub.ext }}"> {{ pub.title }} </a></b></p>
-                    <p><font size = 2> {{ pub.content }} </p></font>
+                    <p><b><font size="4"><a href="{{ pub.ext }}"> {{ pub.title }} </a></font></b></p>
+                    <p><font size="3"> {{ pub.content }} </p></font>
                 </div>
                 <div class="medium-4 columns b30">
                     <img src="{{ site.url }}/images/{{ pub.img }}" alt="">
