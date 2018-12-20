@@ -1,0 +1,12 @@
+---
+layout: post
+title: "A novel k-mer set memory (KSM) motif representation improves regulatory variant prediction."
+authors: Guo Y, Tian K, Zeng H, Guo X, Gifford DK 
+journal: "Genome Res."
+other:  "2018 Apr 13. pii: gr.226852.117. doi: 10.1101/gr.226852.117"
+ext: "https://genome.cshlp.org/content/early/2018/04/12/gr.226852.117"
+img: ksm.png
+date: 2018-12-20 14:54
+---
+
+The representation and discovery of transcription factor (TF) sequence binding specificities is critical for understanding gene regulatory networks and interpreting the impact of disease-associated non-coding genetic variants. We present a novel TF binding motif representation, the k-mer set memory (KSM), which consists of a set of aligned k-mers that are over-represented at TF binding sites, and a new method called KMAC for de novo discovery of KSMs. We find that KSMs more accurately predict in vivo binding sites than position weight matrix (PWM) models and other more complex motif models across a large set of ChIP-seq experiments. Furthermore, KSMs outperform PWMs and more complex motif models in predicting in vitro binding sites. KMAC also identifies correct motifs in more experiments than five state-of-the-art motif discovery methods. In addition, KSM derived features outperform both PWM and deep learning model derived sequence features in predicting differential regulatory activities of expression quantitative trait loci (eQTL) alleles. Finally, we have applied KMAC to 1600 ENCODE TF ChIP-seq datasets and created a public resource of KSM and PWM motifs. We expect that the KSM representation and KMAC method will be valuable in characterizing TF binding specificities and in interpreting the effects of non-coding genetic variations.

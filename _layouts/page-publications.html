@@ -1,0 +1,51 @@
+---
+layout: default
+format: page-fullwidth
+---
+{% if page.image.title %}
+<div class="row t30">
+	<div class="small-12 columns">
+		<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
+		{% if page.image.caption_url && page.image.caption %}
+		<p class="text-right caption">
+			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+		</p>
+		{% endif %}
+	</div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+{% endif %}
+
+
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article>
+			<header>
+				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+				<h1>{{ page.title }}</h1>
+			</header>
+
+			{% if page.teaser %}
+			<p class="teaser">
+				{{ page.teaser }}
+			</p>
+			{% endif %}
+
+            {% for pub in site.publications %}
+            <div class="row t60">
+                <div class="medium-8 columns b30">
+                    <p><b><a href="{{ pub.ext }}"> {{ pub.title }} </a></b></p>
+                    <p><font size = 2> {{ pub.content }} </p></font>
+                </div>
+                <div class="medium-4 columns b30">
+                    <img src="{{ site.url }}/images/{{ pub.img }}" alt="">
+                    <p> <font size="2"> {{ pub.authors }} <i> <br> {{ pub.journal }}</i> {{ pub.other }}</p>
+                </div>
+            </div>
+            {% endfor %}
+
+			{{ content }}
+		</article>
+	</div><!-- /.medium-12.columns -->
+</div><!-- /.row -->
+
+

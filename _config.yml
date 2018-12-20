@@ -1,12 +1,12 @@
 
 # ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
-#      _____ _ __          _____      __  __  _                 
+#      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
 #     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
-#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  ) 
-#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/  
-#                                                 /____/        
+#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
+#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
+#                                                 /____/
 #
 # Title of your website
 title: "Gifford Laboratory @ MIT"
@@ -16,7 +16,7 @@ slogan: "A Flexible Theme for Jekyll"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 
+description:
 # Main author of the website
 # See > authors.yml
 author: Haoyang
@@ -237,3 +237,9 @@ google_analytics_tracking_id: UA-69982714-1
 # used in _includes/footer_scripts
 
 # tawkto_embed_uri:
+
+# Collections
+collections_dir: collections
+collections:
+  publications:
+    output: True
