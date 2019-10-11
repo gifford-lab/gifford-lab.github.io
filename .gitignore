@@ -5,4 +5,5 @@ Thumbs.db
 !.gitkeep
 .rbenv-version
 .rvmrc
-
+.sass-cache
+Gemfile.lock
