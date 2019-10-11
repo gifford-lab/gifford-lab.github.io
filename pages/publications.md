@@ -20,187 +20,62 @@ Genome Res</i>. 2018 Apr 13. pii: gr.226852.117. doi: 10.1101/gr.226852.117</fon
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
 
-<div class="row t60">
-    <div class="medium-8 columns b30">
-        <p><b><font size="4"><a href="http://dx.plos.org/10.1371/journal.pone.0187046">DNase-capture reveals differential transcription factor binding modalities. </a></font></b></p>
-        <p><font size="3">We describe DNase-capture, an assay that increases the analytical resolution of DNase-seq by focusing its sequencing phase on selected genomic regions. We introduce a new method to compensate for capture bias called BaseNormal that allows for accurate recovery of transcription factor protection profiles from DNase-capture data. We show that these normalized data allow for nuanced detection of transcription factor binding heterogeneity with as few as dozens of sites.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/journal.pone.0187046.g001.PNG" alt="">
-        <p> <font size="2">Kang D, Sherwood R, Barkal A, Hashimoto T, Engstrom L, Gifford D.
-        <br> <i>
-PLoS One</i>. 2017 Dec 28;12(12):e0187046. doi: 10.1371/journal.pone.0187046. eCollection 2017.</font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
 
+### 2017
 
-<div class="row t60">
-    <div class="medium-8 columns b30">
-        <p><b><font size="4"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23280">Working toward precision medicine: Predicting phenotypes from exomes in the Critical Assessment of Genome Interpretation (CAGI) challenges.  </a></font></b></p>
-        <p><font size="3">Precision medicine aims to predict a patient's disease risk and best therapeutic options by using that individual's genetic sequencing data. The Critical Assessment of Genome Interpretation (CAGI) is a community experiment consisting of genotype-phenotype prediction challenges; participants build models, undergo assessment, and share key findings. For CAGI 4, three challenges involved using exome-sequencing data: Crohn's disease, bipolar disorder, and warfarin dosing. Previous CAGI challenges included prior versions of the Crohn's disease challenge. Here, we discuss the range of techniques used for phenotype prediction as well as the methods used for assessing predictive models. Additionally, we outline some of the difficulties associated with making predictions and evaluating them. The lessons learned from the exome challenges can be applied to both research and clinical efforts to improve phenotype prediction from genotype. In addition, these challenges serve as a vehicle for sharing clinical and research exome data in a secure manner with scientists who have a broad range of expertise, contributing to a collaborative effort to advance our understanding of genotype-phenotype relationships.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/cagi_exome.png" alt="">
-        <p> <font size="2">Daneshjou R et al.
-        <br> <i>
-Hum Mutat</i>. 2017 Sep;38(9):1182-1192. doi: 10.1002/humu.23280. Epub 2017 Jul 7.</font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
+* <a href="http://dx.plos.org/10.1371/journal.pone.0187046">DNase-capture reveals differential transcription factor binding modalities.</a> 
+<br>
+	Kang D, Sherwood R, Barkal A, Hashimoto T, Engstrom L, Gifford D.
+<br>
+	_PLoS One._ 2017 Dec 28;12(12):e0187046. doi: 10.1371/journal.pone.0187046. eCollection 2017.
 
+* <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23280">Working toward precision medicine: Predicting phenotypes from exomes in the Critical Assessment of Genome Interpretation (CAGI) challenges.</a> 
+<br>
+	Daneshjou R et al.
+<br>
+	_Hum Mutat._ 2017 Sep;38(9):1182-1192. doi: 10.1002/humu.23280. Epub 2017 Jul 7.
 
-<div class="row t60">
-    <div class="medium-8 columns b30">
-        <p><b><font size="4"><a href="http://groups.csail.mit.edu/cgs/pubs/Seq2betterSeq.pdf">Sequence to Better Sequence: Continuous Revision of Combinatorial Structures  </a></font></b></p>
-        <p><font size="3">We present a model that, after learning on observations
-of (sequence, outcome) pairs, can be
-efficiently used to revise a new sequence in order
-to improve its associated outcome. Our framework
-requires neither example improvements,
-nor additional evaluation of outcomes for proposed
-revisions. To avoid combinatorial-search
-over sequence elements, we specify a generative
-model with continuous latent factors, which is
-learned via joint approximate inference using a
-recurrent variational autoencoder (VAE) and an
-outcome-predicting neural network module. Under
-this model, gradient methods can be used to
-efficiently optimize the continuous latent factors
-with respect to inferred outcomes. By appropriately
-constraining this optimization and using the
-VAE decoder to generate a revised sequence, we
-ensure the revision is fundamentally similar to
-the original sequence, is associated with better
-outcomes, and looks natural. These desiderata
-are proven to hold with high probability under
-our approach, which is empirically demonstrated
-for revising natural language sentences.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/seq2betterseq.png" alt="">
-        <p> <font size="2">Mueller J,  Gifford DK,  Jaakkola T.
-        <br> <i>International Conference on Machine Learning</i>, pp. 2536-2544. 2017.</font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
+* <a href="http://groups.csail.mit.edu/cgs/pubs/Seq2betterSeq.pdf">Sequence to Better Sequence: Continuous Revision of Combinatorial Structures</a> 
+<br>
+	Mueller J,  Gifford DK,  Jaakkola T.
+<br>
+	_International Conference on Machine Learning._ pp. 2536-2544. 2017.
 
-<div class="row t60">
-    <div class="medium-8 columns b30">
-        <p><b><font size="4"><a href="http://groups.csail.mit.edu/cgs/pubs/persistentTrends.pdf">Modeling Persistent Trends in Distributions</a></font></b></p>
-        <p><font size="3">We present a nonparametric framework to model a short sequence of probability distributions
-that vary both due to underlying effects of sequential progression and confounding
-noise. To distinguish between these two types of variation and estimate the sequentialprogression
-effects, our approach leverages an assumption that these effects follow a persistent
-trend. This work is motivated by the recent rise of single-cell RNA-sequencing
-experiments over a brief time course, which aim to identify genes relevant to the progression
-of a particular biological process across diverse cell populations. While classical
-statistical tools focus on scalar-response regression or order-agnostic differences between
-distributions, it is desirable in this setting to consider both the full distributions as well as
-the structure imposed by their ordering. We introduce a new regression model for ordinal
-covariates where responses are univariate distributions and the underlying relationship re-
-flects consistent changes in the distributions over increasing levels of the covariate. This
-concept is formalized as a trend in distributions, which we define as an evolution that is
-linear under the Wasserstein metric. Implemented via a fast alternating projections algorithm,
-our method exhibits numerous strengths in simulations and analyses of single-cell
-gene expression data.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/trends.png" alt="">
-        <p> <font size="2">Mueller J,  Jaakkola T, Gifford DK.
-        <br> <i>Journal of the American Statistical Association</i> 2017</font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
+* <a href="http://groups.csail.mit.edu/cgs/pubs/persistentTrends.pdf">Modeling Persistent Trends in Distributions</a> 
+<br>
+	Mueller J,  Jaakkola T, Gifford DK.
+<br>
+	_Journal of the American Statistical Association._ 2017
 
-<div class="row t60">
-    <div class="medium-8 columns b30">
-        <p><b><font size="4"><a href="http://groups.csail.mit.edu/cgs/pubs/journal.pone.0179411">Differential chromatin profiles partially determine transcription factor binding </a></font></b></p>
-        <p><font size="3">We characterize how genomic variants that alter chromatin accessibility influence regulatory factor binding with a new method called DeltaBind that predicts condition specific factor binding more accurately than other methods based on DNase-seq data. Using DeltaBind and DNase-seq experiments we predicted the differential binding of 18 factors in K562 and GM12878 cells with an average precision of 28% at 10% recall, with the prediction of individual factors ranging from 5% to 65% precision. We further found that genome variants that alter chromatin accessibility are not necessarily predictive of altering proximal factor binding. Taken together these findings suggest that DNase-seq or ATAC-seq Quantitative Trait Loci (dsQTLs), while important, must be considered in a broader context to establish causality for phenotypic changes.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/pone.0179411.g001.jpg" alt="">
-        <p> <font size="2">Chen R and Gifford DK.
-        <br> <i>PLoS One.</i> 2017 Jul 13;12(7):e0179411. doi: 10.1371/journal.pone.0179411. eCollection 2017.</font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
+* <a href="http://groups.csail.mit.edu/cgs/pubs/journal.pone.0179411">Differential chromatin profiles partially determine transcription factor binding</a> 
+<br>
+	Chen R and Gifford DK.
+<br>
+	_PLoS One._ 2017 Jul 13;12(7):e0179411. doi: 10.1371/journal.pone.0179411. eCollection 2017.
 
+* <a href="http://groups.csail.mit.edu/cgs/pubs/zeng-2017-NAR.pdf">Predicting the impact of non-coding variants on DNA methylation</a> 
+<br>
+	Zeng H and Gifford DK.
+<br>
+	_Nucleic Acids Res._ 2017 Jun 20;45(11):e99. doi: 10.1093/nar/gkx177.
 
-<div class="row t60">
-    <div class="medium-8 columns b30">
-        <p><b><font size="4"><a href="http://groups.csail.mit.edu/cgs/pubs/zeng-2017-NAR.pdf ">Predicting the impact of non-coding variants on DNA
-methylation.</a></font></b></p>
-        <p><font size="3">DNA methylation plays a crucial role in the establishment
-of tissue-specific gene expression and the
-regulation of key biological processes. However, our
-present inability to predict the effect of genome sequence
-variation on DNA methylation precludes a
-comprehensive assessment of the consequences
-of non-coding variation. We introduce CpGenie, a
-sequence-based framework that learns a regulatory
-code of DNA methylation using a deep convolutional
-neural network and uses this network to predict the
-impact of sequence variation on proximal CpG site
-DNA methylation. CpGenie produces allele-specific
-DNA methylation prediction with single-nucleotide
-sensitivity that enables accurate prediction of methylation
-quantitative trait loci (meQTL). We demonstrate
-that CpGenie prioritizes validated GWAS SNPs,
-and contributes to the prediction of functional noncoding
-variants, including expression quantitative
-trait loci (eQTL) and disease-associated mutations.
-CpGenie is publicly available to assist in identifying
-and interpreting regulatory non-coding variants.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/gkx177fig1.jpg" alt="">
-        <p> <font size="2">Zeng H and Gifford DK.
-        <br> <i>Nucleic Acids Res.</i> 2017 Jun 20;45(11):e99. doi: 10.1093/nar/gkx177.</font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
+* <a href="http://groups.csail.mit.edu/cgs/pubs/Zeng_et_al-2017-Human_Mutation.pdf">Accurate eQTL prioritization with an ensemble-based framework</a> 
+<br>
+	Zeng H, Edwards MD, Guo Y, Gifford DK.
+<br>
+	_Hum Mutat._ 2017 Feb 21, doi: 10.1002/humu.23198.
 
+* <a href="http://groups.csail.mit.edu/cgs/pubs/Kreimer_et_al-2017-Human_Mutation.pdf">Predicting gene expression in massively parallel reporter assays: A comparative study</a> 
+<br>
+	Kreimer A, Zeng H, Edwards MD, Guo Y, Tian K, Shin S, Welch R, Wainberg M, Mohan R, Sinnott-Armstrong NA, Li Y, Eraslan G, Amin TB, Goke J, Mueller NS, Kellis M, Kundaje A, Beer MA, Keles S, Gifford DK, Yosef N.
+<br>
+	_Hum Mutat._ 2017 Feb 21., doi: 10.1002/humu.23197.
 
-
-<div class="row t60">
-    <div class="medium-8 columns b30">
-        <p><b><font size="4"><a href="http://groups.csail.mit.edu/cgs/pubs/Zeng_et_al-2017-Human_Mutation.pdf">Accurate eQTL prioritization with an ensemble-based framework </a></font></b></p>
-        <p><font size="3">We present a novel ensemble-based computational framework, EnsembleExpr, that achieved the best performance in the Fourth Critical Assessment of Genome Interpretation expression quantitative trait locus "(eQTL)-causal SNPs" challenge for identifying eQTLs and prioritizing their gene expression effects. eQTLs are genome sequence variants that result in gene expression changes and are thus prime suspects in the search for contributions to the causality of complex traits. When EnsembleExpr is trained on data from massively parallel reporter assays, it accurately predicts reporter expression levels from unseen regulatory sequences and identifies sequence variants that exhibit significant changes in reporter expression. Compared with other state-of-the-art methods, EnsembleExpr achieved competitive performance when applied on eQTL datasets determined by other protocols. We envision EnsembleExpr to be a resource to help interpret noncoding regulatory variants and prioritize disease-associated mutations for downstream validation.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/Zeng-2017-Accurate-eQTL.png" alt="">
-        <p> <font size="2">Zeng H, Edwards MD, Guo Y, Gifford DK.
-        <br> <i>Hum Mutat.</i> 2017 Feb 21, doi:
-10.1002/humu.23198. </font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
-
-
-<div class="row t60">
-    <div class="medium-8 columns b30">
-        <p><b><font size="4"><a href="http://groups.csail.mit.edu/cgs/pubs/Kreimer_et_al-2017-Human_Mutation.pdf ">Predicting gene expression in massively parallel reporter assays: A comparative study. </a></font></b></p>
-        <p><font size="3">In many human diseases, associated genetic changes tend to occur within noncoding regions, whose effect might be related to transcriptional control. A central goal in human genetics is to understand the function of such noncoding regions: given a region that is statistically associated with changes in gene expression (expression quantitative trait locus [eQTL]), does it in fact play a regulatory role? And if so, how is this role “coded” in its sequence? These questions were the subject of the Critical Assessment of Genome Interpretation eQTL challenge. Participants were given a set of sequences that flank eQTLs in humans and were asked to predict whether these are capable of regulating transcription (as evaluated by massively parallel reporter assays), and whether this capability changes between alternative alleles. Here, we report lessons learned from this community effort. By inspecting predictive properties in isolation, and conducting meta-analysis over the competing methods, we find that using chromatin accessibility and transcription factor binding as features in an ensemble of classifiers or regression models leads to the most accurate results. We then characterize the loci that are harder to predict, putting the spotlight on areas of weakness, which we expect to be the subject of future studies.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/Predicting-gene-express-Kreimer.png" alt="">
-        <p> <font size="2">Kreimer A, Zeng H, Edwards MD, Guo Y, Tian K, Shin S, Welch R, Wainberg M, Mohan R, Sinnott-Armstrong NA, Li Y, Eraslan G, Amin TB, Goke J, Mueller NS, Kellis M, Kundaje A, Beer MA, Keles S, Gifford DK, Yosef N.
-        <br> <i>Hum Mutat.</i> 2017 Feb 21., doi:
-10.1002/humu.23197.</font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
-
-
-<div class="row t60">
-    <div class="medium-8 columns b30">
-        <p><b><font size="4"><a href="http://groups.csail.mit.edu/cgs/pubs/Guo-Jan-2017-BMC-Genomics-Modular.pdf ">Modular combinatorial binding among human trans-acting factors reveals direct and indirect factor binding.</a></font></b></p>
-        <p><font size="3">
-We present a new computational approach that models the modular organization of TF combinatorial binding. Our method learns compact and coherent regulatory modules from in vivo binding data using a topic model. We found that the binding of 115 TFs in K562 cells can be organized into 49 interpretable modules. Furthermore, we found that tens of thousands of regulatory regions use multiple modules, a structure that cannot be observed with previous hard clustering based methods. The modules discovered recapitulate many published protein-protein physical interactions, have consistent functional annotations of chromatin states, and uncover context specific co-binding such as gene proximal binding of NFY + FOS + SP and distal binding of NFY + FOS + USF. For certain TFs, the co-binding partners of direct binding (motif present) differs from those of indirect binding (motif absent); the distinct set of co-binding partners can predict whether the TF binds directly or indirectly with up to 95% accuracy. Joint analysis across two cell types reveals both cell-type-specific and shared regulatory modules.
-CONCLUSIONS:
-Our results provide comprehensive cell-type-specific combinatorial binding maps and suggest a modular organization of combinatorial binding.</font></p>
-    </div><!-- /.medium-6.columns -->
-    <div class="medium-4 columns b30">
-        <img src="{{ site.url }}/images/Guo-2016-Modular-combinatorial.jpg" alt="">
-        <p> <font size="2">Guo Y, Gifford DK.
-        <br> <i>BMC Genomics.</i> 2017 Jan 6;18(1):45., doi:
-10.1186/s12864-016-3434-3.</font></p>
-    </div><!-- /.medium-6.columns -->
-</div><!-- /.row -->
-
+* <a href="http://groups.csail.mit.edu/cgs/pubs/Guo-Jan-2017-BMC-Genomics-Modular.pdf">Modular combinatorial binding among human trans-acting factors reveals direct and indirect factor binding</a> 
+<br>
+	Guo Y, Gifford DK.
+<br>
+	_BMC Genomics._ 2017 Jan 6;18(1):45., doi: 10.1186/s12864-016-3434-3.
 
 ### 2016
 
