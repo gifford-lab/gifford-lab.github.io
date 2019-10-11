@@ -5,7 +5,7 @@ authors: Nadav Sharon, Raghav Chawla, Jonas Mueller, Jordan Vanderhooft, Luke Ja
 journal: "Cell"
 other:  "doi: https://doi.org/10.1016/j.cell.2018.12.003"
 ext: "https://www.sciencedirect.com/science/article/pii/S0092867418315861"
-img: pub_placeholder.jpg
+img: Sharon2019.jpg
 date: 2019-02-07
 ---
 
