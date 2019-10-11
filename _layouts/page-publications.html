@@ -30,7 +30,8 @@ format: page-fullwidth
 			</p>
 			{% endif %}
 
-            {% for pub in site.publications %}
+			{% assign sorted = (site.publications | sort: 'date') | reverse %}
+            {% for pub in sorted %}
             <div class="row t60">
                 <div class="medium-8 columns b30">
                     <p><b><font size="4"><a href="{{ pub.ext }}"> {{ pub.title }} </a></font></b></p>

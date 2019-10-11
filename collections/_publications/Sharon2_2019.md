@@ -5,7 +5,7 @@ authors: Nadav Sharon, Jordan Vanderhooft, Juerg Straubhaar, Jonas Mueller, Ragh
 journal: "Cell Reports"
 other:  "doi: https://doi.org/10.1016/j.celrep.2019.04.083"
 ext: "https://www.sciencedirect.com/science/article/pii/S2211124719305637"
-img: pub_placeholder.jpg
+img: Sharon2_2019.jpg
 date: 2019-05-21
 ---
 

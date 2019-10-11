@@ -5,7 +5,7 @@ authors: Siddhartha Jain, Nathan Hunt, David Gifford
 journal: "Bayesian Deep Learning Workshop | NeurIPS 2019"
 other:  ""
 ext: "http://bayesiandeeplearning.org/2018/papers/147.pdf"
-img: pub_placeholder.jpg
+img: JainHunt2018.png
 date: 2018-12-07
 ---
 

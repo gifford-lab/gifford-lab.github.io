@@ -5,7 +5,7 @@ authors: Konstantin Krismer, Yuchun Guo, David K. Gifford
 journal: "bioRxiv"
 other:  "doi: https://doi.org/10.1101/691295"
 ext: "https://www.biorxiv.org/content/10.1101/691295v2"
-img: pub_placeholder.jpg
+img: Krismer2019.png
 date: 2019-09-24
 ---
 

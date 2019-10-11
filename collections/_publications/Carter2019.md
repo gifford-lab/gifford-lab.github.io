@@ -5,7 +5,7 @@ authors: Brandon Carter, Jonas Mueller, Siddhartha Jain, David Gifford
 journal: "arXiv"
 other:  "arXiv preprint arXiv:1810.03805"
 ext: "https://arxiv.org/abs/1810.03805"
-img: pub_placeholder.jpg
+img: Carter2019.png
 date: 2019-02-08
 ---
 
