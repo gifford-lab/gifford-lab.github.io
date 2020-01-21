@@ -6,10 +6,6 @@
   url: "/research/"
   side: left
 
-- title: "News"
-  url: "/blog/"
-  side: left
-
 - title: "Team"
   url: "/team/"
   side: left
@@ -17,13 +13,6 @@
 - title: Publications
   url: "/publications/"
   side: left
-  #dropdown:
-  #- title: "Peer-refereed"
-  #  url: "/publications/"
-  #- title: "Preprint"
-  #  url: "/preprints/"
-  #- title: "PubMed"
-  #  url: "/roadmap/"
 
 - title: Software
   url: "/software/"
@@ -33,9 +22,3 @@
 - title: "Contact"
   url: "/contact/"
   side: right
-  
-- title: "Lab Wiki"
-  url: "http://projects.csail.mit.edu/cgi-bin/wiki/view/CGS/WebHome"
-  side: right
-
-
