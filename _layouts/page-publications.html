@@ -29,20 +29,102 @@ format: page-fullwidth
 				{{ page.teaser }}
 			</p>
 			{% endif %}
+			
+			<h2>2020</h2>
 
 			{% assign sorted = (site.publications | sort: 'date') | reverse %}
-            {% for pub in sorted %}
-            <div class="row t60">
-                <div class="medium-8 columns b30">
-                    <p><b><font size="4"><a href="{{ pub.ext }}"> {{ pub.title }} </a></font></b></p>
-                    <p><font size="3"> {{ pub.content }} </p></font>
+			{% for pub in sorted %}
+			{% if pub.year == '2020' %}
+            <div class="row">
+                <div class="medium-8 columns b30 notopmargin">
+					{% if pub.doi != "" %}
+					<h3><a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.title }}</a></h3>
+					{% elsif pub.arxiv != "" %}
+					<h3><a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.title }}</a></h3>
+					{% else %}
+					<h3><a href="{{ pub.ext }}" target="_blank">{{ pub.title }}</a></h3>
+					{% endif %}
+                    <p>{{ pub.content }} </p>
                 </div>
                 <div class="medium-4 columns b30">
-                    <img src="{{ site.url }}/images/{{ pub.img }}" alt="">
-                    <p> <font size="2"> {{ pub.authors }} <i> <br> {{ pub.journal }}</i>. {{ pub.other }}</p>
+                    <img src="{{ site.url }}/images/{{ pub.img }}"/>
+					<p style="font-size: smaller;">
+						{{ pub.authors }}<br />
+						<em>{{ pub.journal }}</em>. {{ pub.journalspecific }}<br />
+						{% if pub.doi != "" %}
+						DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
+						{% elsif pub.arxiv != "" %}
+						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a></h3>
+						{% endif %}
+					</p>
                 </div>
             </div>
-            {% endfor %}
+			{% endif %}
+			{% endfor %}
+			
+			<h2>2019</h2>
+
+			{% assign sorted = (site.publications | sort: 'date') | reverse %}
+			{% for pub in sorted %}
+			{% if pub.year == '2019' %}
+            <div class="row">
+                <div class="medium-8 columns b30 notopmargin">
+					{% if pub.doi != "" %}
+					<h3><a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.title }}</a></h3>
+					{% elsif pub.arxiv != "" %}
+					<h3><a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.title }}</a></h3>
+					{% else %}
+					<h3><a href="{{ pub.ext }}" target="_blank">{{ pub.title }}</a></h3>
+					{% endif %}
+                    <p>{{ pub.content }} </p>
+                </div>
+                <div class="medium-4 columns b30">
+                    <img src="{{ site.url }}/images/{{ pub.img }}"/>
+					<p style="font-size: smaller;">
+						{{ pub.authors }}<br />
+						<em>{{ pub.journal }}</em>. {{ pub.journalspecific }}<br />
+						{% if pub.doi != "" %}
+						DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
+						{% elsif pub.arxiv != "" %}
+						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a></h3>
+						{% endif %}
+					</p>
+                </div>
+            </div>
+			{% endif %}
+			{% endfor %}
+			
+			<h2>2018</h2>
+
+			{% assign sorted = (site.publications | sort: 'date') | reverse %}
+			{% for pub in sorted %}
+			{% if pub.year == '2018' %}
+            <div class="row">
+                <div class="medium-8 columns b30 notopmargin">
+					{% if pub.doi != "" %}
+					<h3><a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.title }}</a></h3>
+					{% elsif pub.arxiv != "" %}
+					<h3><a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.title }}</a></h3>
+					{% else %}
+					<h3><a href="{{ pub.ext }}" target="_blank">{{ pub.title }}</a></h3>
+					{% endif %}
+                    <p>{{ pub.content }} </p>
+                </div>
+                <div class="medium-4 columns b30">
+                    <img src="{{ site.url }}/images/{{ pub.img }}"/>
+					<p style="font-size: smaller;">
+						{{ pub.authors }}<br />
+						<em>{{ pub.journal }}</em>. {{ pub.journalspecific }}<br />
+						{% if pub.doi != "" %}
+						DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
+						{% elsif pub.arxiv != "" %}
+						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a></h3>
+						{% endif %}
+					</p>
+                </div>
+            </div>
+			{% endif %}
+			{% endfor %}
 
 			{{ content }}
 		</article>
