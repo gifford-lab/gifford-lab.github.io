@@ -8,20 +8,21 @@ header:
      caption_url: https://www.flickr.com/photos/anarchitect/3775841779/
 permalink: "/contact/"
 ---
+We are part of the MIT Computer Science and Artificial Intelligence
+Laboratory (CSAIL), which is located in the Stata Center.
 
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:300px;width:400px;"><div id="gmap_canvas" style="height:300px;width:400px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://premium-wordpress-themes.org" id="get-map-data">Gifford Lab @ MIT</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(42.3618641,-71.0905626),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(42.3618641, -71.0905626)});infowindow = new google.maps.InfoWindow({content:"<b>Gifford Lab @ MIT</b><br/>32 Vassar Street, G-542<br/> Cambridge, MA, 02139" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-<br>
+Room G-542  
+32 Vassar Street  
+Cambridge, MA 02139
 
-[//]: The map was generated from http://www.map-embed.com/
+<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5896.185367334012!2d-71.090563!3d42.361864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x303ada1e9664dfed!2sMIT%3A+Computer+Science+and+Artificial+Intelligence+Laboratory!5e0!3m2!1sen!2sus!4v1521045431424" style="border:0" width="600"></iframe>
 
 **Professor David Gifford  
 Group Leader**  
 Phone: (617)-253-6039  
 email: gifford at mit.edu 
 
-**Jeanne Darling  
+**Linda Lynch  
 Administrative Contact**  
-Phone: (617)-253-4294  
-email: darling at mit.edu
-
-
+Phone: (617)-715-2459  
+email: lindalynch at csail.mit.edu
