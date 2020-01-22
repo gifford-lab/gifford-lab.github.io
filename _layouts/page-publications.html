@@ -5,8 +5,8 @@ format: page-fullwidth
 {% if page.image.title %}
 <div class="row t30">
 	<div class="small-12 columns">
-		<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
-		{% if page.image.caption_url && page.image.caption %}
+		<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}">
+		{% if page.image.caption_url and page.image.caption %}
 		<p class="text-right caption">
 			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
 		</p>
@@ -32,7 +32,7 @@ format: page-fullwidth
 			
 			<h2>2020</h2>
 
-			{% assign sorted = (site.publications | sort: 'date') | reverse %}
+			{% assign sorted = site.publications | sort: 'date' | reverse %}
 			{% for pub in sorted %}
 			{% if pub.year == '2020' %}
             <div class="row">
@@ -64,7 +64,7 @@ format: page-fullwidth
 			
 			<h2>2019</h2>
 
-			{% assign sorted = (site.publications | sort: 'date') | reverse %}
+			{% assign sorted = site.publications | sort: 'date' | reverse %}
 			{% for pub in sorted %}
 			{% if pub.year == '2019' %}
             <div class="row">
@@ -96,7 +96,7 @@ format: page-fullwidth
 			
 			<h2>2018</h2>
 
-			{% assign sorted = (site.publications | sort: 'date') | reverse %}
+			{% assign sorted = site.publications | sort: 'date' | reverse %}
 			{% for pub in sorted %}
 			{% if pub.year == '2018' %}
             <div class="row">
