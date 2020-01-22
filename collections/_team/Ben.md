@@ -1,9 +1,11 @@
 ---
 layout: post
-name: Benjamin Holmes 
-email: ''
+firstname: Benjamin
+lastname: Holmes
+email: brh@mit.edu
 website: ''
 date: 2017-12-01
 image: profile_placeholder.png
-title: grad
+position: PhD Student
+group: member
 ---

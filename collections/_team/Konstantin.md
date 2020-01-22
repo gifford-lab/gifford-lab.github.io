@@ -1,9 +1,11 @@
 ---
 layout: post
-name: Konstantin Krismer 
+firstname: Konstantin
+lastname: Krismer
 email: krismer@mit.edu
 website: ''
 date: 2016-06-01
 image: konstantin.jpg
-title: grad
+position: PhD Student
+group: member
 ---

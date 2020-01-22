@@ -1,9 +1,11 @@
 ---
 layout: post
-name: Grace Yeo 
+firstname: Grace
+lastname: Yeo
 email: yhtgrace@mit.edu
 website: ''
 date: 2014-12-01
 image: grace.jpg
-title: grad
+position: PhD Student
+group: member
 ---

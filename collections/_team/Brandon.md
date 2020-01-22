@@ -1,9 +1,11 @@
 ---
 layout: post
-name: Brandon Carter 
+firstname: Brandon
+lastname: Carter
 email: bcarter@mit.edu
 website: ''
 date: 2016-12-01
 image: brandon.jpg
-title: grad
+position: Research Associate
+group: member
 ---

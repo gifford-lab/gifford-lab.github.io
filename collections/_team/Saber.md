@@ -1,9 +1,11 @@
 ---
 layout: post
-name: Ge (Saber) Liu
+firstname: Ge (Saber)
+lastname: Liu
 email: geliu@mit.edu
-website: http://www.mit.edu/~geliu
+website: https://www.mit.edu/~geliu/
 date: 2015-12-01
 image: saber.jpg
-title: grad
+position: PhD Student
+group: member
 ---

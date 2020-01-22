@@ -30,82 +30,60 @@ format: page-fullwidth
 			</p>
 			{% endif %}
 
-			</header><h3>Principal Investigator</h3>
-			<br>
-			<div class="row">
-				{% assign team_sorted = site.team | where: "title","PI" | sort: 'date' %}
-	            {% for member in team_sorted %}  
+			</header>
+			
+			<h2>Principal Investigator</h2>
+			<div class="row team">
+				{% assign team_sorted = site.team | where: "group","pi" | sort: 'lastname' %}
+	            {% for member in team_sorted %}
 					<div class="large-4 columns">
-						<img src="{{ site.url }}/images/{{ member.image }}", height="120">
+						{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
+						<img src="{{ site.url }}/images/{{ member.image }}" />
+						{% if member.website != "" %}</a>{% endif %}
 						<p>
-							<b><font size="2">{{ member.name }}</font></b>
-							<br><font size="2">{{ member.email }}</font>
-							<br><font size="2">{{ member.website }}</font>
+							{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
+							<strong>{{ member.firstname }} {{ member.lastname }}</strong>
+							{% if member.website != "" %}</a>{% endif %}
+							 | {{ member.email }}<br />
+							{{ member.position }}
 						</p>
 					</div>
 	            {% endfor %}
 	        </div>
 
-        	<h3>Postdoctoral Associate</h3>
-        	<br>
-        	<div class="row">
-	            {% assign team_sorted = site.team | where: "title","postdoc" | sort: 'date' %}
-	            {% for member in team_sorted %}  
+        	<h2>Group Members</h2>
+        	<div class="row team">
+	            {% assign team_sorted = site.team | where: "group","member" | sort: 'lastname' %}
+	            {% for member in team_sorted %}
 					<div class="large-4 columns">
-						<img src="{{ site.url }}/images/{{ member.image }}", height="120">
+						{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
+						<img src="{{ site.url }}/images/{{ member.image }}" />
+						{% if member.website != "" %}</a>{% endif %}
 						<p>
-							<b><font size="2">{{ member.name }}</font></b>
-							<br><font size="2">{{ member.email }}</font>
-							<br><font size="2">{{ member.website }}</font>
+							{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
+							<strong>{{ member.firstname }} {{ member.lastname }}</strong>
+							{% if member.website != "" %}</a>{% endif %}
+							 | {{ member.email }}<br />
+							{{ member.position }}
 						</p>
 					</div>
 	            {% endfor %}
             </div>
 
-        	<h3>Graduate Student</h3>
-        	<br>
-        	<div class="row">
-	            {% assign team_sorted = site.team | where: "title","grad" | sort: 'date' %}
-	            {% for member in team_sorted %}  
+	        <h2>Staff</h2>
+        	<div class="row team">
+	            {% assign team_sorted = site.team | where: "group","staff" | sort: 'lastname' %}
+	            {% for member in team_sorted %}
 					<div class="large-4 columns">
-						<img src="{{ site.url }}/images/{{ member.image }}", height="120">
+						{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
+						<img src="{{ site.url }}/images/{{ member.image }}" />
+						{% if member.website != "" %}</a>{% endif %}
 						<p>
-							<b><font size="2">{{ member.name }}</font></b>
-							<br><font size="2">{{ member.email }}</font></b>
-							<br><font size="2">{{ member.website }}</font>
-						</p>
-					</div>
-	            {% endfor %}
-	        </div>
-
-        	<h3>Undergraduate Student</h3>
-        	<br>
-        	<div class="row">
-	            {% assign team_sorted = site.team | where: "title","undergrad" | sort: 'date' %}
-	            {% for member in team_sorted %}  
-					<div class="large-4 columns">
-						<img src="{{ site.url }}/images/{{ member.image }}", height="120">
-						<p>
-							<b><font size="2">{{ member.name }}</font></b>
-							<br><font size="2">{{ member.email }}</font>
-							<br><font size="2">{{ member.website }}</font>
-						</p>
-					</div>
-	            {% endfor %}
-	        </div>
-
-	        <h3>Staff</h3>
-	        <br>
-        	<div class="row">
-	            {% assign team_sorted = site.team | where: "title","staff" | sort: 'date' %}
-	            {% for member in team_sorted %}  
-					<div class="large-4 columns">
-						<img src="{{ site.url }}/images/{{ member.image }}", height="120">
-						<p>
-							<b><font size="2">{{ member.name }}</font></b>
-							<b><font size="2">{{ member.position }}</font></b>
-							<br><font size="2">{{ member.email }}</font>
-							<br><font size="2">{{ member.website }}</font>
+							{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
+							<strong>{{ member.firstname }} {{ member.lastname }}</strong>
+							{% if member.website != "" %}</a>{% endif %}
+							 | {{ member.email }}<br />
+							{{ member.position }}
 						</p>
 					</div>
 	            {% endfor %}

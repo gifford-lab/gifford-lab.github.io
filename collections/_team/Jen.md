@@ -1,9 +1,11 @@
 ---
 layout: post
-name: Jennifer Hammelman 
+firstname: Jennifer
+lastname: Hammelman
 email: jhammelm@mit.edu
 website: ''
 date: 2016-09-01
 image: jen_lab_photo.jpg
-title: grad
+position: PhD Student
+group: member
 ---
