@@ -29,8 +29,6 @@ format: page-fullwidth
 				{{ page.teaser }}
 			</p>
 			{% endif %}
-
-			</header>
 			
 			<h2>Principal Investigator</h2>
 			<div class="row team">
@@ -38,7 +36,7 @@ format: page-fullwidth
 	            {% for member in team_sorted %}
 					<div class="large-4 columns">
 						{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
-						<img src="{{ site.url }}/images/{{ member.image }}" />
+						<img src="{{ site.url }}/images/{{ member.image }}" alt="profile picture" />
 						{% if member.website != "" %}</a>{% endif %}
 						<p>
 							{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
@@ -57,7 +55,7 @@ format: page-fullwidth
 	            {% for member in team_sorted %}
 					<div class="large-4 columns">
 						{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
-						<img src="{{ site.url }}/images/{{ member.image }}" />
+						<img src="{{ site.url }}/images/{{ member.image }}" alt="profile picture" />
 						{% if member.website != "" %}</a>{% endif %}
 						<p>
 							{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
@@ -76,7 +74,7 @@ format: page-fullwidth
 	            {% for member in team_sorted %}
 					<div class="large-4 columns">
 						{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}
-						<img src="{{ site.url }}/images/{{ member.image }}" />
+						<img src="{{ site.url }}/images/{{ member.image }}" alt="profile picture" />
 						{% if member.website != "" %}</a>{% endif %}
 						<p>
 							{% if member.website != "" %}<a href="{{ member.website }}" target="_blank">{% endif %}

@@ -7,8 +7,6 @@ header:
      caption_url: https://www.flickr.com/photos/justinjensen/4454664922/
 permalink: "/software/"
 ---
-
-
 More software can be found in our [GitHub](https://github.com/gifford-lab/) Repository.
 
    * [EC2-launcher](https://github.com/gifford-lab/ec2-launcher-pro) - A tool that lauches docker jobs on Amazon EC2. 

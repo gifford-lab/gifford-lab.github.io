@@ -44,17 +44,17 @@ format: page-fullwidth
 					{% else %}
 					<h3><a href="{{ pub.ext }}" target="_blank">{{ pub.title }}</a></h3>
 					{% endif %}
-                    <p>{{ pub.content }} </p>
+                    {{ pub.content }}
                 </div>
                 <div class="medium-4 columns b30">
-                    <img src="{{ site.url }}/images/{{ pub.img }}"/>
+                    <img src="{{ site.url }}/images/{{ pub.img }}" alt="figure from paper"/>
 					<p style="font-size: smaller;">
 						{{ pub.authors }}<br />
 						<em>{{ pub.journal }}</em>. {{ pub.journalspecific }}<br />
 						{% if pub.doi != "" %}
 						DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
 						{% elsif pub.arxiv != "" %}
-						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a></h3>
+						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a>
 						{% endif %}
 					</p>
                 </div>
@@ -76,17 +76,17 @@ format: page-fullwidth
 					{% else %}
 					<h3><a href="{{ pub.ext }}" target="_blank">{{ pub.title }}</a></h3>
 					{% endif %}
-                    <p>{{ pub.content }} </p>
+                    {{ pub.content }}
                 </div>
                 <div class="medium-4 columns b30">
-                    <img src="{{ site.url }}/images/{{ pub.img }}"/>
+                    <img src="{{ site.url }}/images/{{ pub.img }}" alt="figure from paper"/>
 					<p style="font-size: smaller;">
 						{{ pub.authors }}<br />
 						<em>{{ pub.journal }}</em>. {{ pub.journalspecific }}<br />
 						{% if pub.doi != "" %}
 						DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
 						{% elsif pub.arxiv != "" %}
-						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a></h3>
+						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a>
 						{% endif %}
 					</p>
                 </div>
@@ -108,17 +108,17 @@ format: page-fullwidth
 					{% else %}
 					<h3><a href="{{ pub.ext }}" target="_blank">{{ pub.title }}</a></h3>
 					{% endif %}
-                    <p>{{ pub.content }} </p>
+                    {{ pub.content }}
                 </div>
                 <div class="medium-4 columns b30">
-                    <img src="{{ site.url }}/images/{{ pub.img }}"/>
+                    <img src="{{ site.url }}/images/{{ pub.img }}" alt="figure from paper"/>
 					<p style="font-size: smaller;">
 						{{ pub.authors }}<br />
 						<em>{{ pub.journal }}</em>. {{ pub.journalspecific }}<br />
 						{% if pub.doi != "" %}
 						DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
 						{% elsif pub.arxiv != "" %}
-						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a></h3>
+						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a>
 						{% endif %}
 					</p>
                 </div>

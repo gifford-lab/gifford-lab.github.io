@@ -7,5 +7,13 @@ h2 {
 }
 
 .notopmargin h3 {
-    margin-top: 0;
+    margin: 0 0 0.8em 0;
+}
+
+.notopmargin h4 {
+    margin: 0.8em 0 0 0;
+}
+
+.notopmargin h3 + h4 {
+    margin: 0;
 }
