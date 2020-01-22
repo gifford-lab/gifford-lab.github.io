@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Sachit
 lastname: Saksena
 email: sachit@mit.edu

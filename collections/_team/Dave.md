@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: David
 lastname: Gifford
 email: gifford@mit.edu

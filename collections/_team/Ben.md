@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Benjamin
 lastname: Holmes
 email: brh@mit.edu

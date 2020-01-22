@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Linda
 lastname: Lynch
 email: lindalynch@csail.mit.edu

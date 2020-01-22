@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Siddhartha
 lastname: Jain
 email: tmfs10@gmail.com

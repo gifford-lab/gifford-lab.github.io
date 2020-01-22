@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Jennifer
 lastname: Hammelman
 email: jhammelm@mit.edu

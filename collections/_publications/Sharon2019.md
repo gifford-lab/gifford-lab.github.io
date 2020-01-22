@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A Peninsular Structure Coordinates Asynchronous Differentiation with Morphogenesis to Generate Pancreatic Islets"
 authors: "Nadav Sharon, Raghav Chawla, Jonas Mueller, Jordan Vanderhooft, Luke James Whitehorn, Benjamin Rosenthal, Mads Gürtler, Ralph R. Estanboulieh, Dmitry Shvartsman, David K. Gifford, Cole Trapnell, and Doug Melton"
 journal: "Cell"

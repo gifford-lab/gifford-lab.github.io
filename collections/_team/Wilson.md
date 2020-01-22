@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Wilson
 lastname: Louie
 email: wlouie@mit.edu

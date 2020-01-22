@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Wnt Signaling Separates the Progenitor and Endocrine Compartments during Pancreas Development"
 authors: "Nadav Sharon, Jordan Vanderhooft, Juerg Straubhaar, Jonas Mueller, Raghav Chawla, Quan Zhou, Elise N. Engquist, Cole Trapnell, David K. Gifford, and Doug Melton"
 journal: "Cell Reports"

@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Konstantin
 lastname: Krismer
 email: krismer@mit.edu

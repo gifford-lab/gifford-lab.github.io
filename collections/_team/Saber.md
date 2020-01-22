@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Ge (Saber)
 lastname: Liu
 email: geliu@mit.edu

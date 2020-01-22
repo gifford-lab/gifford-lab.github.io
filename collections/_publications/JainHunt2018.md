@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Information-based Acquisition for General Models in Bayesian Optimization"
 authors: "Siddhartha Jain, Nathan Hunt, and David Gifford"
 journal: "Bayesian Deep Learning Workshop | NeurIPS 2019"

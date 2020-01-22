@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Brandon
 lastname: Carter
 email: bcarter@mit.edu

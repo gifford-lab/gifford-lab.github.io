@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "IDR2D identifies reproducible genomic interactions"
 authors: Konstantin Krismer, Yuchun Guo, and David K. Gifford
 journal: "bioRxiv"

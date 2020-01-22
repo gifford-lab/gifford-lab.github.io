@@ -1,5 +1,4 @@
 ---
-layout: post
 firstname: Grace
 lastname: Yeo
 email: yhtgrace@mit.edu

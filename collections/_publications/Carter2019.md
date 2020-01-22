@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What made you do this? Understanding black-box decisions with sufficient input subsets"
 authors: "Brandon Carter, Jonas Mueller, Siddhartha Jain, and David Gifford"
 journal: "arXiv"
