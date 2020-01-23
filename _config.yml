@@ -23,13 +23,9 @@ author: Haoyang
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
+url : 'https://gifford-lab.github.io'
 #url: 'http://localhost:4000'
-url : 'http://gifford-lab.github.io'
 baseurl: ''
-
-# This is for the editing function in _/includes/improve_content
-# Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -37,21 +33,11 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'http://gifford-lab.github.io/images/'
+urlimg: 'https://gifford-lab.github.io/images/'
 #urlimg: 'http://localhost:4000/images/'
-
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
-
-
-# Paginates all X entries
-paginate: 5
-
-
-# Pagination path › Important for blog page in /blog/ to work
-paginate_path: "blog/page:num"
-
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
@@ -74,7 +60,7 @@ language: "en"
 
 
 # Used › default.html front-matter and comress.html
-# Options › http://jch.penibelst.de
+# Options › https://jch.penibelst.de
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -100,7 +86,6 @@ defaults:
       type: "pages"
     values:
       show_meta: false 	# Hide metadata for all pages
-      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
       author: Haoyang Zeng     # Default author for pages
   -
@@ -109,7 +94,6 @@ defaults:
       type: "posts"
     values:
       show_meta: true   # Show metadata for all posts
-      # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: Haoyang Zeng     # Default author for posts
 
@@ -161,23 +145,11 @@ msapplication_tileimage:                "msapplication_tileimage.png"           
 msapplication_tilecolor:                "#fabb00"
 
 
-#        ____  _
-#       / __ \(_)________ ___  _______
-#      / / / / / ___/ __ `/ / / / ___/
-#     / /_/ / (__  ) /_/ / /_/ (__  )
-#    /_____/_/____/\__, /\__,_/____/
-#                    /_/
-#
-# used in _includes/comments
-
-disqus_shortname: feelingresponsive
-
-
 #      _____
 #     / ___/____ ___________
 #     \__ \/ __ `/ ___/ ___/
-#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
-#   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
+#    ___/ / /_/ (__  |__  )     More › https://sass-lang.com/
+#   /____/\__,_/____/____/      More › https://jekyllrb.com/docs/assets/#sassscss
 #
 
 sass:
