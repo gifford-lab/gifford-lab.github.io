@@ -5,7 +5,7 @@ journal: "Bayesian Deep Learning Workshop | NeurIPS 2019"
 journalspecific:  ""
 doi: ""
 arxiv: ""
-ext: "http://bayesiandeeplearning.org/2018/papers/147.pdf"
+ext: "https://bayesiandeeplearning.org/2018/papers/147.pdf"
 img: JainHunt2018.png
 date: "2018-12-07"
 year: "2018"

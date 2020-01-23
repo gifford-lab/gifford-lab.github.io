@@ -4,7 +4,7 @@ Copy the following template to "pages/publications.md"
 ```
 <div class="row t60">    
     <div class="medium-8 columns b30">
-        <p><b><a href="http://groups.csail.mit.edu/cgs/pubs/PDF_FILENAME">
+        <p><b><a href="https://groups.csail.mit.edu/cgs/pubs/PDF_FILENAME">
         TITLE
         </a></b></p>
         <p><font size="2">

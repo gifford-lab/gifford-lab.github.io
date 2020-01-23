@@ -8,7 +8,7 @@
 url: 'http://localhost:4000'
 
 sass:
-  # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  # https://sass-lang.com/documentation/cli/dart-sass#style
   style: :expanded
   line_numbers: true
   # trace_selectors: true

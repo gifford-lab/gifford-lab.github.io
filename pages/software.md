@@ -11,7 +11,7 @@ More software can be found in our [GitHub](https://github.com/gifford-lab/) Repo
 
    * [EC2-launcher](https://github.com/gifford-lab/ec2-launcher-pro) - A tool that lauches docker jobs on Amazon EC2. 
    
-   * [Caffe-cnn](https://github.com/gifford-lab/mri-wrapper) - A [Caffe](http://caffe.berkeleyvision.org/)-based deep learning platform with automatic hyper-parameter searching.
+   * [Caffe-cnn](https://github.com/gifford-lab/mri-wrapper) - A [Caffe](https://caffe.berkeleyvision.org/)-based deep learning platform with automatic hyper-parameter searching.
     
    * [GERV](http://gerv.csail.mit.edu/) - A statistical method for predicting non-coding variants' effect on transcription factor binding.  
    
@@ -26,15 +26,15 @@ More software can be found in our [GitHub](https://github.com/gifford-lab/) Repo
    
    * [Multipool](https://github.com/matted/multipool) - High-resolution genetic mapping for pooled sequencing
 	
-   * [GEM](http://groups.csail.mit.edu/cgs/gem/) - Integrative Genome wide Event finding and Motif discovery for ChIP-seq and ChIP-exo data.  
+   * [GEM](https://groups.csail.mit.edu/cgs/gem/) - Integrative Genome wide Event finding and Motif discovery for ChIP-seq and ChIP-exo data.  
    
-   * [GPS](http://groups.csail.mit.edu/cgs/onePageGPS/) - The Genome Positioning System for discovering binding events in ChIP-seq data.
+   * [GPS](https://groups.csail.mit.edu/cgs/onePageGPS/) - The Genome Positioning System for discovering binding events in ChIP-seq data.
    
-   * [GSE](http://groups.csail.mit.edu/cgs/gse.html) - Genomic Spatial Events system, a database for storing, visualizing, and analyzing ChIP-base transcription factor binding data and gene expression data.
+   * [GSE](https://groups.csail.mit.edu/cgs/gse.html) - Genomic Spatial Events system, a database for storing, visualizing, and analyzing ChIP-base transcription factor binding data and gene expression data.
    
-   * [GRAM](http://groups.csail.mit.edu/cgs/onePageGram/) - The GRAM (Genetic RegulAtory Modules) algorithm identifies modules, collections of genes that share common regulators, as well as expression profiles.
+   * [GRAM](https://groups.csail.mit.edu/cgs/onePageGram/) - The GRAM (Genetic RegulAtory Modules) algorithm identifies modules, collections of genes that share common regulators, as well as expression profiles.
    
-   * [JBD](http://groups.csail.mit.edu/cgs/jbd.html) - The JBD (Joint Binding Deconvolution) algorithm detects binding sites based on ChIP-chip data and guides.
+   * [JBD](https://groups.csail.mit.edu/cgs/jbd.html) - The JBD (Joint Binding Deconvolution) algorithm detects binding sites based on ChIP-chip data and guides.
    
-   * [GeneProgram](http://groups.csail.mit.edu/cgs/geneprogram.html) - Automated discovery of functional generality of gene expression programs (sets co-expressed genes)
+   * [GeneProgram](https://groups.csail.mit.edu/cgs/geneprogram.html) - Automated discovery of functional generality of gene expression programs (sets co-expressed genes)
 
