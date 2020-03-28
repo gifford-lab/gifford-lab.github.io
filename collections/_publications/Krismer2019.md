@@ -1,13 +1,13 @@
 ---
 title: "IDR2D identifies reproducible genomic interactions"
 authors: Konstantin Krismer, Yuchun Guo, and David K. Gifford
-journal: "bioRxiv"
-journalspecific:  "691295"
-doi: "10.1101/691295"
+journal: "Nucleic Acids Research"
+journalspecific:  "Volume 48, Issue 6, 06 April 2020, Page e31"
+doi: "10.1093/nar/gkaa030"
 arxiv: ""
 ext: ""
 img: Krismer2019.png
-date: "2020-01-24"
+date: "2020-04-06"
 year: "2020"
 ---
 
