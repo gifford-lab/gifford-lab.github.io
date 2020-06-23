@@ -19,6 +19,7 @@ permalink: "/team/"
 + [Alan Qi](https://www.cs.purdue.edu/homes/alanqi/index.htm) (Now faculty at U of Purdue)
 
 ### Graduate Students
++ Wilson Louie
 + Haoyang Zeng (Now at insitro)
 + Tahin Syed (Now at Amazon AWS)
 + Yuchun Guo (Now at [CAMP4 Therapeutics](https://www.camp4tx.com/))
