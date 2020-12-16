@@ -10,20 +10,20 @@ header:
   caption: (image credit)
   caption_url: https://www.flickr.com/photos/13382424@N00/5230714594/
 widget1:
-  title: "Identification of Reproducible Genomic Interactions"
-  url: '/research/idr2d'
-  image: Krismer2019.png
-  text: 'We introduce a generalization of the Irreproducible Discovery Rate (IDR) method called IDR2D that identifies replicable interactions shared by chromatin interaction experiments.'
+  title: "Evaluate and Optimize Peptide Vaccine Formulations for SARS-CoV-2"
+  url: 'https://doi.org/10.1016/j.cels.2020.06.009'
+  image: Liu_2020.jpg
+  text: 'We present a combinatorial machine learning method to evaluate and optimize peptide vaccine formulations for SARS-CoV-2.'
 widget2:
-  title: "Antibody Variable Domain Sequence Design"
-  url: '/research/ensgrad'
-  image: Liu2_2019.png
-  text: 'Here, we present Ens-Grad, a machine learning method that can design complementarity determining regions of human Immunoglobulin G antibodies with target affinities that are superior to candidates derived from phage display panning experiments.'
+  title: "Improve Population Coverage of Pathogen Peptide Display"
+  url: 'https://doi.org/10.1016/j.cels.2020.11.010'
+  image: Liu2_2020.jpg
+  text: 'We introduce an augmentation strategy for subunit vaccines that adds a small number of SARS-CoV-2 peptides to a vaccine to improve the population coverage of pathogen peptide display.'
 widget3:
-  title: "Uncertainty in Peptide-MHC Binding Prediction"
-  url: '/research/puffin'
-  image: Zeng2_2019.jpg
-  text: 'We introduce PUFFIN, a deep residual network-based computational approach that quantifies uncertainty in peptide-MHC affinity prediction that arises from observational noise and the lack of relevant training examples.'
+  title: "High-Throughput Interrogation of Gene-Centered Activation Networks"
+  url: 'https://doi.org/10.1016/j.celrep.2020.108426'
+  image: Lin_2020.jpg
+  text: 'Here we present high-throughput interrogation of gene-centered activation networks (HIGAN), a pipeline that employs a suite of multifaceted genomic approaches to connect upstream signaling inputs, trans-acting TFs, and cis-regulatory elements.'
 
 permalink: /index.html
 ---
