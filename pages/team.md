@@ -20,6 +20,8 @@ permalink: "/team/"
 + [Alan Qi](https://www.cs.purdue.edu/homes/alanqi/index.htm) (now faculty at U of Purdue)
 
 ### Graduate Students
++ Konstantin Krismer (now at Flatiron Health)
++ Jennifer Hammelman (now at GlaxoSmithKline)
 + Grace Yeo (now at Genome Institute of Singapore)
 + Ge (Saber) Liu (now at Amazon AWS)
 + Brandon Carter
