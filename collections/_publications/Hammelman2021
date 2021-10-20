@@ -6,8 +6,9 @@ journalspecific:  ""
 doi: "doi.org/10.1371/journal.pcbi.1009282"
 arxiv: ""
 ext: ""
-img: Hammelman2021.md
+img: Hammelman2021.png
 date: "2021-08-09"
 year: "2021"
 ---
 
+Discovering sequence features that differentially direct cells to alternate fates is key to understanding both cellular development and the consequences of disease related mutations. We introduce Expected Pattern Effect and Differential Expected Pattern Effect, two black-box methods that can interpret genome regulatory sequences for cell type-specific or condition specific patterns. We show that these methods identify relevant transcription factor motifs and spacings that are predictive of cell state-specific chromatin accessibility. Finally, we integrate these methods into framework that is readily accessible to non-experts and available for download as a binary or installed via PyPI or bioconda at https://cgs.csail.mit.edu/deepaccess-package/.
