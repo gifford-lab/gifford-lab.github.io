@@ -1,7 +1,7 @@
 ---
 title: "Overinterpretation reveals image classification model pathologies"
 authors: "Brandon Carter, Siddhartha Jain, Jonas Mueller and David Gifford"
-journal: "arXiv"
+journal: "Conference on Neural Information Processing Systems"
 journalspecific:  "preprint arXiv:2003.08907"
 doi: ""
 arxiv: "2003.08907"
