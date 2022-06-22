@@ -27,6 +27,7 @@ permalink: "/team/"
 + Brandon Carter
 + Benjamin Holmes
 + Wilson Louie
++ Alexander Dimitriakakis
 + Haoyang Zeng (now at insitro)
 + Tahin Syed (now at Amazon AWS)
 + Yuchun Guo (now at [CAMP4 Therapeutics](https://www.camp4tx.com/))
