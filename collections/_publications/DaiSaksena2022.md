@@ -1,14 +1,14 @@
 ---
 title: "Ultra high diversity factorizable libraries for efficient therapeutic discovery"
 authors: " Zheng Dai*, Sachit D. Saksena*, Geraldine Horny, Christine Banholzer, Stefan Ewert, David K. Gifford"
-journal: "bioRxiv"
-journalspecific:  ""
-doi: "10.1101/2022.01.17.476670
+journal: "Genome Research"
+journalspecific:  "1088-9051"
+doi: "10.1101/gr.276593.122"
 "
 arxiv: ""
 ext: ""
 img: DaiSaksena2022.png
-date: "2022-01-18"
+date: "2022-06-23"
 year: "2022"
 ---
 
