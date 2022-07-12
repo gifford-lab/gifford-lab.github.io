@@ -4,7 +4,6 @@ authors: " Zheng Dai*, Sachit D. Saksena*, Geraldine Horny, Christine Banholzer,
 journal: "Genome Research"
 journalspecific:  "1088-9051"
 doi: "10.1101/gr.276593.122"
-"
 arxiv: ""
 ext: ""
 img: DaiSaksena2022.png
