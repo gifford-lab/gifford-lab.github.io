@@ -1,14 +1,14 @@
 ---
-title: "Ultra high diversity factorizable libraries for efficient therapeutic discovery"
-authors: " Zheng Dai*, Sachit D. Saksena*, Geraldine Horny, Christine Banholzer, Stefan Ewert, David K. Gifford"
-journal: "Genome Research"
+title: "Constrained Submodular Optimization for Vaccine Design"
+authors: " Zheng Dai, David K. Gifford"
+journal: "arXiv"
 journalspecific:  ""
-doi: "10.1101/gr.276593.122"
-arxiv: ""
+doi: "10.48550/arXiv.2206.08336"
+arxiv: "2206.08336 "
 ext: ""
-img: DaiSaksena2022.png
-date: "2022-06-23"
+img: Dai2022_b.png
+date: "2022-06-16"
 year: "2022"
 ---
 
-The successful discovery of novel biological therapeutics by selection requires highly diverse libraries of candidate sequences that contain a high proportion of desirable candidates. Here we propose the use of computationally designed factorizable libraries made of concatenated segment libraries as a method of creating large libraries that meet an objective function at low cost. We show that factorizable libraries can be designed efficiently by representing objective functions that describe sequence optimality as an inner product of feature vectors, which we use to design an optimization method we call Stochastically Annealed Product Spaces (SAPS). We then use this approach to design diverse and efficient libraries of antibody CDR-H3 sequences with various optimized characteristics.
+Advances in machine learning have enabled the prediction of immune system responses to prophylactic and therapeutic vaccines. However, the engineering task of designing vaccines remains a challenge. In particular, the genetic variability of the human immune system makes it difficult to design peptide vaccines that provide widespread immunity in vaccinated populations. We introduce a framework for evaluating and designing peptide vaccines that uses probabilistic machine learning models, and demonstrate its ability to produce designs for a SARS-CoV-2 vaccine that outperform previous designs. We provide a theoretical analysis of the approximability, scalability, and complexity of our framework.
