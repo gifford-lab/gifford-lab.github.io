@@ -6,7 +6,7 @@ journalspecific:  ""
 doi: "10.1016/j.xgen.2023.100304"
 arxiv: ""
 ext: ""
-img: ""
+img: "Hamilton2023.jpeg"
 date: "2023-04-21"
 year: "2023"
 ---

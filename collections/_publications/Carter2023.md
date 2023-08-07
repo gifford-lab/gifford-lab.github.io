@@ -6,7 +6,7 @@ journalspecific:  ""
 doi: "10.3389/fimmu.2023.1135815"
 arxiv: ""
 ext: ""
-img: ""
+img: "Carter2023.jpeg"
 date: "2023-03-09"
 year: "2023"
 ---
