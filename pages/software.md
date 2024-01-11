@@ -16,7 +16,7 @@ More software can be found in our [GitHub](https://github.com/gifford-lab/) Repo
    * [GERV](http://gerv.csail.mit.edu/) - A statistical method for predicting non-coding variants' effect on transcription factor binding.  
    
    
-   * [PIQ](http://piq.csail.mit.edu/) - A computational method that identifies the genomic binding sites of hundreds of transcription factors (TFs) at corresponding motifs from DNase-Seq experiments with accuracy comparable to ChIP-Seq.
+   * [PIQ](https://bitbucket.org/thashim/piq-single/src/master/ ) - A computational method that identifies the genomic binding sites of hundreds of transcription factors (TFs) at corresponding motifs from DNase-Seq experiments with accuracy comparable to ChIP-Seq.
    
    * [GERM](https://github.com/christopherreeder/germ) - An approach to identifying conditional occupancy events for a protein from ChIA-PET data
    
