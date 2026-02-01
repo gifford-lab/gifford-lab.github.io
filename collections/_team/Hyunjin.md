@@ -5,6 +5,6 @@ email: hyunjinp@mit.edu
 website: ''
 date: 2020-07-22
 image: hyunjin.jpg
-position: PhD Student
+position: PhD '25 | A.R.T. Advisors, LLC
 group: member
 ---
