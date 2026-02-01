@@ -11,8 +11,8 @@ permalink: "/team/"
 ## Previous group members (not complete)
 
 ### Postdoctoral Associates
-+ Siddhartha Jain (now at Amazon)
-+ Yuchun Guo (now at [CAMP4 Therapeutics](https://www.camp4tx.com/))
++ Siddhartha Jain (now at NVIDIA)
++ Yuchun Guo (now at Arima Genomics)
 + Nisha Rajagopal (now at [Syros](https://www.syros.com/) )
 + [Charlie O'Donnell](http://www.codonnell.org/) (now at [Biogen](https://www.biogen.com/))
 + [Shaun Mahony](https://mahonylab.org/) (now faculty at Penn State U)
@@ -24,14 +24,14 @@ permalink: "/team/"
 + Jennifer Hammelman (now at GlaxoSmithKline)
 + Grace Yeo (now at Genome Institute of Singapore)
 + Ge (Saber) Liu (now at Amazon AWS)
-+ Brandon Carter
-+ Benjamin Holmes
-+ Wilson Louie
-+ Alexander Dimitriakakis
-+ Haoyang Zeng (now at insitro)
++ Brandon Carter (now at [Think Therapeutics](https://thinktx.co/))
++ Benjamin Holmes (now at Stealth Startup)
++ Wilson Louie (now at Oracle)
++ Alexander Dimitriakakis (now at Think Therapeutics)
++ Haoyang Zeng (now at Xaira Therapeutics)
 + Tahin Syed (now at Amazon AWS)
-+ Yuchun Guo (now at [CAMP4 Therapeutics](https://www.camp4tx.com/))
-+ Jonas Mueller (now at Amazon AWS)
++ Yuchun Guo (now at Arima Genomics)
++ Jonas Mueller (now at [Cleanlab](http://cleanlab.ai/))
 + [Matthew Edwards](http://www.mdedwards.org/) (now at Verily)
 + Tatsunori Hashimoto (now faculty at Stanford)
 + Rujian Chen
