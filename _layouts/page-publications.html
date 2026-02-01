@@ -29,6 +29,38 @@ format: page-fullwidth
 				{{ page.teaser }}
 			</p>
 			{% endif %}
+
+			<h2>2025</h2>
+
+			{% assign sorted = site.publications | sort: 'date' | reverse %}
+			{% for pub in sorted %}
+			{% if pub.year == '2025' %}
+            <div class="row">
+                <div class="medium-8 columns b30 notopmargin">
+					{% if pub.doi != "" %}
+					<h3><a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.title }}</a></h3>
+					{% elsif pub.arxiv != "" %}
+					<h3><a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.title }}</a></h3>
+					{% else %}
+					<h3><a href="{{ pub.ext }}" target="_blank">{{ pub.title }}</a></h3>
+					{% endif %}
+                    {{ pub.content }}
+                </div>
+                <div class="medium-4 columns b30">
+                    <img src="{{ site.url }}/images/{{ pub.img }}" alt="figure from paper"/>
+					<p style="font-size: smaller;">
+						{{ pub.authors }}<br />
+						<em>{{ pub.journal }}</em>. {{ pub.journalspecific }}<br />
+						{% if pub.doi != "" %}
+						DOI: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
+						{% elsif pub.arxiv != "" %}
+						arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">{{ pub.arxiv }}</a>
+						{% endif %}
+					</p>
+                </div>
+            </div>
+			{% endif %}
+			{% endfor %}
 			
 			<h2>2023</h2>
 
