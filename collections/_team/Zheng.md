@@ -5,6 +5,6 @@ email: zhengdai@mit.edu
 website: ''
 date: 2020-02-01
 image: zheng.jpg
-position: PhD '24 | Citadel Investment Grouop, LLC
+position: PhD '24 | Citadel Investment Group
 group: member
 ---
